@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% comment %} action: 요청 보낼 url -> url naming pattern {% endcomment %}
+  <form action="{% url "articles:catch" %}" method="GET">
+    <input type="text" name="throw">
+    <input type="submit" value="던지기">
+  </form>
+
+{% endblock content %}

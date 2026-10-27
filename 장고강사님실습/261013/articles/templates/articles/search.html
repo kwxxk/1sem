@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% comment %} GET방식, POST방식 {% endcomment %}
+{% comment %} GET방식 데이터가 URL에 노출 {% endcomment %}
+{% comment %} POST 방식은 데이터가 URL에 노출 X(보안성) {% endcomment %}
+{% comment %} GET방식 : 검색 {% endcomment %}
+{% comment %} POST방식 : 회원가입, 로그인 {% endcomment %}
+{% comment %} POST방식이 최고인데 왜 GET방식을 쓸까?? {% endcomment %}
+{% comment %} GET방식이 훨씬 간단하게 구현할 수 있다. {% endcomment %}
+
+{% comment %} action = 요청 보낼 url {% endcomment %}
+<form action="https://search.naver.com/search.naver" method="GET">
+  <input type="text" name="query">
+  <input type="submit" value="검색">
+</form>
+{% endblock content %}

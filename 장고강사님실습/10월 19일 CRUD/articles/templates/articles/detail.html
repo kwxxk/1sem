@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h2>상세 페이지</h2>
+
+    {% comment %} article은 context의 article key값 {% endcomment %}
+    {{article.pk}} 번째 게시글
+
+    <hr>
+
+    <p>제목 : {{article.title}}</p>
+    <p>내용 : {{article.content}}</p>
+    <p>생성 시간 : {{article.created_at}}</p>
+    <p>수정 시간 : {{article.updated_at}}</p>
+
+    
+    <a href="{% url "articles:edit" article.pk%}">[EDIT]</a>
+
+    {% comment %} POST요청이면 a태그 X {% endcomment %}
+    <form action="{% url "articles:delete" article.pk %}" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="[DELETE]">
+    </form>
+
+    <hr>
+    {% comment %} home 버튼 {% endcomment %}
+    {% comment %} "articles:index" : url naming pattern {% endcomment %}
+    <a href="{% url "articles:index" %}">[HOME]</a>
+
+{% endblock content %}

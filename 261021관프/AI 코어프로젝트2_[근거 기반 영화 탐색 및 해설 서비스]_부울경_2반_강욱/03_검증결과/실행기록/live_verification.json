@@ -1,0 +1,2555 @@
+{
+  "chat_model": "gpt-5.4-nano",
+  "embedding_model": "text-embedding-3-small",
+  "measurement_mode": "live",
+  "steps": {
+    "index": {
+      "ok": true,
+      "result": {
+        "loaded": 964,
+        "indexed": 964,
+        "updated": 0
+      }
+    },
+    "index_repeat": {
+      "ok": true,
+      "result": {
+        "loaded": 964,
+        "indexed": 964,
+        "updated": 0
+      }
+    },
+    "evaluation": {
+      "ok": true,
+      "result": {
+        "id": "21ac4bf8-c054-4895-bca5-c24400934257",
+        "at": "2026-10-21T04:52:31.906595+00:00",
+        "status": "responses_collected",
+        "measurement_mode": "live",
+        "model": "gpt-5.4-nano",
+        "method": "similarity",
+        "rows": [
+          {
+            "id": "interstellar-runtime",
+            "movie_id": "157336",
+            "question": "제공된 영화 데이터에서 인터스텔라의 상영 시간은 몇 분이며 감독은 누구인가?",
+            "expected": "배포 데이터의 runtime과 director 대조",
+            "kind": "metadata",
+            "without_rag": "제가 가진 정보(일반적으로 알려진 제작 정보) 기준으로 **『인터스텔라』(Interstellar)**의 상영 시간은 **약 169분**이고, **감독은 크리스토퍼 놀란(Christopher Nolan)**입니다.",
+            "with_rag": "인터스텔라의 상영시간은 **169분**이며, 감독은 **크리스토퍼 놀란**입니다. [근거 1]",
+            "sources": [
+              {
+                "id": "157336",
+                "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+                "movie_id": "157336",
+                "title": "인터스텔라",
+                "url": "https://www.themoviedb.org/movie/157336",
+                "source_kind": "metadata",
+                "source": "TMDB 제공 데이터",
+                "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+                "source_type": "항목 메타데이터"
+              },
+              {
+                "id": "157336:986156:0",
+                "text": "《인터스텔라》(영어: Interstellar)는 2014년에 개봉한 미국, 영국의 서사 SF 영화이자 천만 관객 돌파 영화이다. 크리스토퍼 놀런이 감독, 제작하고 공동 각본을 썼다. 매슈 매코너헤이, 앤 해서웨이, 제시카 채스테인, 빌 어윈, 엘런 버스틴과 마이클 케인이 출연했다. 살아 남기 위해 고심하고 있는 인류의 미래를 배경으로 한 이 영화는 토성 근처의 웜홀을 통해서 새로운 생존 가능한 행성을 찾는 우주 탐사팀의 이야기를 그린다. 크리스토퍼와 조너선 놀런 형제는 2007년에 조너선이 초안을 만든 시나리오에 원안을 둔 시나리오를 썼다. 크리스토퍼 놀런과 아내 엠마 토마스는 자신들의 제작 회사 신카피, 린다 옵스의 린다 옵스 프로덕션을 통해 인터스텔라를 제작했다. 이 영화에 영감을 준, 이론 물리학자 킵 손이 과학자문위원과 공동 제작자로서 참여하였고, 인터스텔라의 과학(The Science of Interstellar)이라는 책도 썼다. 파라마운트 픽쳐스, 워너 브라더스와 레전더리 픽처스는 영화의 자금을 공동으로 투자했다.\n촬영 감독 호이터 판호이테마는 35mm의 애너모픽 포맷과 아이맥스 70 mm으로 촬영했다. 본 촬영은 2013년 말에 시작되어 캐나다 앨버타 주 (캐나다), 아이슬란드 및 로스앤젤레스에서 이루어졌다. 시각 효과 기업 더블 네거티브에서 영화의 시각 효과를 담당하였다. 영화는 2014년 10월 26일 캘리포니아주 로스앤젤레스에서 초연되었다. 파라마운트 픽쳐스는 북미 지역의 배급권을 가졌고, 워너 브라더스는 북미 이외 지역의 배급권을 가졌다. 이 영화는 전 세계적으로 6억 6,700만 달러 이상을 벌어 2014년에 10번째로 높은 수익을 올린 영화가 되었다.\n이 영화는 주제, 시각 효과, 음악 및 연기에 대한 찬사를 받았다. 제87회 미국 아카데미상에서 시각효과상 수상을 포함한 최우수 음악상, 음향효과상과 미술상 등 4개 부문에 후보로 지명되었다",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "related_movie": "인터스텔라",
+                "source": "한국어 위키백과",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "source_type": "외부 문서",
+                "collected_at": "2026-09-09",
+                "license": "CC BY-SA 4.0",
+                "search_query": "인터스텔라 2014 영화",
+                "file_id": "",
+                "page_id": "986156",
+                "title": "인터스텔라",
+                "chunk_index": 0,
+                "page": 0,
+                "movie_id": "157336",
+                "source_kind": "wiki"
+              },
+              {
+                "id": "157336:986156:8",
+                "text": "같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크\n\n인터스텔라 - 공식 웹사이트\n(영어) 인터스텔라 - 인터넷 영화 데이터베이스\n(영어) Interstellar – 올무비\n(영어) 인터스텔라 - TCM 영화 데이터베이스}\n(영어) Interstellar - 미국 영화 협회 카탈로그\n(영어) Interstellar – 메타크리틱\n(영어) Interstellar – 로튼 토마토\n(영어) Interstellar - 박스 오피스 모조",
+                "search_query": "인터스텔라 2014 영화",
+                "license": "CC BY-SA 4.0",
+                "file_id": "",
+                "source_type": "외부 문서",
+                "page_id": "986156",
+                "related_movie": "인터스텔라",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "source": "한국어 위키백과",
+                "page": 0,
+                "chunk_index": 8,
+                "source_kind": "wiki",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "movie_id": "157336",
+                "title": "인터스텔라",
+                "collected_at": "2026-09-09"
+              },
+              {
+                "id": "157336:986156:7",
+                "text": "박스 오피스\n'인터스텔라'는 미국과 캐나다에서 1억 8800만 달러, 해외에서 4억 7100만 달러를 수익으로 올려, 총 제작비 1억 6500만 달러에 비해 6억 7510만 달러의 수익을 기록했다. 모든 비용을 계산 한 후, Deadline.com은 이 영화가 4720만 달러의 이익을 냈다고 추정했다. 이 영화는 574개의 아이맥스 영화관에서 전 세계적으로 아이맥스 오프닝 기록을 세우며 2013년에 개봉된 《헝거게임: 캣칭 파이어》의 1700만 달러 기록을 뛰어 넘었으며, 또한 IMAX 2D, 비 후속 버전, 11월 개봉된 아이맥스 버전의 최고의 오프닝 기록이다. 이 영화는 전 세계적으로 첫 주에만 1억 3260만 달러를 벌어 들였는데, 이는 2014년의 10번째로 큰 규모이다. '인터스텔라'는 아이맥스 티켓 판매로 전 세계적으로 1억 달러가 넘는 네 번째 영화이다. 이는 아이맥스 매표소 총 수익에서 2013년, 《아바타》(2009), 《다크 나이트 라이즈》와 《그래비티》(2013)를 뒤잇는다. '인터스텔라'는 2014년 11월 6일 영국, 아일랜드, 말타에서 공개 됐으며, 개막 주말에 537만 파운드(860 만 달러)를 벌어들이며 데뷔했다. 이 영화는 《다크 나이트 라이즈》(1434만 파운드)와 《그래비티》(624만 파운드), 《인셉션》(591만 파운드) 등의 순이었다. 이 영화는 독일, 러시아, 호주, 브라질 등 주요 시장을 포함해 총 8700만 달러를 벌어 들인 같은 날 35개국 시장에서 개봉되었다.\n\n\n한국 흥행\n'인터스텔라'는 2014년 12월 25일 외화 중 세 번째로 천만 관객을 돌파했다. 1월7일 기준 KOFIC 영화관입장권 통합전산망의 집계에 따르면 ‘인터스텔라’는 누적관객 1019만 967명을 기록해 《아바타》(1330만 2637명), 《겨울왕국》(1029만 6101명)에 이어 역대 외화 흥행 3위를 기록했다.\n\n\n같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "title": "인터스텔라",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "page": 0,
+                "collected_at": "2026-09-09",
+                "source": "한국어 위키백과",
+                "file_id": "",
+                "license": "CC BY-SA 4.0",
+                "chunk_index": 7,
+                "movie_id": "157336",
+                "source_type": "외부 문서",
+                "search_query": "인터스텔라 2014 영화",
+                "page_id": "986156",
+                "related_movie": "인터스텔라",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "source_kind": "wiki"
+              },
+              {
+                "id": "157336:986156:5",
+                "text": "평가\n\n\n비평가들 평가\n할리우드 리포터의 토드 매카시는 “'인터스텔라#는 인간적인 측면과 우주 신비적 측면에 동등한 무게를 두고 있으며 아이디어, 야심, 이론, 멜로드라마, 마술 같은 기술력, 놀라운 이미지 그리고 그것들을 움직이는 핵심 감정으로 넘쳐나는 영화다.”라고 말했다. 버라이어티의 스콧 파운다스는 \"복잡한 수학적, 과학적 아이디어를 관객이 따라가기 쉽게, 그리고 현실처럼 생생하게 느끼면서 인간적인 면까지 조명하여 만든 할리우드 영화는 이제까지 없었을 것이다.\"며 '인터스텔라'를 칭찬했다. 스크린 크러시의 마이크 라이언은 \"인터스텔라는 기대했던 것보다 훨씬 많은 감정을 담고 있다. 그리고 그 감정이 영화의 핵심을 이룬다. 그러나 문제는 동시에 너무 많은 일들이 벌어지고 있기 때문에, 이후에 되돌아보았을 때 특별히 중요한 사건이 일어나지 않은 것처럼 기억된다는 것이다.\"라고 평가했다. 더랩의 알론소 듀랄드는 \"우주를 향한 모든 준비 단계가 흥미롭다. 고통과 손실 그리고 우울감과 희생을 토대로 엄청난 예산의 영화를 잘 항해한 것처럼 보이다가도 어느 순간부터는 너무 평범한 영화로 돌변한다.\"고 《인터스텔라》를 평가했다. 타임 아웃 런던의 데이브 칼훈은 \"'인터스텔라'는 많은 부분에서 스펙터클 영화이다. 그러나 내용을 더 많이 생각하게 만들고, 다시 곱씹게 만든다. 즉 달, 먼 거리의 행성, 또 다른 차원, 초능력에 대한 강의 그리고 끔찍한 공포 등 여러 가지를 다 겪을 수 있다. '인터스텔라'에는 모든 것이 포함되어 있다.\"고 말했다.",
+                "search_query": "인터스텔라 2014 영화",
+                "page": 0,
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "movie_id": "157336",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "file_id": "",
+                "source_type": "외부 문서",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "title": "인터스텔라",
+                "page_id": "986156",
+                "chunk_index": 5,
+                "source": "한국어 위키백과",
+                "related_movie": "인터스텔라",
+                "source_kind": "wiki",
+                "license": "CC BY-SA 4.0",
+                "collected_at": "2026-09-09"
+              },
+              {
+                "id": "157336:pdf:nasa-black-hole-field-guide:p4:2",
+                "text": "Find using: Accretion disks, jets, \ngravitational lensing, effects on nearby \nobjects\nExample: M87* (“*” is pronounced “star”) \nat the center of galaxy Messier 87, around \n55 million light-years away\n9\n8",
+                "search_query": "등록된 영화 배경 PDF",
+                "source": "NASA Goddard Space Flight Center",
+                "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=4",
+                "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+                "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+                "related_movie": "인터스텔라",
+                "index_signature": "19110ddf5d41fdc0fb51329b8d93e7847fa1430e23479b32683fc98e3c8a0d99",
+                "collected_at": "2026-10-21",
+                "movie_id": "157336",
+                "file_id": "nasa-black-hole-field-guide",
+                "source_kind": "pdf",
+                "title": "A Field Guide to Black Holes · 4쪽",
+                "chunk_index": 2,
+                "page": 4,
+                "page_id": "pdf:nasa-black-hole-field-guide:p4",
+                "source_type": "외부 문서"
+              }
+            ],
+            "baseline_seconds": 0.963,
+            "rag_timings": {
+              "preparation": 0.2443,
+              "rag": 1.2729,
+              "total": 1.5172
+            },
+            "automatic_observations": {
+              "without_citation_marker": false,
+              "with_citation_marker": true,
+              "with_unknown_notice": false
+            },
+            "review": {
+              "without_accuracy": null,
+              "with_accuracy": null,
+              "without_unknown_handling": null,
+              "with_unknown_handling": null,
+              "notes": ""
+            }
+          },
+          {
+            "id": "interstellar-countries",
+            "movie_id": "157336",
+            "question": "인터스텔라의 제작 국가와 개봉 연도는 무엇인가? 제공된 데이터 기준으로 답해줘.",
+            "expected": "배포 데이터의 production_countries와 year 대조",
+            "kind": "metadata",
+            "without_rag": "제공된 데이터(검색 문서 등) 없이, 제가 알고 있는 일반 정보에 따르면 **《인터스텔라(Interstellar)》의 제작 국가는 미국과 영국(미국-영국 합작)**이고, **개봉 연도는 2014년**입니다.",
+            "with_rag": "인터스텔라의 **제작 국가**는 **United Kingdom, United States of America**입니다. [근거 1]  \n인터스텔라의 **개봉 연도**는 **2014**입니다. [근거 1]",
+            "sources": [
+              {
+                "id": "157336",
+                "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+                "source_type": "항목 메타데이터",
+                "title": "인터스텔라",
+                "url": "https://www.themoviedb.org/movie/157336",
+                "movie_id": "157336",
+                "source": "TMDB 제공 데이터",
+                "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+                "source_kind": "metadata"
+              },
+              {
+                "id": "157336:986156:8",
+                "text": "같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크\n\n인터스텔라 - 공식 웹사이트\n(영어) 인터스텔라 - 인터넷 영화 데이터베이스\n(영어) Interstellar – 올무비\n(영어) 인터스텔라 - TCM 영화 데이터베이스}\n(영어) Interstellar - 미국 영화 협회 카탈로그\n(영어) Interstellar – 메타크리틱\n(영어) Interstellar – 로튼 토마토\n(영어) Interstellar - 박스 오피스 모조",
+                "chunk_index": 8,
+                "collected_at": "2026-09-09",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "file_id": "",
+                "search_query": "인터스텔라 2014 영화",
+                "related_movie": "인터스텔라",
+                "source_kind": "wiki",
+                "page_id": "986156",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "source_type": "외부 문서",
+                "source": "한국어 위키백과",
+                "page": 0,
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "license": "CC BY-SA 4.0",
+                "movie_id": "157336",
+                "title": "인터스텔라"
+              },
+              {
+                "id": "157336:986156:0",
+                "text": "《인터스텔라》(영어: Interstellar)는 2014년에 개봉한 미국, 영국의 서사 SF 영화이자 천만 관객 돌파 영화이다. 크리스토퍼 놀런이 감독, 제작하고 공동 각본을 썼다. 매슈 매코너헤이, 앤 해서웨이, 제시카 채스테인, 빌 어윈, 엘런 버스틴과 마이클 케인이 출연했다. 살아 남기 위해 고심하고 있는 인류의 미래를 배경으로 한 이 영화는 토성 근처의 웜홀을 통해서 새로운 생존 가능한 행성을 찾는 우주 탐사팀의 이야기를 그린다. 크리스토퍼와 조너선 놀런 형제는 2007년에 조너선이 초안을 만든 시나리오에 원안을 둔 시나리오를 썼다. 크리스토퍼 놀런과 아내 엠마 토마스는 자신들의 제작 회사 신카피, 린다 옵스의 린다 옵스 프로덕션을 통해 인터스텔라를 제작했다. 이 영화에 영감을 준, 이론 물리학자 킵 손이 과학자문위원과 공동 제작자로서 참여하였고, 인터스텔라의 과학(The Science of Interstellar)이라는 책도 썼다. 파라마운트 픽쳐스, 워너 브라더스와 레전더리 픽처스는 영화의 자금을 공동으로 투자했다.\n촬영 감독 호이터 판호이테마는 35mm의 애너모픽 포맷과 아이맥스 70 mm으로 촬영했다. 본 촬영은 2013년 말에 시작되어 캐나다 앨버타 주 (캐나다), 아이슬란드 및 로스앤젤레스에서 이루어졌다. 시각 효과 기업 더블 네거티브에서 영화의 시각 효과를 담당하였다. 영화는 2014년 10월 26일 캘리포니아주 로스앤젤레스에서 초연되었다. 파라마운트 픽쳐스는 북미 지역의 배급권을 가졌고, 워너 브라더스는 북미 이외 지역의 배급권을 가졌다. 이 영화는 전 세계적으로 6억 6,700만 달러 이상을 벌어 2014년에 10번째로 높은 수익을 올린 영화가 되었다.\n이 영화는 주제, 시각 효과, 음악 및 연기에 대한 찬사를 받았다. 제87회 미국 아카데미상에서 시각효과상 수상을 포함한 최우수 음악상, 음향효과상과 미술상 등 4개 부문에 후보로 지명되었다",
+                "search_query": "인터스텔라 2014 영화",
+                "file_id": "",
+                "source_type": "외부 문서",
+                "page_id": "986156",
+                "chunk_index": 0,
+                "title": "인터스텔라",
+                "page": 0,
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "movie_id": "157336",
+                "source_kind": "wiki",
+                "related_movie": "인터스텔라",
+                "collected_at": "2026-09-09",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "license": "CC BY-SA 4.0",
+                "source": "한국어 위키백과",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398"
+              },
+              {
+                "id": "157336:986156:5",
+                "text": "평가\n\n\n비평가들 평가\n할리우드 리포터의 토드 매카시는 “'인터스텔라#는 인간적인 측면과 우주 신비적 측면에 동등한 무게를 두고 있으며 아이디어, 야심, 이론, 멜로드라마, 마술 같은 기술력, 놀라운 이미지 그리고 그것들을 움직이는 핵심 감정으로 넘쳐나는 영화다.”라고 말했다. 버라이어티의 스콧 파운다스는 \"복잡한 수학적, 과학적 아이디어를 관객이 따라가기 쉽게, 그리고 현실처럼 생생하게 느끼면서 인간적인 면까지 조명하여 만든 할리우드 영화는 이제까지 없었을 것이다.\"며 '인터스텔라'를 칭찬했다. 스크린 크러시의 마이크 라이언은 \"인터스텔라는 기대했던 것보다 훨씬 많은 감정을 담고 있다. 그리고 그 감정이 영화의 핵심을 이룬다. 그러나 문제는 동시에 너무 많은 일들이 벌어지고 있기 때문에, 이후에 되돌아보았을 때 특별히 중요한 사건이 일어나지 않은 것처럼 기억된다는 것이다.\"라고 평가했다. 더랩의 알론소 듀랄드는 \"우주를 향한 모든 준비 단계가 흥미롭다. 고통과 손실 그리고 우울감과 희생을 토대로 엄청난 예산의 영화를 잘 항해한 것처럼 보이다가도 어느 순간부터는 너무 평범한 영화로 돌변한다.\"고 《인터스텔라》를 평가했다. 타임 아웃 런던의 데이브 칼훈은 \"'인터스텔라'는 많은 부분에서 스펙터클 영화이다. 그러나 내용을 더 많이 생각하게 만들고, 다시 곱씹게 만든다. 즉 달, 먼 거리의 행성, 또 다른 차원, 초능력에 대한 강의 그리고 끔찍한 공포 등 여러 가지를 다 겪을 수 있다. '인터스텔라'에는 모든 것이 포함되어 있다.\"고 말했다.",
+                "source_type": "외부 문서",
+                "page_id": "986156",
+                "title": "인터스텔라",
+                "page": 0,
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "source_kind": "wiki",
+                "collected_at": "2026-09-09",
+                "source": "한국어 위키백과",
+                "related_movie": "인터스텔라",
+                "search_query": "인터스텔라 2014 영화",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "movie_id": "157336",
+                "file_id": "",
+                "chunk_index": 5
+              },
+              {
+                "id": "157336:986156:7",
+                "text": "박스 오피스\n'인터스텔라'는 미국과 캐나다에서 1억 8800만 달러, 해외에서 4억 7100만 달러를 수익으로 올려, 총 제작비 1억 6500만 달러에 비해 6억 7510만 달러의 수익을 기록했다. 모든 비용을 계산 한 후, Deadline.com은 이 영화가 4720만 달러의 이익을 냈다고 추정했다. 이 영화는 574개의 아이맥스 영화관에서 전 세계적으로 아이맥스 오프닝 기록을 세우며 2013년에 개봉된 《헝거게임: 캣칭 파이어》의 1700만 달러 기록을 뛰어 넘었으며, 또한 IMAX 2D, 비 후속 버전, 11월 개봉된 아이맥스 버전의 최고의 오프닝 기록이다. 이 영화는 전 세계적으로 첫 주에만 1억 3260만 달러를 벌어 들였는데, 이는 2014년의 10번째로 큰 규모이다. '인터스텔라'는 아이맥스 티켓 판매로 전 세계적으로 1억 달러가 넘는 네 번째 영화이다. 이는 아이맥스 매표소 총 수익에서 2013년, 《아바타》(2009), 《다크 나이트 라이즈》와 《그래비티》(2013)를 뒤잇는다. '인터스텔라'는 2014년 11월 6일 영국, 아일랜드, 말타에서 공개 됐으며, 개막 주말에 537만 파운드(860 만 달러)를 벌어들이며 데뷔했다. 이 영화는 《다크 나이트 라이즈》(1434만 파운드)와 《그래비티》(624만 파운드), 《인셉션》(591만 파운드) 등의 순이었다. 이 영화는 독일, 러시아, 호주, 브라질 등 주요 시장을 포함해 총 8700만 달러를 벌어 들인 같은 날 35개국 시장에서 개봉되었다.\n\n\n한국 흥행\n'인터스텔라'는 2014년 12월 25일 외화 중 세 번째로 천만 관객을 돌파했다. 1월7일 기준 KOFIC 영화관입장권 통합전산망의 집계에 따르면 ‘인터스텔라’는 누적관객 1019만 967명을 기록해 《아바타》(1330만 2637명), 《겨울왕국》(1029만 6101명)에 이어 역대 외화 흥행 3위를 기록했다.\n\n\n같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크",
+                "license": "CC BY-SA 4.0",
+                "movie_id": "157336",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "page": 0,
+                "collected_at": "2026-09-09",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "related_movie": "인터스텔라",
+                "title": "인터스텔라",
+                "source_kind": "wiki",
+                "chunk_index": 7,
+                "source": "한국어 위키백과",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "page_id": "986156",
+                "file_id": "",
+                "search_query": "인터스텔라 2014 영화",
+                "source_type": "외부 문서"
+              },
+              {
+                "id": "157336:pdf:nasa-black-hole-field-guide:p4:1",
+                "text": "MACHO-96-BLG-5.\nIllustration\n6\nIllustration\n5\n7\nStellar-mass with Partner\nWhere: Throughout the universe\nOrigins: These black holes and their \npartners likely started off as stars \nbefore one or both went supernova. \nThey stayed gravitationally bound \nthrough the turmoil.\nVariations: Stellar-mass black holes \ncan be paired with all types of stars, \nneutron stars, and other black holes.\nFind using: Accretion disks and jets (for \npairs with stars), gravitational waves \n(for pairs with black holes and neutron \nstars), radial velocity\nExample: V404 Cygni, a black hole \npaired with a Sun-like star about 8,000 \nlight-years away\nSingle Supermassive\nWhere: Centers of galaxies\nOrigins: These monster black holes likely \ngrew by gradually absorbing other black \nholes, but other possibilities may exist.\nFind using: Accretion disks, jets, \ngravitational lensing, effects on nearby \nobjects\nExample: M87* (“*” is pronounced “star”) \nat the center of galaxy Messier 87, around",
+                "file_id": "nasa-black-hole-field-guide",
+                "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+                "collected_at": "2026-10-21",
+                "related_movie": "인터스텔라",
+                "index_signature": "19110ddf5d41fdc0fb51329b8d93e7847fa1430e23479b32683fc98e3c8a0d99",
+                "chunk_index": 1,
+                "source_kind": "pdf",
+                "source": "NASA Goddard Space Flight Center",
+                "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=4",
+                "page_id": "pdf:nasa-black-hole-field-guide:p4",
+                "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+                "movie_id": "157336",
+                "search_query": "등록된 영화 배경 PDF",
+                "source_type": "외부 문서",
+                "title": "A Field Guide to Black Holes · 4쪽",
+                "page": 4
+              }
+            ],
+            "baseline_seconds": 1.236,
+            "rag_timings": {
+              "preparation": 0.0208,
+              "rag": 1.1164,
+              "total": 1.1372
+            },
+            "automatic_observations": {
+              "without_citation_marker": false,
+              "with_citation_marker": true,
+              "with_unknown_notice": false
+            },
+            "review": {
+              "without_accuracy": null,
+              "with_accuracy": null,
+              "without_unknown_handling": null,
+              "with_unknown_handling": null,
+              "notes": ""
+            }
+          },
+          {
+            "id": "blackhole-horizon",
+            "movie_id": "157336",
+            "question": "블랙홀의 사건의 지평선은 무엇이며 빛이 빠져나올 수 있는가?",
+            "expected": "NASA PDF 2쪽 및 위키 근거와 일치하는지 확인",
+            "kind": "external",
+            "without_rag": "《인터스텔라》에서(그리고 물리적으로도) **사건의 지평선(event horizon)** 은 **블랙홀의 중력 때문에 어떤 것도(심지어 빛도) 바깥으로 빠져나올 수 없게 되는 경계**를 뜻합니다. 즉, 그 안쪽에서는 모든 경로가 블랙홀의 중심(특이점) 쪽으로 “빨려 들어가게” 되어 탈출이 불가능합니다.\n\n### 빛이 빠져나올 수 있는가?\n- **사건의 지평선 ‘바깥’에서는** 빛은 탈출할 수 있습니다.  \n- **사건의 지평선 ‘안’으로 들어간 빛은** 다시 밖으로 나오지 못합니다.  \n- 사건의 지평선은 빛의 탈출 가능 여부를 갈라놓는 “경계”라고 이해하면 됩니다.\n\n원하시면, 《인터스텔라》에서 등장하는 설정(예: 웜홀, 블랙홀 근처의 시간 지연/조석력 등)과 사건의 지평선이 장면 전개에 어떻게 연결되는지도 설명해 드릴게요.",
+            "with_rag": "블랙홀의 **사건의 지평선(event horizon)**은 **물질과 빛이 블랙홀의 질량(방향)으로는 안으로 들어갈 수는 있지만, 밖으로는 나올 수 없는 시공간상의 경계**입니다. [근거 2] 또한 “그 무엇도(심지어 빛마저) 사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 없다”고 설명됩니다. [근거 2]\n\n따라서 **빛은 사건의 지평선을 빠져나올 수 없습니다.** 사건의 지평선에서는 “블랙홀 바깥으로 향하는 경로가 존재할 수 없게 된다”는 방식으로 탈출 불가능성이 묘사됩니다. [근거 2]",
+            "sources": [
+              {
+                "id": "157336",
+                "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+                "url": "https://www.themoviedb.org/movie/157336",
+                "source_type": "항목 메타데이터",
+                "title": "인터스텔라",
+                "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+                "source_kind": "metadata",
+                "movie_id": "157336",
+                "source": "TMDB 제공 데이터"
+              },
+              {
+                "id": "157336:95098:14",
+                "text": "블랙홀의 가장 결정적인 특징은 사건의 지평선의 존재이다. 사건의 지평선은 물질과 빛이 블랙홀의 질량을 향해 안으로 들어갈 수만 있고 밖으로 나올 수는 없는 시공간상의 경계이다. 그 무엇도, 심지어 빛마저, 사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 없다. 사건의 지평선이라는 이름은 그 경계에서 ‘사건(event)’이 벌어지며 그 사건에 대한 정보는 외부의 관찰자에게 도달할 수 없어 그 사건이 벌어졌는지 여부조차 알 수 없다는 의미를 갖고 있다.\n일반상대론에 의해 예측되는 바에 따르면, 질량의 존재는 시공간을 왜곡시켜 입자의 경로를 그 질량 방향으로 구부러지게 만든다. 블랙홀의 사건의 지평선에서는 이 왜곡이 매우 심해져서 블랙홀 바깥으로 향하는 경로가 존재할 수 없게 된다.\n멀리 떨어진 외부 관찰자가 보기에, 블랙홀 근처의 시계는 블랙홀에서 멀리 떨어진 시계보다 더 느리게 가는 것처럼 보인다(중력적 시간지연). 이 효과에 의해 블랙홀로 낙하하는 물체는 사건의 지평선에 가까워질수록 점점 느려지는 것처럼 보이고, 사건의 지평선에 닿기까지 걸리는 시간은 무한대가 된다. 즉 사건의 지평선에 닿는 것이 외부에서는 관찰될 수 없다. 외부의 고정된 관찰자가 보기에 이 물체의 모든 과정은 느려지는 것처럼 보이기에, 물체에서 방출되는 빛도 점점 파장이 길어지고 어두워진다(중력적 적색편이). 최종적으로 낙하하는 물체는 너무 어두워져서 보이지 않게 된다.\n한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.",
+                "source_type": "외부 문서",
+                "page": 0,
+                "source": "한국어 위키백과",
+                "collected_at": "2026-09-09",
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "source_kind": "wiki",
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "search_query": "블랙홀 사건의 지평선",
+                "movie_id": "157336",
+                "page_id": "95098",
+                "title": "블랙홀",
+                "license": "CC BY-SA 4.0",
+                "file_id": "",
+                "chunk_index": 14,
+                "related_movie": "인터스텔라"
+              },
+              {
+                "id": "157336:95098:0",
+                "text": "블랙홀(영어: black hole)은 중성자별이 되지 못한 항성이 진화의 최종 단계에서 폭발 후 수축되어 생성된 것으로 추측되는, 강력한 밀도와 중력으로 전자기 복사, 빛을 포함한 그 무엇도 빠져나올 수 없는 시공간 영역이다. 일반 상대성이론은 충분히 밀집된 질량이 시공을 뒤틀어 블랙홀을 형성할 수 있음을 예측한다. 블랙홀로부터의 탈출이 불가능해지는 경계를 사건의 지평선(event horizon)이라고 한다. 어떤 물체가 사건의 지평선을 넘어갈 경우, 그 물체에게는 파멸적 영향이 가해지겠지만, 바깥 관찰자에게는 속도가 점점 느려져 그 경계에 영원히 닿지 않는 것처럼 보인다. 블랙홀은 빛을 반사하지 않기에 이상적 흑체처럼 행동한다. 또한 휘어진 시공간의 양자장론에 따르면 사건의 지평선은 블랙홀의 질량에 반비례하는 온도를 가진 흑체 같은 스펙트럼의 열복사를 방출하며, 이를 호킹 복사라고 한다. 항성질량 블랙홀의 경우 이 온도가 수 십억 분의 1 켈빈 수준이기에 그 열 복사를 관측하는 것은 본질적으로 불가능하다.\n중력장이 너무 강해서 빛이 탈출할 수 없는 천체의 개념은 18세기에 존 미첼과 피에르시몽 드 라플라스 후작이 처음 생각해냈으며, 블랙홀로 특징지어지는 일반상대론의 최초의 근대적 해는 1916년 카를 슈바르츠실트가 발견했다. 다만 아무것도 탈출할 수 없는 공간상의 영역이라는 해석은 1958년 데이비드 핀켈스타인의 논문에서 처음 등장했다. 블랙홀은 오랫동안 수학적 관심의 대상이 되었다. 1960년대에는 블랙홀이 일반상대론에서 유도됨을 증명하는 이론적 연구들이 행해졌다. 중성자별의 발견은 중력붕괴한 밀집성이 천체물리학적 실체로서 존재할 가능성에 대한 관심을 촉발시켰다.",
+                "collected_at": "2026-09-09",
+                "file_id": "",
+                "search_query": "블랙홀 사건의 지평선",
+                "title": "블랙홀",
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+                "license": "CC BY-SA 4.0",
+                "page_id": "95098",
+                "source": "한국어 위키백과",
+                "related_movie": "인터스텔라",
+                "movie_id": "157336",
+                "chunk_index": 0,
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "source_type": "외부 문서",
+                "source_kind": "wiki",
+                "page": 0
+              },
+              {
+                "id": "157336:95098:15",
+                "text": "한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.\n블랙홀의 사건의 지평선의 모양은 언제나 대략적 구형이다. 회전하지 않는 블랙홀의 경우 사건의 지평선은 정확한 구형을 이루고, 회전하는 블랙홀은 사건의 지평선이 약간 짜부라진 회전타원체가 된다.",
+                "movie_id": "157336",
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "source": "한국어 위키백과",
+                "page_id": "95098",
+                "source_kind": "wiki",
+                "search_query": "블랙홀 사건의 지평선",
+                "license": "CC BY-SA 4.0",
+                "chunk_index": 15,
+                "source_type": "외부 문서",
+                "related_movie": "인터스텔라",
+                "file_id": "",
+                "collected_at": "2026-09-09",
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "title": "블랙홀",
+                "page": 0
+              },
+              {
+                "id": "157336:95098:41",
+                "text": "1971년, 호킹은 일반적 상황에서 고전적 블랙홀의 사건의 지평선의 총 면적은 어떠한 경우에도 감소하지 않으며, 심지어 충돌하거나 융합할 때도 그러하다는 것을 보였다. 이것을 오늘날 블랙홀역학 제2법칙이라고 부르는데, 이는 계의 총 엔트로피가 절대 감소하지 않는다는 열역학 제2법칙과 놀랄 만큼 유사하다. 그전까지 절대영도의 온도를 가진 고전적 천체로서 블랙홀은 0의 엔트로피를 가진다고 생각되었다. 그러나 만일 그렇다면 엔트로피를 가진 물질이 블랙홀로 들어갈 때 우주의 총 엔트로피가 감소함으로써 열역학 제2법칙이 위반되게 된다. 하여 베켄슈타인은 블랙홀도 엔트로피를 가져야 하며, 그 크기는 사건의 지평선의 면적에 비례한다고 주장했다.\n호킹이 양자장론에 따르면 블랙홀은 일정 온도의 흑체복사를 방출한다는 것을 예측함으로써 블랙홀과 열역학 법칙 사이의 관계는 더욱 강화되었다. 이 복사로 인하여 블랙홀의 에너지가 바깥으로 빠져나가 블랙홀이 줄어들기 때문에 이는 언뜻 보기에 블랙홀역학 제2법칙을 위반하는 것처럼 보인다. 하지만 에너지 뿐 아니라 엔트로피도 복사를 통해 빠져나가며, 일반적 가정 하에서 블랙홀 주위의 물질과 사건의 지평선의 4분의 1의 엔트로피의 총합은 플랑크 단위계에서 언제나 증가함을 증명할 수 있다. 이로써 열역학 제1법칙에 대응하는 블랙홀역학 제1법칙이 성립한다. 질량은 에너지, 표면중력은 온도, 면적은 엔트로피에 대응한다.\n한 가지 혼란스러울 수 있는 점은 보통의 엔트로피는 계의 부피와 선형의 관계를 갖는 크기 성질인 데 반해 블랙홀의 엔트로피는 그 부피가 아닌 면적에 비례한다는 사실이다. 이 특이함을 설명하기 위해 헤라르뒤스 엇호프트와 레너드 서스킨드는 시공간상의 어떤 부피 안에서 일어나는 일은 그 부피의 경계의 데이터로 설명될 수 있다는 홀로그래피 원리를 제안했다.",
+                "file_id": "",
+                "page_id": "95098",
+                "related_movie": "인터스텔라",
+                "source_kind": "wiki",
+                "collected_at": "2026-09-09",
+                "search_query": "블랙홀 사건의 지평선",
+                "chunk_index": 41,
+                "source_type": "외부 문서",
+                "license": "CC BY-SA 4.0",
+                "page": 0,
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "source": "한국어 위키백과",
+                "movie_id": "157336",
+                "title": "블랙홀",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              {
+                "id": "157336:pdf:nasa-black-hole-field-guide:p3:2",
+                "text": "Black Hole Features and Behaviors\nAccretion disks. The combination of \ngravity, magnetic fi elds, and motion \nheats the orbiting material, which glows \nat multiple wavelengths.\nVisualization\nGravitational lensing. Massive objects \nlike black holes can bend and distort light \nfrom more distant objects.\nSimulation\nJets. High-speed particle jets give off \ndifferent wavelengths of light and produce \nneutrinos that speed across space.\nIllustration\nGravitational waves. Massive orbiting \nobjects create space-time ripples.\nSimulation\n1 3\n2 4",
+                "source_type": "외부 문서",
+                "file_id": "nasa-black-hole-field-guide",
+                "chunk_index": 2,
+                "source": "NASA Goddard Space Flight Center",
+                "related_movie": "인터스텔라",
+                "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+                "page_id": "pdf:nasa-black-hole-field-guide:p3",
+                "source_kind": "pdf",
+                "collected_at": "2026-10-21",
+                "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=3",
+                "title": "A Field Guide to Black Holes · 3쪽",
+                "movie_id": "157336",
+                "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+                "page": 3,
+                "search_query": "등록된 영화 배경 PDF",
+                "index_signature": "cdd09207a6a03ef359c84bdbb62b1d52f09830da441c6da1908f25d4a43d1b76"
+              }
+            ],
+            "baseline_seconds": 1.999,
+            "rag_timings": {
+              "preparation": 0.0295,
+              "rag": 1.7874,
+              "total": 1.817
+            },
+            "automatic_observations": {
+              "without_citation_marker": false,
+              "with_citation_marker": true,
+              "with_unknown_notice": false
+            },
+            "review": {
+              "without_accuracy": null,
+              "with_accuracy": null,
+              "without_unknown_handling": null,
+              "with_unknown_handling": null,
+              "notes": ""
+            }
+          },
+          {
+            "id": "blackhole-types",
+            "movie_id": "157336",
+            "question": "관측된 블랙홀의 주요 두 질량 범주와 각각의 대략적 질량 범위는?",
+            "expected": "NASA PDF 2쪽의 두 범주 및 질량 범위를 원문과 대조",
+            "kind": "external",
+            "without_rag": "영화 **〈인터스텔라〉** 안에서 “관측된 블랙홀”이라고 단정해 특정 장면의 블랙홀을 콕 집어 설명하진 않지만, 작품에서 언급되는 블랙홀은 대체로 **슈퍼매시브 블랙홀**과 **항성 질량(또는 중간 질량) 블랙홀** 계열로 나뉘어 설명됩니다. (다만 영화가 “관측된 블랙홀의 두 가지 질량 범주”를 교과서처럼 정확히 구분해 수치로 제시하는 방식은 아닙니다.)\n\n그래도 일반적으로(그리고 영화에서 통용되는 통념대로) 주요 두 범주와 대략적 질량 범위는 다음처럼 정리할 수 있습니다:\n\n1) **항성 질량(또는 항성 붕괴로 생기는) 블랙홀**\n- 대략적 질량 범위: **약 3~수십 태양질량**(보통 수~수십 M☉ 범위를 많이 말함)\n\n2) **슈퍼매시브 블랙홀**\n- 대략적 질량 범위: **수백만~수십억 태양질량**(예: 10⁶~10⁹ M☉)\n\n※ 정확히 “인터스텔라에서 관측된 블랙홀”을 말하는지, 혹은 “현실 천문학에서 관측되는 블랙홀의 대표적인 두 범주”를 묻는지에 따라 답의 표현이 달라질 수 있어요.  \n원하시면 **어느 장면/대사(예: ‘밀러의 행성’, ‘가르강튀아’ 관련 맥락 등)**을 기준으로 한 질문인지 알려주시면 그 맥락에 맞춰 더 정확히 답해드릴게요.",
+            "with_rag": "관측된(문서에서 “관측된”을 명시적으로 한정하지는 않음) 블랙홀은 “두 가지 큰 질량 범주”로 분류된다고 제시됩니다. [근거 6]\n\n1) **항성질량( Stellar-mass ) 블랙홀**: **5~dozens(‘수십’)** 배 태양질량 [근거 6]  \n2) **초대질량( Supermassive ) 블랙홀**: **hundreds of thousands(‘수십만’)** ~ **billions(‘수십억’)** 배 태양질량 [근거 6]\n\n※ 문서에는 “관측된 블랙홀”의 주요 두 질량 범주가 위와 같이 제시되지만, “각각의 대략적 질량 범위”를 더 구체적인 숫자(예: 10^x 단위의 정확한 범위)로 환산해 확정하라는 정보는 제공되지 않습니다(‘dozens’, ‘hundreds of thousands’, ‘billions’는 원문 표기 그대로만 확인됨). [근거 6]",
+            "sources": [
+              {
+                "id": "157336",
+                "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+                "source_type": "항목 메타데이터",
+                "title": "인터스텔라",
+                "movie_id": "157336",
+                "url": "https://www.themoviedb.org/movie/157336",
+                "source": "TMDB 제공 데이터",
+                "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+                "source_kind": "metadata"
+              },
+              {
+                "id": "157336:95098:10",
+                "text": "물리적 성질\n\n가장 간단한 블랙홀은 질량만 있고 전하나 각운동량을 가지지 않는 블랙홀이다. 이러한 블랙홀은 1916년 아인슈타인 방정식의 해를 발견한 카를 슈바르츠실트의 이름을 붙여 슈바르츠실트 블랙홀이라고 한다. 버코프의 정리에 따르면, 슈바르츠실트의 해는 구대칭적인 유일한 진공해이다. 이것은 다시 말해 어떤 블랙홀의 중력장과 그 블랙홀과 같은 질량을 가진 다른 구형 물체의 중력장 사이에는 관찰 가능한 차이점이 없다는 것을 의미한다. 때문에 블랙홀을 주위의 모든 것을 빨아들이는 존재라고 이해하는 대중적 관념은 오로지 블랙홀의 지평선 주위에서만 옳다. 멀리 떨어진 곳에서는 블랙홀의 외부 중력장은 같은 질량을 가진 다른 천체의 중력장과 동일하다.\n보다 일반적인 형태의 블랙홀에 대한 해 역시 존재한다. 회전하지는 않고 전하만 가진 블랙홀은 라이스너–노르드스트룀 계량을 따르며 이를 라이스너–노르드스트룀 블랙홀이라고 부른다. 한편 전하는 없고 회전하는(즉 각운동량을 가진) 블랙홀은 커 계량을 따르며 이를 커 블랙홀이라고 한다. 가장 일반적인 정지 블랙홀 해는 커–뉴먼 계량으로서, 전하와 각운동량을 모두 가진 블랙홀이 이를 따른다.\n블랙홀의 질량은 모든 양수값이 가능한 반면, 전하량과 각운동량은 질량에 의해 제한된다. 플랑크 단위로, 블랙홀의 총 전하량 \n  \n    \n      \n        Q\n      \n    \n    {\\displaystyle Q}\n  \n와 총 각운동량 \n  \n    \n      \n        J\n      \n    \n    {\\displaystyle J}\n  \n는 다음 관계를 만족시킬 것으로 예측된다.",
+                "page": 0,
+                "file_id": "",
+                "search_query": "블랙홀 사건의 지평선",
+                "collected_at": "2026-09-09",
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+                "related_movie": "인터스텔라",
+                "movie_id": "157336",
+                "source": "한국어 위키백과",
+                "source_type": "외부 문서",
+                "title": "블랙홀",
+                "page_id": "95098",
+                "source_kind": "wiki",
+                "license": "CC BY-SA 4.0",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "chunk_index": 10
+              },
+              {
+                "id": "157336:95098:12",
+                "text": "블랙홀은 대개 각운동량이나 전하량과는 독립적으로 질량에 따라 분류된다. 블랙홀의 크기는 사건의 지평선 반경, 또는 슈바르츠실트 반경에 의해 결정된다.\n\n  \n    \n      \n        \n          r\n          \n            \n              s\n              h\n            \n          \n        \n        =\n        \n          \n            \n              2\n              G\n              M\n            \n            \n              c\n              \n                2\n              \n            \n          \n        \n        ≈\n        2.95\n        \n        \n          \n            \n              M\n            \n            \n              \n                M\n                \n                  ⊙\n                \n              \n            \n          \n        \n         \n        \n          k\n          m\n          ,\n        \n      \n    \n    {\\displaystyle r_{\\mathrm {sh} }={\\frac {2GM}{c^{2}}}\\approx 2.95\\,{{M} \\over {M_{\\odot }}}~\\mathrm {km,} }",
+                "page": 0,
+                "related_movie": "인터스텔라",
+                "page_id": "95098",
+                "source_kind": "wiki",
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "file_id": "",
+                "collected_at": "2026-09-09",
+                "chunk_index": 12,
+                "title": "블랙홀",
+                "search_query": "블랙홀 사건의 지평선",
+                "source_type": "외부 문서",
+                "source": "한국어 위키백과",
+                "license": "CC BY-SA 4.0",
+                "movie_id": "157336"
+              },
+              {
+                "id": "157336:95098:11",
+                "text": "Q\n          \n            2\n          \n        \n        +\n        \n          \n            (\n            \n              \n                \n                  J\n                  M\n                \n              \n            \n            )\n          \n          \n            2\n          \n        \n        ≤\n        \n          M\n          \n            2\n          \n        \n        \n      \n    \n    {\\displaystyle Q^{2}+\\left({\\tfrac {J}{M}}\\right)^{2}\\leq M^{2}\\,}\n  \n\n이때 \n  \n    \n      \n        M\n      \n    \n    {\\displaystyle M}\n  \n은 블랙홀의 질량이다. 이 부등식을 만족하는 블랙홀을 임계 블랙홀이라고 한다. 이 부등식을 만족하지 않는 아인슈타인 방정식의 해도 존재하지만 그런 경우에는 사건의 지평선을 갖지 않는다. 이러한 해를 벌거숭이 특이점이라고 하는데, 외부에서 관찰이 가능하기에 물리적으로 불가능할 것으로 간주된다. 우주 검열 가설은 현실적 물질이 중력붕괴할 때 이러한 특이점은 형성될 수 없다고 배제시키며, 이는 수치적 시뮬레이션 결과들에 의해 지지받는다.\n상대적으로 큰 전자기력에 의해, 항성이 붕괴하여 형성되는 블랙홀은 전하가 거의 중성인 항성의 상태를 유지할 것으로 추측된다. 그러나 회전은 밀집천체들에서 흔하게 나타나는 현상일 것으로 생각된다. 블랙홀 후보 천체인 엑스선원 쌍성계 GRS 1915+105은 허용된 최대치에 근사하는 각운동량을 갖는 것으로 보인다.",
+                "license": "CC BY-SA 4.0",
+                "source_type": "외부 문서",
+                "movie_id": "157336",
+                "page": 0,
+                "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+                "title": "블랙홀",
+                "search_query": "블랙홀 사건의 지평선",
+                "file_id": "",
+                "source": "한국어 위키백과",
+                "related_movie": "인터스텔라",
+                "chunk_index": 11,
+                "source_kind": "wiki",
+                "collected_at": "2026-09-09",
+                "page_id": "95098",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624"
+              },
+              {
+                "id": "157336:174881:1",
+                "text": "설명\n초대질량 블랙홀들은 고전적으로 질량이 100,000 (105) 태양질량(M☉)이상인 블랙홀로 정의된다; 일부는 수십억 M☉의 질량을 가지고 있다. 초대질량 블랙홀은 질량이 낮은 분류들과와명확하게 구별되는 물리적 특성을 가지고 있다. 첫째, 사건 지평선 부근의 조석력은 초대질량 블랙홀의 경우 상당히 더 약하다. 블랙홀의 사건 지평선에 있는 물체에 가해지는 조석력은 블랙홀 질량의 제곱에 반비례한다; 천만 M☉ 블랙홀의 사건 지평선에 있는 사람은 지구 표면에 있는 사람과 머리와 발 사이에 거의 같은 조석력을 경험한다. 항성질량 블랙홀과는 달리, 사람은 블랙홀의 사건 지평선 깊숙한 곳까지 상당한 조석력을 경험하지 못한다.\n사건 지평선 내 SMBH의 평균 밀도(블랙홀의 질량을 슈바르츠실트 반경 내 공간의 부피로 나눈 값으로 정의된)가 물의 밀도보다 작을 수 있다는 점은 다소 직관적이지 않다. 이것은 슈바르츠실트 반경(\n  \n    \n      \n        \n          r\n          \n            s\n          \n        \n      \n    \n    {\\displaystyle r_{\\text{s}}}\n  \n)이 질량에 정비례하기 때문이다. 한 구형 천체(비회전 블랙홀의 사건 지평선 같은)의 부피는 반경의 세제곱에 정비례하고, 블랙홀의 밀도는 질량의 제곱에 반비례하므로 따라서 질량이 더 큰 블랙홀은 평균 밀도가 더 낮다.\n약 10억 M☉의 회전하지 않고 충전되지 않은 초대질량 블랙홀의 사건 지평선의 슈바르츠실트 반경은 약 19AU인 천왕성 궤도의 긴반지름축과 비슷하다..\n일부 천문학자들은 50억 M☉이상의 블랙홀을 '극초대질량 블랙홀'(UMBH 또는 UBH)라고 부르지만, 그 용어는 광범위하게 사용되지는 않는다. 가능한 예들로는 가장 거대한 블랙홀들로 알려진 TON 618, NGC 6166, ESO 444-46 및 NGC 4889의 중심부에 있는 블랙홀들이 포함된다.",
+                "movie_id": "157336",
+                "page": 0,
+                "file_id": "",
+                "related_movie": "인터스텔라",
+                "license": "CC BY-SA 4.0",
+                "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+                "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+                "search_query": "블랙홀 사건의 지평선",
+                "source": "한국어 위키백과",
+                "source_type": "외부 문서",
+                "page_id": "174881",
+                "source_kind": "wiki",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "collected_at": "2026-09-11",
+                "chunk_index": 1,
+                "title": "초대질량 블랙홀"
+              },
+              {
+                "id": "157336:pdf:nasa-black-hole-field-guide:p2:0",
+                "text": "Basic Black Hole Anatomy\nBlack holes are physical objects in space, just like stars and planets. They \nhave so much mass packed into such a small sphere that nothing, not even \nlight, can escape their gravity.\nFeatures all have in common\nEvent horizon: the black hole’s “surface” — \nthe point of no return\nSpin: how fast depends on the individual \nOther potential characteristics\nAccretion disk: made of hot gas and dust \nJets: fast-moving streams of matter ejected at \nright angles to the disk\nMost known black holes fall into two broad groups\nStellar-mass: ﬁ ve to dozens of times \nthe Sun’s mass\nSupermassive: hundreds of thousands \nto billions of times the Sun’s mass\n† Results subject to possible changes based on future research.\nPrimordial (Hypothetical†)\nOrigins: These theoretical black holes were born in the ﬁ rst second after \nthe big bang, 13.8 billion years ago. Because they’re not produced by \nsupernovae, some could potentially be less massive than our Sun. They",
+                "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=2",
+                "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+                "source_kind": "pdf",
+                "page": 2,
+                "related_movie": "인터스텔라",
+                "collected_at": "2026-10-21",
+                "index_signature": "54cce2f5a14290ae7e7cdf3c8f6e9141bf6ee5cc71914923fcdf0d4a2a7e1b3d",
+                "page_id": "pdf:nasa-black-hole-field-guide:p2",
+                "source": "NASA Goddard Space Flight Center",
+                "search_query": "등록된 영화 배경 PDF",
+                "source_type": "외부 문서",
+                "title": "A Field Guide to Black Holes · 2쪽",
+                "movie_id": "157336",
+                "file_id": "nasa-black-hole-field-guide",
+                "chunk_index": 0,
+                "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+              }
+            ],
+            "baseline_seconds": 3.06,
+            "rag_timings": {
+              "preparation": 0.0217,
+              "rag": 2.5566,
+              "total": 2.5783
+            },
+            "automatic_observations": {
+              "without_citation_marker": false,
+              "with_citation_marker": true,
+              "with_unknown_notice": false
+            },
+            "review": {
+              "without_accuracy": null,
+              "with_accuracy": null,
+              "without_unknown_handling": null,
+              "with_unknown_handling": null,
+              "notes": ""
+            }
+          },
+          {
+            "id": "unknown-prop-number",
+            "movie_id": "157336",
+            "question": "쿠퍼가 착용한 우주복 소품의 제조 일련번호 전체를 알려줘.",
+            "expected": "색인 문서에서 확인되지 않으면 확인 불가로 응답",
+            "kind": "unknown",
+            "without_rag": "죄송하지만, 영화 **〈인터스텔라〉**에서 **쿠퍼가 착용한 우주복의 “제조 일련번호 전체”**가 정확히 무엇인지(그리고 그 번호가 전편에서 어떤 장면/소품에 어떤 형태로 표기되는지)를 **확인 가능한 범위의 정보로 확정해 드릴 수 없습니다.**  \n\n원하시면,\n- 우주복이 나온 **장면(예: 어떤 행성/어느 시점/캡처 여부)**, 또는  \n- 우주복 소품에 표기된 번호가 **보이는 화면을 캡처**해서  \n주시면, 그 텍스트가 무엇인지 **읽어서** 정리해 드릴게요.",
+            "with_rag": "문서에서 확인되지 않습니다.  \n\n쿠퍼가 착용한 우주복의 **소품(부품) 제조 일련번호 전체**에 대한 정보는 제공된 근거 문서(인터스텔라 줄거리/관련 설명)들에 포함되어 있지 않습니다.",
+            "sources": [
+              {
+                "id": "157336",
+                "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+                "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+                "source_type": "항목 메타데이터",
+                "title": "인터스텔라",
+                "movie_id": "157336",
+                "source": "TMDB 제공 데이터",
+                "url": "https://www.themoviedb.org/movie/157336",
+                "source_kind": "metadata"
+              },
+              {
+                "id": "157336:986156:1",
+                "text": "줄거리\n21세기 중반, 인류는 잦은 황사와 병충해로 식량 작물이 죽어가면서 멸종 위기에 처한다. 전직 NASA 파일럿이자 사별 후 홀로 지내는 조셉 쿠퍼는 장인 도널드, 아들 톰, 딸 머피와 함께 농부로 일하며 살아간다. 쿠퍼는 머피에게 아폴로 계획이 조작된 것이 아니라고 말했다가 학교 선생님에게 질책을 받는다. 어느 날 먼지 폭풍이 불고 난 뒤, 두 사람은 머피의 방에 쌓인 먼지 패턴이 처음에는 유령 때문이라 생각했지만, 실제로는 중력 이상 현상으로 생긴 것임을 발견하고 이를 지리 좌표로 해독한다. 좌표를 따라 도착한 곳은 존 브랜드 교수가 이끄는 비밀 NASA 시설이었다. 브랜드 교수는 48년 전 토성 근처에 웜홀이 나타났으며, 이를 통해 '가르강튀아'라는 블랙홀 근처에 있는 12개의 거주 가능 행성이 위치한 다른 은하계로 갈 수 있다고 설명한다. 앞서 '나사로 프로젝트'의 지원자들이 웜홀을 통해 행성들을 탐사했고, 그중 밀러, 에드먼즈, 만 세 사람이 긍정적인 신호를 보내왔다는 것이다.\n쿠퍼는 인류의 생존을 위해 5,000개의 동결 배아를 싣고 웜홀을 통과해 거주 가능한 행성을 식민지화하는 임무를 맡아 인듀어런스호의 조종사로 발탁된다. 한편, 브랜드 교수는 지구를 떠날 우주선 건조를 가능하게 할 중력 방정식을 푸는 연구를 계속하기로 한다. 쿠퍼는 머피의 반대에도 불구하고 임무를 수락하고 돌아오겠다는 약속을 한다. 머피가 작별 인사를 거부하자, 쿠퍼는 자신이 돌아왔을 때의 상대성 시간을 비교할 수 있도록 손목시계를 남겨두고 떠난다.\n쿠퍼, 로봇 타스(TARS)와 케이스(CASE), 과학자 아멜리아 브랜드(브랜드 교수의 딸), 로밀리, 도일로 구성된 승무원들은 2년의 항해 끝에 토성에 도착해 웜홀을 통과한다. 쿠퍼, 도일, 브랜드는 탐사선을 타고 시간이 극심하게 지연되는 밀러 행성으로 향한다. 무릎 높이의 물로 덮인 행성에 착륙하여 밀러 탐사대의 잔해만 발견한 직후, 거대한 해일이 덮쳐 도일이 사망하고 탐사선 엔진이 침수된다.",
+                "page_id": "986156",
+                "source_type": "외부 문서",
+                "chunk_index": 1,
+                "movie_id": "157336",
+                "source_kind": "wiki",
+                "license": "CC BY-SA 4.0",
+                "file_id": "",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "search_query": "인터스텔라 2014 영화",
+                "related_movie": "인터스텔라",
+                "source": "한국어 위키백과",
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "collected_at": "2026-09-09",
+                "page": 0,
+                "title": "인터스텔라"
+              },
+              {
+                "id": "157336:986156:3",
+                "text": "임무를 다한 테서랙트는 붕괴되고 쿠퍼와 타스는 우주로 방출된다. 쿠퍼는 토성 궤도를 도는 우주 정거장에서 깨어난다. 그는 임종을 앞둔 노인 머피와 재회하고, 머피는 그에게 브랜드를 찾아가라고 말한다. 쿠퍼와 타스는 우주선을 타고, 에드먼즈 행성에서 인류 식민지를 건설하고 있는 브랜드와 케이스에게 합류하기 위해 떠난다.",
+                "page": 0,
+                "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+                "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+                "file_id": "",
+                "search_query": "인터스텔라 2014 영화",
+                "related_movie": "인터스텔라",
+                "collected_at": "2026-09-09",
+                "movie_id": "157336",
+                "page_id": "986156",
+                "chunk_index": 3,
+                "title": "인터스텔라",
+                "source": "한국어 위키백과",
+                "source_type": "외부 문서",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "license": "CC BY-SA 4.0",
+                "source_kind": "wiki"
+              },
+              {
+                "id": "157336:174881:12",
+                "text": "퀘이사 및 은하핵 내의 현대의 극초대질량 블랙홀(UMBH)은 강착원반을 통하고 또한 현재 우주의 나이를 고려할 때, 약 (5-27)×1010M☉이상으로 성장할 수 없지만, 우주의 이러한 괴물 블랙홀들 중 일부는 우주의 극히 먼 미래에 은하의 초은하단이 붕괴되는 동안에는 아마도 1014M☉의 엄청나게 커다란 질량까지 계속 성장할 것으로 예측된다.",
+                "source": "한국어 위키백과",
+                "movie_id": "157336",
+                "chunk_index": 12,
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "search_query": "블랙홀 사건의 지평선",
+                "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+                "source_type": "외부 문서",
+                "title": "초대질량 블랙홀",
+                "page_id": "174881",
+                "collected_at": "2026-09-11",
+                "file_id": "",
+                "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+                "source_kind": "wiki",
+                "related_movie": "인터스텔라",
+                "page": 0,
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "id": "157336:174881:7",
+                "text": "형성\n\n초대질량 블랙홀의 기원은 여전히 활발한 연구 분야이다. 천체물리학자들은 블랙홀이 물질의 강착과 다른 블랙홀과의 병합을 통해 성장할 수 있다는 데 동의한다. 초대질량 블랙홀의 조상들, 즉 \"씨앗들\"의 형성 메커니즘과 초기 질량에 대한 몇 가지 가설들이 있다. 블랙홀 씨앗의 특정 형성 채널과는 별개로, 근처에 충분한 질량이 주어지면, 그것은 축적되어 중간 질량 블랙홀이 될 수 있으며, 축적 속도가 지속되면 또한 SMBH가 될 수도 있다.\nQSO J0313–1806 및 ULAS J1342+0928과 같은 원거리의 초기 초대질량 블랙홀들은 대폭발(빅뱅) 직후라서 설명하기 어렵다. 어떤 사람들은 그것들이 자기 상호작용을 가진 암흑 물질의 직접 붕괴에서 비롯된 것이라고 가정한다. 소수의 출처들은 이러한 초대질량 블랙홀이 대폭발 이전에 형성되어, 우주가 대폭발 대신에, 빅 바운스의 결과라는 증거 일 수 있다고 주장한다.\n\n\n첫 번째 별\n\n초기의 조상 항성의 씨앗들은 대질량의 별들의 폭발로 남겨진 수십 또는 수백 M☉의 블랙홀들일 수 있으며, 물질의 강착에 의해 성장한다. 또 다른 모형은 시스템의 음의 열용량이 중심부 내에서 속도 분산을 상대론적 속도로 유도하여 중심부 붕괴를 겪는 한 조밀한 성단을 포함한다.\n최초의 별 이전에, 큰 가스 구름은 \"쿼시 별\"로 붕괴되어 약 20M☉의 블랙홀로 붕괴될 수 있다. 이 별들은 또한 중력에 의해 엄청난 양의 가스를 끌어 당기는 암흑 물질 헤일로에 의해 형성되었을 수 있으며, 이는 수만 M☉의 초대질량 별들을 생성할 것이다. \"쿼시 별\"은 핵에서 전자-양전자 쌍생성으로 인해 방사형 섭동에 불안정해지고 어떤 초신성 폭발 없이 블랙홀로 직접 붕괴할 수 있다 (대부분의 질량을 방출하여, 블랙홀이 빠르게 성장하는 것을 방지한다).\n보다 최근의 이론에 따르면 SMBH 씨앗은 각각 질량이 약 100,000M☉인 초대질량 별의 붕괴로 인해 초기 우주에서 형성되었다고 한다.",
+                "source_type": "외부 문서",
+                "movie_id": "157336",
+                "page_id": "174881",
+                "source": "한국어 위키백과",
+                "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                "source_kind": "wiki",
+                "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+                "collected_at": "2026-09-11",
+                "license": "CC BY-SA 4.0",
+                "related_movie": "인터스텔라",
+                "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+                "chunk_index": 7,
+                "title": "초대질량 블랙홀",
+                "file_id": "",
+                "page": 0,
+                "search_query": "블랙홀 사건의 지평선"
+              },
+              {
+                "id": "157336:pdf:nasa-black-hole-field-guide:p4:2",
+                "text": "Find using: Accretion disks, jets, \ngravitational lensing, effects on nearby \nobjects\nExample: M87* (“*” is pronounced “star”) \nat the center of galaxy Messier 87, around \n55 million light-years away\n9\n8",
+                "title": "A Field Guide to Black Holes · 4쪽",
+                "related_movie": "인터스텔라",
+                "source_type": "외부 문서",
+                "source_kind": "pdf",
+                "page": 4,
+                "collected_at": "2026-10-21",
+                "file_id": "nasa-black-hole-field-guide",
+                "search_query": "등록된 영화 배경 PDF",
+                "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=4",
+                "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+                "movie_id": "157336",
+                "chunk_index": 2,
+                "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+                "page_id": "pdf:nasa-black-hole-field-guide:p4",
+                "index_signature": "19110ddf5d41fdc0fb51329b8d93e7847fa1430e23479b32683fc98e3c8a0d99",
+                "source": "NASA Goddard Space Flight Center"
+              }
+            ],
+            "baseline_seconds": 1.603,
+            "rag_timings": {
+              "preparation": 0.0199,
+              "rag": 1.1837,
+              "total": 1.2036
+            },
+            "automatic_observations": {
+              "without_citation_marker": false,
+              "with_citation_marker": false,
+              "with_unknown_notice": true
+            },
+            "review": {
+              "without_accuracy": null,
+              "with_accuracy": null,
+              "without_unknown_handling": null,
+              "with_unknown_handling": null,
+              "notes": ""
+            }
+          }
+        ],
+        "human_review_complete": false
+      }
+    },
+    "repeat_interstellar-runtime": {
+      "ok": true,
+      "result": {
+        "item_id": "157336",
+        "question": "제공된 영화 데이터에서 인터스텔라의 상영 시간은 몇 분이며 감독은 누구인가?",
+        "history": [],
+        "sources": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "title": "인터스텔라",
+            "source": "TMDB 제공 데이터",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "movie_id": "157336",
+            "source_kind": "metadata",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+            "source_type": "항목 메타데이터"
+          },
+          {
+            "id": "157336:986156:0",
+            "text": "《인터스텔라》(영어: Interstellar)는 2014년에 개봉한 미국, 영국의 서사 SF 영화이자 천만 관객 돌파 영화이다. 크리스토퍼 놀런이 감독, 제작하고 공동 각본을 썼다. 매슈 매코너헤이, 앤 해서웨이, 제시카 채스테인, 빌 어윈, 엘런 버스틴과 마이클 케인이 출연했다. 살아 남기 위해 고심하고 있는 인류의 미래를 배경으로 한 이 영화는 토성 근처의 웜홀을 통해서 새로운 생존 가능한 행성을 찾는 우주 탐사팀의 이야기를 그린다. 크리스토퍼와 조너선 놀런 형제는 2007년에 조너선이 초안을 만든 시나리오에 원안을 둔 시나리오를 썼다. 크리스토퍼 놀런과 아내 엠마 토마스는 자신들의 제작 회사 신카피, 린다 옵스의 린다 옵스 프로덕션을 통해 인터스텔라를 제작했다. 이 영화에 영감을 준, 이론 물리학자 킵 손이 과학자문위원과 공동 제작자로서 참여하였고, 인터스텔라의 과학(The Science of Interstellar)이라는 책도 썼다. 파라마운트 픽쳐스, 워너 브라더스와 레전더리 픽처스는 영화의 자금을 공동으로 투자했다.\n촬영 감독 호이터 판호이테마는 35mm의 애너모픽 포맷과 아이맥스 70 mm으로 촬영했다. 본 촬영은 2013년 말에 시작되어 캐나다 앨버타 주 (캐나다), 아이슬란드 및 로스앤젤레스에서 이루어졌다. 시각 효과 기업 더블 네거티브에서 영화의 시각 효과를 담당하였다. 영화는 2014년 10월 26일 캘리포니아주 로스앤젤레스에서 초연되었다. 파라마운트 픽쳐스는 북미 지역의 배급권을 가졌고, 워너 브라더스는 북미 이외 지역의 배급권을 가졌다. 이 영화는 전 세계적으로 6억 6,700만 달러 이상을 벌어 2014년에 10번째로 높은 수익을 올린 영화가 되었다.\n이 영화는 주제, 시각 효과, 음악 및 연기에 대한 찬사를 받았다. 제87회 미국 아카데미상에서 시각효과상 수상을 포함한 최우수 음악상, 음향효과상과 미술상 등 4개 부문에 후보로 지명되었다",
+            "chunk_index": 0,
+            "page": 0,
+            "search_query": "인터스텔라 2014 영화",
+            "source_kind": "wiki",
+            "source": "한국어 위키백과",
+            "page_id": "986156",
+            "title": "인터스텔라",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "related_movie": "인터스텔라",
+            "movie_id": "157336",
+            "source_type": "외부 문서",
+            "collected_at": "2026-09-09",
+            "license": "CC BY-SA 4.0",
+            "file_id": "",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          {
+            "id": "157336:986156:8",
+            "text": "같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크\n\n인터스텔라 - 공식 웹사이트\n(영어) 인터스텔라 - 인터넷 영화 데이터베이스\n(영어) Interstellar – 올무비\n(영어) 인터스텔라 - TCM 영화 데이터베이스}\n(영어) Interstellar - 미국 영화 협회 카탈로그\n(영어) Interstellar – 메타크리틱\n(영어) Interstellar – 로튼 토마토\n(영어) Interstellar - 박스 오피스 모조",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "file_id": "",
+            "movie_id": "157336",
+            "search_query": "인터스텔라 2014 영화",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "title": "인터스텔라",
+            "collected_at": "2026-09-09",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "source_kind": "wiki",
+            "license": "CC BY-SA 4.0",
+            "source_type": "외부 문서",
+            "page_id": "986156",
+            "page": 0,
+            "chunk_index": 8,
+            "related_movie": "인터스텔라",
+            "source": "한국어 위키백과"
+          },
+          {
+            "id": "157336:986156:7",
+            "text": "박스 오피스\n'인터스텔라'는 미국과 캐나다에서 1억 8800만 달러, 해외에서 4억 7100만 달러를 수익으로 올려, 총 제작비 1억 6500만 달러에 비해 6억 7510만 달러의 수익을 기록했다. 모든 비용을 계산 한 후, Deadline.com은 이 영화가 4720만 달러의 이익을 냈다고 추정했다. 이 영화는 574개의 아이맥스 영화관에서 전 세계적으로 아이맥스 오프닝 기록을 세우며 2013년에 개봉된 《헝거게임: 캣칭 파이어》의 1700만 달러 기록을 뛰어 넘었으며, 또한 IMAX 2D, 비 후속 버전, 11월 개봉된 아이맥스 버전의 최고의 오프닝 기록이다. 이 영화는 전 세계적으로 첫 주에만 1억 3260만 달러를 벌어 들였는데, 이는 2014년의 10번째로 큰 규모이다. '인터스텔라'는 아이맥스 티켓 판매로 전 세계적으로 1억 달러가 넘는 네 번째 영화이다. 이는 아이맥스 매표소 총 수익에서 2013년, 《아바타》(2009), 《다크 나이트 라이즈》와 《그래비티》(2013)를 뒤잇는다. '인터스텔라'는 2014년 11월 6일 영국, 아일랜드, 말타에서 공개 됐으며, 개막 주말에 537만 파운드(860 만 달러)를 벌어들이며 데뷔했다. 이 영화는 《다크 나이트 라이즈》(1434만 파운드)와 《그래비티》(624만 파운드), 《인셉션》(591만 파운드) 등의 순이었다. 이 영화는 독일, 러시아, 호주, 브라질 등 주요 시장을 포함해 총 8700만 달러를 벌어 들인 같은 날 35개국 시장에서 개봉되었다.\n\n\n한국 흥행\n'인터스텔라'는 2014년 12월 25일 외화 중 세 번째로 천만 관객을 돌파했다. 1월7일 기준 KOFIC 영화관입장권 통합전산망의 집계에 따르면 ‘인터스텔라’는 누적관객 1019만 967명을 기록해 《아바타》(1330만 2637명), 《겨울왕국》(1029만 6101명)에 이어 역대 외화 흥행 3위를 기록했다.\n\n\n같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크",
+            "search_query": "인터스텔라 2014 영화",
+            "movie_id": "157336",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "page_id": "986156",
+            "page": 0,
+            "source_kind": "wiki",
+            "related_movie": "인터스텔라",
+            "license": "CC BY-SA 4.0",
+            "chunk_index": 7,
+            "file_id": "",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "source_type": "외부 문서",
+            "source": "한국어 위키백과",
+            "title": "인터스텔라",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "collected_at": "2026-09-09"
+          },
+          {
+            "id": "157336:986156:5",
+            "text": "평가\n\n\n비평가들 평가\n할리우드 리포터의 토드 매카시는 “'인터스텔라#는 인간적인 측면과 우주 신비적 측면에 동등한 무게를 두고 있으며 아이디어, 야심, 이론, 멜로드라마, 마술 같은 기술력, 놀라운 이미지 그리고 그것들을 움직이는 핵심 감정으로 넘쳐나는 영화다.”라고 말했다. 버라이어티의 스콧 파운다스는 \"복잡한 수학적, 과학적 아이디어를 관객이 따라가기 쉽게, 그리고 현실처럼 생생하게 느끼면서 인간적인 면까지 조명하여 만든 할리우드 영화는 이제까지 없었을 것이다.\"며 '인터스텔라'를 칭찬했다. 스크린 크러시의 마이크 라이언은 \"인터스텔라는 기대했던 것보다 훨씬 많은 감정을 담고 있다. 그리고 그 감정이 영화의 핵심을 이룬다. 그러나 문제는 동시에 너무 많은 일들이 벌어지고 있기 때문에, 이후에 되돌아보았을 때 특별히 중요한 사건이 일어나지 않은 것처럼 기억된다는 것이다.\"라고 평가했다. 더랩의 알론소 듀랄드는 \"우주를 향한 모든 준비 단계가 흥미롭다. 고통과 손실 그리고 우울감과 희생을 토대로 엄청난 예산의 영화를 잘 항해한 것처럼 보이다가도 어느 순간부터는 너무 평범한 영화로 돌변한다.\"고 《인터스텔라》를 평가했다. 타임 아웃 런던의 데이브 칼훈은 \"'인터스텔라'는 많은 부분에서 스펙터클 영화이다. 그러나 내용을 더 많이 생각하게 만들고, 다시 곱씹게 만든다. 즉 달, 먼 거리의 행성, 또 다른 차원, 초능력에 대한 강의 그리고 끔찍한 공포 등 여러 가지를 다 겪을 수 있다. '인터스텔라'에는 모든 것이 포함되어 있다.\"고 말했다.",
+            "title": "인터스텔라",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "source_kind": "wiki",
+            "collected_at": "2026-09-09",
+            "source": "한국어 위키백과",
+            "related_movie": "인터스텔라",
+            "license": "CC BY-SA 4.0",
+            "movie_id": "157336",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "file_id": "",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "page": 0,
+            "search_query": "인터스텔라 2014 영화",
+            "chunk_index": 5,
+            "source_type": "외부 문서",
+            "page_id": "986156"
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p4:2",
+            "text": "Find using: Accretion disks, jets, \ngravitational lensing, effects on nearby \nobjects\nExample: M87* (“*” is pronounced “star”) \nat the center of galaxy Messier 87, around \n55 million light-years away\n9\n8",
+            "page": 4,
+            "source_kind": "pdf",
+            "source_type": "외부 문서",
+            "file_id": "nasa-black-hole-field-guide",
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+            "related_movie": "인터스텔라",
+            "index_signature": "19110ddf5d41fdc0fb51329b8d93e7847fa1430e23479b32683fc98e3c8a0d99",
+            "movie_id": "157336",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "source": "NASA Goddard Space Flight Center",
+            "collected_at": "2026-10-21",
+            "title": "A Field Guide to Black Holes · 4쪽",
+            "page_id": "pdf:nasa-black-hole-field-guide:p4",
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=4",
+            "chunk_index": 2,
+            "search_query": "등록된 영화 배경 PDF"
+          }
+        ],
+        "answer": "인터스텔라의 **상영시간은 169분**이며 [근거 1], **감독은 크리스토퍼 놀란**입니다. [근거 1]",
+        "collection": {
+          "keywords": [
+            "인터스텔라 2014 영화",
+            "인터스텔라",
+            "상영 시간",
+            "크리스토퍼 놀란"
+          ],
+          "queries": [
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [
+                "인터스텔라"
+              ],
+              "mode": "bundle",
+              "query": "인터스텔라 2014 영화",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "인터스텔라",
+              "cached": true
+            },
+            {
+              "page_ids": [],
+              "accepted": [],
+              "rejected": [
+                "웜홀",
+                "중력"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "상영 시간",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "크리스토퍼 놀란",
+              "cached": true
+            }
+          ],
+          "warnings": [],
+          "keyword_cache": true,
+          "pdf": {
+            "pages": 3,
+            "updated_chunks": 0,
+            "warnings": []
+          }
+        },
+        "timings": {
+          "preparation": 0.0143,
+          "rag": 0.9485,
+          "total": 0.9628
+        },
+        "metrics": {
+          "at": "2026-10-21T04:52:50.010747+00:00",
+          "item_id": "157336",
+          "question_hash": "9d535952c3fd57be5001d97a2b974c04ebdcd286518465860e96c7b3cfad308c",
+          "timings": {
+            "preparation": 0.0143,
+            "rag": 0.9485,
+            "total": 0.9628
+          },
+          "collection_cached": true,
+          "budget_seconds": 30.0,
+          "within_budget": true,
+          "measurement_mode": "live",
+          "method": "similarity"
+        }
+      }
+    },
+    "repeat_interstellar-countries": {
+      "ok": true,
+      "result": {
+        "item_id": "157336",
+        "question": "인터스텔라의 제작 국가와 개봉 연도는 무엇인가? 제공된 데이터 기준으로 답해줘.",
+        "history": [],
+        "sources": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "movie_id": "157336",
+            "source_kind": "metadata",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "source": "TMDB 제공 데이터",
+            "source_type": "항목 메타데이터",
+            "title": "인터스텔라",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d"
+          },
+          {
+            "id": "157336:986156:8",
+            "text": "같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크\n\n인터스텔라 - 공식 웹사이트\n(영어) 인터스텔라 - 인터넷 영화 데이터베이스\n(영어) Interstellar – 올무비\n(영어) 인터스텔라 - TCM 영화 데이터베이스}\n(영어) Interstellar - 미국 영화 협회 카탈로그\n(영어) Interstellar – 메타크리틱\n(영어) Interstellar – 로튼 토마토\n(영어) Interstellar - 박스 오피스 모조",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "한국어 위키백과",
+            "page_id": "986156",
+            "file_id": "",
+            "source_kind": "wiki",
+            "page": 0,
+            "related_movie": "인터스텔라",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "search_query": "인터스텔라 2014 영화",
+            "title": "인터스텔라",
+            "license": "CC BY-SA 4.0",
+            "collected_at": "2026-09-09",
+            "source_type": "외부 문서",
+            "chunk_index": 8,
+            "movie_id": "157336"
+          },
+          {
+            "id": "157336:986156:0",
+            "text": "《인터스텔라》(영어: Interstellar)는 2014년에 개봉한 미국, 영국의 서사 SF 영화이자 천만 관객 돌파 영화이다. 크리스토퍼 놀런이 감독, 제작하고 공동 각본을 썼다. 매슈 매코너헤이, 앤 해서웨이, 제시카 채스테인, 빌 어윈, 엘런 버스틴과 마이클 케인이 출연했다. 살아 남기 위해 고심하고 있는 인류의 미래를 배경으로 한 이 영화는 토성 근처의 웜홀을 통해서 새로운 생존 가능한 행성을 찾는 우주 탐사팀의 이야기를 그린다. 크리스토퍼와 조너선 놀런 형제는 2007년에 조너선이 초안을 만든 시나리오에 원안을 둔 시나리오를 썼다. 크리스토퍼 놀런과 아내 엠마 토마스는 자신들의 제작 회사 신카피, 린다 옵스의 린다 옵스 프로덕션을 통해 인터스텔라를 제작했다. 이 영화에 영감을 준, 이론 물리학자 킵 손이 과학자문위원과 공동 제작자로서 참여하였고, 인터스텔라의 과학(The Science of Interstellar)이라는 책도 썼다. 파라마운트 픽쳐스, 워너 브라더스와 레전더리 픽처스는 영화의 자금을 공동으로 투자했다.\n촬영 감독 호이터 판호이테마는 35mm의 애너모픽 포맷과 아이맥스 70 mm으로 촬영했다. 본 촬영은 2013년 말에 시작되어 캐나다 앨버타 주 (캐나다), 아이슬란드 및 로스앤젤레스에서 이루어졌다. 시각 효과 기업 더블 네거티브에서 영화의 시각 효과를 담당하였다. 영화는 2014년 10월 26일 캘리포니아주 로스앤젤레스에서 초연되었다. 파라마운트 픽쳐스는 북미 지역의 배급권을 가졌고, 워너 브라더스는 북미 이외 지역의 배급권을 가졌다. 이 영화는 전 세계적으로 6억 6,700만 달러 이상을 벌어 2014년에 10번째로 높은 수익을 올린 영화가 되었다.\n이 영화는 주제, 시각 효과, 음악 및 연기에 대한 찬사를 받았다. 제87회 미국 아카데미상에서 시각효과상 수상을 포함한 최우수 음악상, 음향효과상과 미술상 등 4개 부문에 후보로 지명되었다",
+            "file_id": "",
+            "page": 0,
+            "source": "한국어 위키백과",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "related_movie": "인터스텔라",
+            "source_kind": "wiki",
+            "title": "인터스텔라",
+            "license": "CC BY-SA 4.0",
+            "chunk_index": 0,
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "collected_at": "2026-09-09",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "movie_id": "157336",
+            "search_query": "인터스텔라 2014 영화",
+            "page_id": "986156",
+            "source_type": "외부 문서"
+          },
+          {
+            "id": "157336:986156:5",
+            "text": "평가\n\n\n비평가들 평가\n할리우드 리포터의 토드 매카시는 “'인터스텔라#는 인간적인 측면과 우주 신비적 측면에 동등한 무게를 두고 있으며 아이디어, 야심, 이론, 멜로드라마, 마술 같은 기술력, 놀라운 이미지 그리고 그것들을 움직이는 핵심 감정으로 넘쳐나는 영화다.”라고 말했다. 버라이어티의 스콧 파운다스는 \"복잡한 수학적, 과학적 아이디어를 관객이 따라가기 쉽게, 그리고 현실처럼 생생하게 느끼면서 인간적인 면까지 조명하여 만든 할리우드 영화는 이제까지 없었을 것이다.\"며 '인터스텔라'를 칭찬했다. 스크린 크러시의 마이크 라이언은 \"인터스텔라는 기대했던 것보다 훨씬 많은 감정을 담고 있다. 그리고 그 감정이 영화의 핵심을 이룬다. 그러나 문제는 동시에 너무 많은 일들이 벌어지고 있기 때문에, 이후에 되돌아보았을 때 특별히 중요한 사건이 일어나지 않은 것처럼 기억된다는 것이다.\"라고 평가했다. 더랩의 알론소 듀랄드는 \"우주를 향한 모든 준비 단계가 흥미롭다. 고통과 손실 그리고 우울감과 희생을 토대로 엄청난 예산의 영화를 잘 항해한 것처럼 보이다가도 어느 순간부터는 너무 평범한 영화로 돌변한다.\"고 《인터스텔라》를 평가했다. 타임 아웃 런던의 데이브 칼훈은 \"'인터스텔라'는 많은 부분에서 스펙터클 영화이다. 그러나 내용을 더 많이 생각하게 만들고, 다시 곱씹게 만든다. 즉 달, 먼 거리의 행성, 또 다른 차원, 초능력에 대한 강의 그리고 끔찍한 공포 등 여러 가지를 다 겪을 수 있다. '인터스텔라'에는 모든 것이 포함되어 있다.\"고 말했다.",
+            "collected_at": "2026-09-09",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "page_id": "986156",
+            "source": "한국어 위키백과",
+            "related_movie": "인터스텔라",
+            "file_id": "",
+            "source_type": "외부 문서",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "chunk_index": 5,
+            "page": 0,
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "title": "인터스텔라",
+            "license": "CC BY-SA 4.0",
+            "movie_id": "157336",
+            "search_query": "인터스텔라 2014 영화",
+            "source_kind": "wiki"
+          },
+          {
+            "id": "157336:986156:7",
+            "text": "박스 오피스\n'인터스텔라'는 미국과 캐나다에서 1억 8800만 달러, 해외에서 4억 7100만 달러를 수익으로 올려, 총 제작비 1억 6500만 달러에 비해 6억 7510만 달러의 수익을 기록했다. 모든 비용을 계산 한 후, Deadline.com은 이 영화가 4720만 달러의 이익을 냈다고 추정했다. 이 영화는 574개의 아이맥스 영화관에서 전 세계적으로 아이맥스 오프닝 기록을 세우며 2013년에 개봉된 《헝거게임: 캣칭 파이어》의 1700만 달러 기록을 뛰어 넘었으며, 또한 IMAX 2D, 비 후속 버전, 11월 개봉된 아이맥스 버전의 최고의 오프닝 기록이다. 이 영화는 전 세계적으로 첫 주에만 1억 3260만 달러를 벌어 들였는데, 이는 2014년의 10번째로 큰 규모이다. '인터스텔라'는 아이맥스 티켓 판매로 전 세계적으로 1억 달러가 넘는 네 번째 영화이다. 이는 아이맥스 매표소 총 수익에서 2013년, 《아바타》(2009), 《다크 나이트 라이즈》와 《그래비티》(2013)를 뒤잇는다. '인터스텔라'는 2014년 11월 6일 영국, 아일랜드, 말타에서 공개 됐으며, 개막 주말에 537만 파운드(860 만 달러)를 벌어들이며 데뷔했다. 이 영화는 《다크 나이트 라이즈》(1434만 파운드)와 《그래비티》(624만 파운드), 《인셉션》(591만 파운드) 등의 순이었다. 이 영화는 독일, 러시아, 호주, 브라질 등 주요 시장을 포함해 총 8700만 달러를 벌어 들인 같은 날 35개국 시장에서 개봉되었다.\n\n\n한국 흥행\n'인터스텔라'는 2014년 12월 25일 외화 중 세 번째로 천만 관객을 돌파했다. 1월7일 기준 KOFIC 영화관입장권 통합전산망의 집계에 따르면 ‘인터스텔라’는 누적관객 1019만 967명을 기록해 《아바타》(1330만 2637명), 《겨울왕국》(1029만 6101명)에 이어 역대 외화 흥행 3위를 기록했다.\n\n\n같이 보기\n매트릭스 시리즈\n인셉션\n\n\n각주\n\n\n외부 링크",
+            "movie_id": "157336",
+            "source": "한국어 위키백과",
+            "source_kind": "wiki",
+            "file_id": "",
+            "search_query": "인터스텔라 2014 영화",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "page_id": "986156",
+            "license": "CC BY-SA 4.0",
+            "source_type": "외부 문서",
+            "collected_at": "2026-09-09",
+            "chunk_index": 7,
+            "title": "인터스텔라",
+            "page": 0,
+            "related_movie": "인터스텔라",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC"
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p4:1",
+            "text": "MACHO-96-BLG-5.\nIllustration\n6\nIllustration\n5\n7\nStellar-mass with Partner\nWhere: Throughout the universe\nOrigins: These black holes and their \npartners likely started off as stars \nbefore one or both went supernova. \nThey stayed gravitationally bound \nthrough the turmoil.\nVariations: Stellar-mass black holes \ncan be paired with all types of stars, \nneutron stars, and other black holes.\nFind using: Accretion disks and jets (for \npairs with stars), gravitational waves \n(for pairs with black holes and neutron \nstars), radial velocity\nExample: V404 Cygni, a black hole \npaired with a Sun-like star about 8,000 \nlight-years away\nSingle Supermassive\nWhere: Centers of galaxies\nOrigins: These monster black holes likely \ngrew by gradually absorbing other black \nholes, but other possibilities may exist.\nFind using: Accretion disks, jets, \ngravitational lensing, effects on nearby \nobjects\nExample: M87* (“*” is pronounced “star”) \nat the center of galaxy Messier 87, around",
+            "file_id": "nasa-black-hole-field-guide",
+            "source_kind": "pdf",
+            "movie_id": "157336",
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=4",
+            "collected_at": "2026-10-21",
+            "source_type": "외부 문서",
+            "source": "NASA Goddard Space Flight Center",
+            "search_query": "등록된 영화 배경 PDF",
+            "related_movie": "인터스텔라",
+            "page_id": "pdf:nasa-black-hole-field-guide:p4",
+            "chunk_index": 1,
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+            "page": 4,
+            "title": "A Field Guide to Black Holes · 4쪽",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "index_signature": "19110ddf5d41fdc0fb51329b8d93e7847fa1430e23479b32683fc98e3c8a0d99"
+          }
+        ],
+        "answer": "인터스텔라의 **제작 국가**는 **United Kingdom, United States of America**입니다. [근거 1]  \n**개봉 연도**는 **2014**입니다. [근거 1]",
+        "collection": {
+          "keywords": [
+            "인터스텔라 2014 영화",
+            "인터스텔라",
+            "제작 국가",
+            "개봉 연도"
+          ],
+          "queries": [
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [
+                "인터스텔라"
+              ],
+              "mode": "bundle",
+              "query": "인터스텔라 2014 영화",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "인터스텔라",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "미국 항공 우주국",
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "제작 국가",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "개봉 연도",
+              "cached": true
+            }
+          ],
+          "warnings": [],
+          "keyword_cache": true,
+          "pdf": {
+            "pages": 3,
+            "updated_chunks": 0,
+            "warnings": []
+          }
+        },
+        "timings": {
+          "preparation": 0.0156,
+          "rag": 0.9706,
+          "total": 0.9862
+        },
+        "metrics": {
+          "at": "2026-10-21T04:52:51.001949+00:00",
+          "item_id": "157336",
+          "question_hash": "58cd9ec7aeb5e2279aa016cce51f9214ad43d70aa562975aa2d495c4ab48c680",
+          "timings": {
+            "preparation": 0.0156,
+            "rag": 0.9706,
+            "total": 0.9862
+          },
+          "collection_cached": true,
+          "budget_seconds": 30.0,
+          "within_budget": true,
+          "measurement_mode": "live",
+          "method": "similarity"
+        }
+      }
+    },
+    "repeat_blackhole-horizon": {
+      "ok": true,
+      "result": {
+        "item_id": "157336",
+        "question": "블랙홀의 사건의 지평선은 무엇이며 빛이 빠져나올 수 있는가?",
+        "history": [],
+        "sources": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "source": "TMDB 제공 데이터",
+            "source_kind": "metadata",
+            "title": "인터스텔라",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "source_type": "항목 메타데이터",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+            "movie_id": "157336"
+          },
+          {
+            "id": "157336:95098:14",
+            "text": "블랙홀의 가장 결정적인 특징은 사건의 지평선의 존재이다. 사건의 지평선은 물질과 빛이 블랙홀의 질량을 향해 안으로 들어갈 수만 있고 밖으로 나올 수는 없는 시공간상의 경계이다. 그 무엇도, 심지어 빛마저, 사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 없다. 사건의 지평선이라는 이름은 그 경계에서 ‘사건(event)’이 벌어지며 그 사건에 대한 정보는 외부의 관찰자에게 도달할 수 없어 그 사건이 벌어졌는지 여부조차 알 수 없다는 의미를 갖고 있다.\n일반상대론에 의해 예측되는 바에 따르면, 질량의 존재는 시공간을 왜곡시켜 입자의 경로를 그 질량 방향으로 구부러지게 만든다. 블랙홀의 사건의 지평선에서는 이 왜곡이 매우 심해져서 블랙홀 바깥으로 향하는 경로가 존재할 수 없게 된다.\n멀리 떨어진 외부 관찰자가 보기에, 블랙홀 근처의 시계는 블랙홀에서 멀리 떨어진 시계보다 더 느리게 가는 것처럼 보인다(중력적 시간지연). 이 효과에 의해 블랙홀로 낙하하는 물체는 사건의 지평선에 가까워질수록 점점 느려지는 것처럼 보이고, 사건의 지평선에 닿기까지 걸리는 시간은 무한대가 된다. 즉 사건의 지평선에 닿는 것이 외부에서는 관찰될 수 없다. 외부의 고정된 관찰자가 보기에 이 물체의 모든 과정은 느려지는 것처럼 보이기에, 물체에서 방출되는 빛도 점점 파장이 길어지고 어두워진다(중력적 적색편이). 최종적으로 낙하하는 물체는 너무 어두워져서 보이지 않게 된다.\n한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.",
+            "page_id": "95098",
+            "title": "블랙홀",
+            "source": "한국어 위키백과",
+            "source_kind": "wiki",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "collected_at": "2026-09-09",
+            "page": 0,
+            "license": "CC BY-SA 4.0",
+            "related_movie": "인터스텔라",
+            "search_query": "블랙홀 사건의 지평선",
+            "source_type": "외부 문서",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "file_id": "",
+            "movie_id": "157336",
+            "chunk_index": 14
+          },
+          {
+            "id": "157336:95098:0",
+            "text": "블랙홀(영어: black hole)은 중성자별이 되지 못한 항성이 진화의 최종 단계에서 폭발 후 수축되어 생성된 것으로 추측되는, 강력한 밀도와 중력으로 전자기 복사, 빛을 포함한 그 무엇도 빠져나올 수 없는 시공간 영역이다. 일반 상대성이론은 충분히 밀집된 질량이 시공을 뒤틀어 블랙홀을 형성할 수 있음을 예측한다. 블랙홀로부터의 탈출이 불가능해지는 경계를 사건의 지평선(event horizon)이라고 한다. 어떤 물체가 사건의 지평선을 넘어갈 경우, 그 물체에게는 파멸적 영향이 가해지겠지만, 바깥 관찰자에게는 속도가 점점 느려져 그 경계에 영원히 닿지 않는 것처럼 보인다. 블랙홀은 빛을 반사하지 않기에 이상적 흑체처럼 행동한다. 또한 휘어진 시공간의 양자장론에 따르면 사건의 지평선은 블랙홀의 질량에 반비례하는 온도를 가진 흑체 같은 스펙트럼의 열복사를 방출하며, 이를 호킹 복사라고 한다. 항성질량 블랙홀의 경우 이 온도가 수 십억 분의 1 켈빈 수준이기에 그 열 복사를 관측하는 것은 본질적으로 불가능하다.\n중력장이 너무 강해서 빛이 탈출할 수 없는 천체의 개념은 18세기에 존 미첼과 피에르시몽 드 라플라스 후작이 처음 생각해냈으며, 블랙홀로 특징지어지는 일반상대론의 최초의 근대적 해는 1916년 카를 슈바르츠실트가 발견했다. 다만 아무것도 탈출할 수 없는 공간상의 영역이라는 해석은 1958년 데이비드 핀켈스타인의 논문에서 처음 등장했다. 블랙홀은 오랫동안 수학적 관심의 대상이 되었다. 1960년대에는 블랙홀이 일반상대론에서 유도됨을 증명하는 이론적 연구들이 행해졌다. 중성자별의 발견은 중력붕괴한 밀집성이 천체물리학적 실체로서 존재할 가능성에 대한 관심을 촉발시켰다.",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "collected_at": "2026-09-09",
+            "related_movie": "인터스텔라",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "file_id": "",
+            "page_id": "95098",
+            "license": "CC BY-SA 4.0",
+            "movie_id": "157336",
+            "source_type": "외부 문서",
+            "source": "한국어 위키백과",
+            "chunk_index": 0,
+            "source_kind": "wiki",
+            "search_query": "블랙홀 사건의 지평선",
+            "page": 0,
+            "title": "블랙홀",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624"
+          },
+          {
+            "id": "157336:95098:15",
+            "text": "한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.\n블랙홀의 사건의 지평선의 모양은 언제나 대략적 구형이다. 회전하지 않는 블랙홀의 경우 사건의 지평선은 정확한 구형을 이루고, 회전하는 블랙홀은 사건의 지평선이 약간 짜부라진 회전타원체가 된다.",
+            "source_type": "외부 문서",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "chunk_index": 15,
+            "search_query": "블랙홀 사건의 지평선",
+            "source_kind": "wiki",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "movie_id": "157336",
+            "collected_at": "2026-09-09",
+            "title": "블랙홀",
+            "page_id": "95098",
+            "license": "CC BY-SA 4.0",
+            "page": 0,
+            "related_movie": "인터스텔라",
+            "file_id": "",
+            "source": "한국어 위키백과"
+          },
+          {
+            "id": "157336:95098:41",
+            "text": "1971년, 호킹은 일반적 상황에서 고전적 블랙홀의 사건의 지평선의 총 면적은 어떠한 경우에도 감소하지 않으며, 심지어 충돌하거나 융합할 때도 그러하다는 것을 보였다. 이것을 오늘날 블랙홀역학 제2법칙이라고 부르는데, 이는 계의 총 엔트로피가 절대 감소하지 않는다는 열역학 제2법칙과 놀랄 만큼 유사하다. 그전까지 절대영도의 온도를 가진 고전적 천체로서 블랙홀은 0의 엔트로피를 가진다고 생각되었다. 그러나 만일 그렇다면 엔트로피를 가진 물질이 블랙홀로 들어갈 때 우주의 총 엔트로피가 감소함으로써 열역학 제2법칙이 위반되게 된다. 하여 베켄슈타인은 블랙홀도 엔트로피를 가져야 하며, 그 크기는 사건의 지평선의 면적에 비례한다고 주장했다.\n호킹이 양자장론에 따르면 블랙홀은 일정 온도의 흑체복사를 방출한다는 것을 예측함으로써 블랙홀과 열역학 법칙 사이의 관계는 더욱 강화되었다. 이 복사로 인하여 블랙홀의 에너지가 바깥으로 빠져나가 블랙홀이 줄어들기 때문에 이는 언뜻 보기에 블랙홀역학 제2법칙을 위반하는 것처럼 보인다. 하지만 에너지 뿐 아니라 엔트로피도 복사를 통해 빠져나가며, 일반적 가정 하에서 블랙홀 주위의 물질과 사건의 지평선의 4분의 1의 엔트로피의 총합은 플랑크 단위계에서 언제나 증가함을 증명할 수 있다. 이로써 열역학 제1법칙에 대응하는 블랙홀역학 제1법칙이 성립한다. 질량은 에너지, 표면중력은 온도, 면적은 엔트로피에 대응한다.\n한 가지 혼란스러울 수 있는 점은 보통의 엔트로피는 계의 부피와 선형의 관계를 갖는 크기 성질인 데 반해 블랙홀의 엔트로피는 그 부피가 아닌 면적에 비례한다는 사실이다. 이 특이함을 설명하기 위해 헤라르뒤스 엇호프트와 레너드 서스킨드는 시공간상의 어떤 부피 안에서 일어나는 일은 그 부피의 경계의 데이터로 설명될 수 있다는 홀로그래피 원리를 제안했다.",
+            "collected_at": "2026-09-09",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "source": "한국어 위키백과",
+            "file_id": "",
+            "license": "CC BY-SA 4.0",
+            "chunk_index": 41,
+            "related_movie": "인터스텔라",
+            "page_id": "95098",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "source_kind": "wiki",
+            "search_query": "블랙홀 사건의 지평선",
+            "movie_id": "157336",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source_type": "외부 문서",
+            "page": 0,
+            "title": "블랙홀"
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p3:2",
+            "text": "Black Hole Features and Behaviors\nAccretion disks. The combination of \ngravity, magnetic fi elds, and motion \nheats the orbiting material, which glows \nat multiple wavelengths.\nVisualization\nGravitational lensing. Massive objects \nlike black holes can bend and distort light \nfrom more distant objects.\nSimulation\nJets. High-speed particle jets give off \ndifferent wavelengths of light and produce \nneutrinos that speed across space.\nIllustration\nGravitational waves. Massive orbiting \nobjects create space-time ripples.\nSimulation\n1 3\n2 4",
+            "movie_id": "157336",
+            "source": "NASA Goddard Space Flight Center",
+            "source_type": "외부 문서",
+            "chunk_index": 2,
+            "related_movie": "인터스텔라",
+            "source_kind": "pdf",
+            "title": "A Field Guide to Black Holes · 3쪽",
+            "file_id": "nasa-black-hole-field-guide",
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=3",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+            "index_signature": "cdd09207a6a03ef359c84bdbb62b1d52f09830da441c6da1908f25d4a43d1b76",
+            "collected_at": "2026-10-21",
+            "page_id": "pdf:nasa-black-hole-field-guide:p3",
+            "page": 3,
+            "search_query": "등록된 영화 배경 PDF"
+          }
+        ],
+        "answer": "블랙홀의 **사건의 지평선(event horizon)** 은 **물질과 빛이 블랙홀의 질량(방향)을 향해 “안으로 들어갈 수는 있지만”, 바깥으로는 나올 수 없는 시공간상의 경계**입니다. [근거 2]  \n즉 **사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 있는 것은 그 무엇도(심지어 빛도) 없습니다.** [근거 2]\n\n따라서 질문 “빛이 빠져나올 수 있는가?”에 대한 답은 **불가능**입니다. [근거 2]  \n(바깥 관찰자 관점에서는 사건의 지평선에 가까워질수록 시간이 무한히 느려지고, 방출되는 빛도 점점 어두워져 관측이 어려워진다고 설명됩니다. [근거 2])",
+        "collection": {
+          "keywords": [
+            "인터스텔라 2014 영화",
+            "블랙홀 사건의 지평선",
+            "사건의 지평선",
+            "빛이 빠져나올 수 있는가"
+          ],
+          "queries": [
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [
+                "인터스텔라"
+              ],
+              "mode": "bundle",
+              "query": "인터스텔라 2014 영화",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "95098",
+                "174881"
+              ],
+              "accepted": [
+                "블랙홀",
+                "초대질량 블랙홀"
+              ],
+              "rejected": [
+                "웜홀",
+                "존 아치볼드 휠러"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "블랙홀 사건의 지평선",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "95098",
+                "174881"
+              ],
+              "accepted": [
+                "블랙홀",
+                "초대질량 블랙홀"
+              ],
+              "rejected": [],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "사건의 지평선",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "95098"
+              ],
+              "accepted": [
+                "블랙홀"
+              ],
+              "rejected": [
+                "웜홀",
+                "일반 상대성이론",
+                "제트추진연구소",
+                "중력"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "빛이 빠져나올 수 있는가",
+              "cached": true
+            }
+          ],
+          "warnings": [],
+          "keyword_cache": true,
+          "pdf": {
+            "pages": 3,
+            "updated_chunks": 0,
+            "warnings": []
+          }
+        },
+        "timings": {
+          "preparation": 0.023,
+          "rag": 1.8524,
+          "total": 1.8754
+        },
+        "metrics": {
+          "at": "2026-10-21T04:52:52.885479+00:00",
+          "item_id": "157336",
+          "question_hash": "6c222b0ccdc1a732d86998cc4cd595561ec497395cc37d6f5106867e82d415d3",
+          "timings": {
+            "preparation": 0.023,
+            "rag": 1.8524,
+            "total": 1.8754
+          },
+          "collection_cached": true,
+          "budget_seconds": 30.0,
+          "within_budget": true,
+          "measurement_mode": "live",
+          "method": "similarity"
+        }
+      }
+    },
+    "repeat_blackhole-types": {
+      "ok": true,
+      "result": {
+        "item_id": "157336",
+        "question": "관측된 블랙홀의 주요 두 질량 범주와 각각의 대략적 질량 범위는?",
+        "history": [],
+        "sources": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "source_type": "항목 메타데이터",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+            "source": "TMDB 제공 데이터",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "source_kind": "metadata",
+            "title": "인터스텔라",
+            "movie_id": "157336"
+          },
+          {
+            "id": "157336:95098:10",
+            "text": "물리적 성질\n\n가장 간단한 블랙홀은 질량만 있고 전하나 각운동량을 가지지 않는 블랙홀이다. 이러한 블랙홀은 1916년 아인슈타인 방정식의 해를 발견한 카를 슈바르츠실트의 이름을 붙여 슈바르츠실트 블랙홀이라고 한다. 버코프의 정리에 따르면, 슈바르츠실트의 해는 구대칭적인 유일한 진공해이다. 이것은 다시 말해 어떤 블랙홀의 중력장과 그 블랙홀과 같은 질량을 가진 다른 구형 물체의 중력장 사이에는 관찰 가능한 차이점이 없다는 것을 의미한다. 때문에 블랙홀을 주위의 모든 것을 빨아들이는 존재라고 이해하는 대중적 관념은 오로지 블랙홀의 지평선 주위에서만 옳다. 멀리 떨어진 곳에서는 블랙홀의 외부 중력장은 같은 질량을 가진 다른 천체의 중력장과 동일하다.\n보다 일반적인 형태의 블랙홀에 대한 해 역시 존재한다. 회전하지는 않고 전하만 가진 블랙홀은 라이스너–노르드스트룀 계량을 따르며 이를 라이스너–노르드스트룀 블랙홀이라고 부른다. 한편 전하는 없고 회전하는(즉 각운동량을 가진) 블랙홀은 커 계량을 따르며 이를 커 블랙홀이라고 한다. 가장 일반적인 정지 블랙홀 해는 커–뉴먼 계량으로서, 전하와 각운동량을 모두 가진 블랙홀이 이를 따른다.\n블랙홀의 질량은 모든 양수값이 가능한 반면, 전하량과 각운동량은 질량에 의해 제한된다. 플랑크 단위로, 블랙홀의 총 전하량 \n  \n    \n      \n        Q\n      \n    \n    {\\displaystyle Q}\n  \n와 총 각운동량 \n  \n    \n      \n        J\n      \n    \n    {\\displaystyle J}\n  \n는 다음 관계를 만족시킬 것으로 예측된다.",
+            "file_id": "",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source_kind": "wiki",
+            "page_id": "95098",
+            "title": "블랙홀",
+            "page": 0,
+            "related_movie": "인터스텔라",
+            "movie_id": "157336",
+            "source_type": "외부 문서",
+            "source": "한국어 위키백과",
+            "search_query": "블랙홀 사건의 지평선",
+            "collected_at": "2026-09-09",
+            "license": "CC BY-SA 4.0",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "chunk_index": 10
+          },
+          {
+            "id": "157336:95098:12",
+            "text": "블랙홀은 대개 각운동량이나 전하량과는 독립적으로 질량에 따라 분류된다. 블랙홀의 크기는 사건의 지평선 반경, 또는 슈바르츠실트 반경에 의해 결정된다.\n\n  \n    \n      \n        \n          r\n          \n            \n              s\n              h\n            \n          \n        \n        =\n        \n          \n            \n              2\n              G\n              M\n            \n            \n              c\n              \n                2\n              \n            \n          \n        \n        ≈\n        2.95\n        \n        \n          \n            \n              M\n            \n            \n              \n                M\n                \n                  ⊙\n                \n              \n            \n          \n        \n         \n        \n          k\n          m\n          ,\n        \n      \n    \n    {\\displaystyle r_{\\mathrm {sh} }={\\frac {2GM}{c^{2}}}\\approx 2.95\\,{{M} \\over {M_{\\odot }}}~\\mathrm {km,} }",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "search_query": "블랙홀 사건의 지평선",
+            "collected_at": "2026-09-09",
+            "source": "한국어 위키백과",
+            "source_kind": "wiki",
+            "page": 0,
+            "related_movie": "인터스텔라",
+            "title": "블랙홀",
+            "page_id": "95098",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "source_type": "외부 문서",
+            "license": "CC BY-SA 4.0",
+            "chunk_index": 12,
+            "movie_id": "157336",
+            "file_id": "",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80"
+          },
+          {
+            "id": "157336:95098:11",
+            "text": "Q\n          \n            2\n          \n        \n        +\n        \n          \n            (\n            \n              \n                \n                  J\n                  M\n                \n              \n            \n            )\n          \n          \n            2\n          \n        \n        ≤\n        \n          M\n          \n            2\n          \n        \n        \n      \n    \n    {\\displaystyle Q^{2}+\\left({\\tfrac {J}{M}}\\right)^{2}\\leq M^{2}\\,}\n  \n\n이때 \n  \n    \n      \n        M\n      \n    \n    {\\displaystyle M}\n  \n은 블랙홀의 질량이다. 이 부등식을 만족하는 블랙홀을 임계 블랙홀이라고 한다. 이 부등식을 만족하지 않는 아인슈타인 방정식의 해도 존재하지만 그런 경우에는 사건의 지평선을 갖지 않는다. 이러한 해를 벌거숭이 특이점이라고 하는데, 외부에서 관찰이 가능하기에 물리적으로 불가능할 것으로 간주된다. 우주 검열 가설은 현실적 물질이 중력붕괴할 때 이러한 특이점은 형성될 수 없다고 배제시키며, 이는 수치적 시뮬레이션 결과들에 의해 지지받는다.\n상대적으로 큰 전자기력에 의해, 항성이 붕괴하여 형성되는 블랙홀은 전하가 거의 중성인 항성의 상태를 유지할 것으로 추측된다. 그러나 회전은 밀집천체들에서 흔하게 나타나는 현상일 것으로 생각된다. 블랙홀 후보 천체인 엑스선원 쌍성계 GRS 1915+105은 허용된 최대치에 근사하는 각운동량을 갖는 것으로 보인다.",
+            "source_type": "외부 문서",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source_kind": "wiki",
+            "page": 0,
+            "title": "블랙홀",
+            "collected_at": "2026-09-09",
+            "page_id": "95098",
+            "file_id": "",
+            "movie_id": "157336",
+            "chunk_index": 11,
+            "related_movie": "인터스텔라",
+            "source": "한국어 위키백과",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "license": "CC BY-SA 4.0",
+            "search_query": "블랙홀 사건의 지평선"
+          },
+          {
+            "id": "157336:174881:1",
+            "text": "설명\n초대질량 블랙홀들은 고전적으로 질량이 100,000 (105) 태양질량(M☉)이상인 블랙홀로 정의된다; 일부는 수십억 M☉의 질량을 가지고 있다. 초대질량 블랙홀은 질량이 낮은 분류들과와명확하게 구별되는 물리적 특성을 가지고 있다. 첫째, 사건 지평선 부근의 조석력은 초대질량 블랙홀의 경우 상당히 더 약하다. 블랙홀의 사건 지평선에 있는 물체에 가해지는 조석력은 블랙홀 질량의 제곱에 반비례한다; 천만 M☉ 블랙홀의 사건 지평선에 있는 사람은 지구 표면에 있는 사람과 머리와 발 사이에 거의 같은 조석력을 경험한다. 항성질량 블랙홀과는 달리, 사람은 블랙홀의 사건 지평선 깊숙한 곳까지 상당한 조석력을 경험하지 못한다.\n사건 지평선 내 SMBH의 평균 밀도(블랙홀의 질량을 슈바르츠실트 반경 내 공간의 부피로 나눈 값으로 정의된)가 물의 밀도보다 작을 수 있다는 점은 다소 직관적이지 않다. 이것은 슈바르츠실트 반경(\n  \n    \n      \n        \n          r\n          \n            s\n          \n        \n      \n    \n    {\\displaystyle r_{\\text{s}}}\n  \n)이 질량에 정비례하기 때문이다. 한 구형 천체(비회전 블랙홀의 사건 지평선 같은)의 부피는 반경의 세제곱에 정비례하고, 블랙홀의 밀도는 질량의 제곱에 반비례하므로 따라서 질량이 더 큰 블랙홀은 평균 밀도가 더 낮다.\n약 10억 M☉의 회전하지 않고 충전되지 않은 초대질량 블랙홀의 사건 지평선의 슈바르츠실트 반경은 약 19AU인 천왕성 궤도의 긴반지름축과 비슷하다..\n일부 천문학자들은 50억 M☉이상의 블랙홀을 '극초대질량 블랙홀'(UMBH 또는 UBH)라고 부르지만, 그 용어는 광범위하게 사용되지는 않는다. 가능한 예들로는 가장 거대한 블랙홀들로 알려진 TON 618, NGC 6166, ESO 444-46 및 NGC 4889의 중심부에 있는 블랙홀들이 포함된다.",
+            "related_movie": "인터스텔라",
+            "file_id": "",
+            "chunk_index": 1,
+            "license": "CC BY-SA 4.0",
+            "source_kind": "wiki",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "movie_id": "157336",
+            "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+            "title": "초대질량 블랙홀",
+            "search_query": "블랙홀 사건의 지평선",
+            "source_type": "외부 문서",
+            "collected_at": "2026-09-11",
+            "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+            "page_id": "174881",
+            "page": 0,
+            "source": "한국어 위키백과"
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p2:0",
+            "text": "Basic Black Hole Anatomy\nBlack holes are physical objects in space, just like stars and planets. They \nhave so much mass packed into such a small sphere that nothing, not even \nlight, can escape their gravity.\nFeatures all have in common\nEvent horizon: the black hole’s “surface” — \nthe point of no return\nSpin: how fast depends on the individual \nOther potential characteristics\nAccretion disk: made of hot gas and dust \nJets: fast-moving streams of matter ejected at \nright angles to the disk\nMost known black holes fall into two broad groups\nStellar-mass: ﬁ ve to dozens of times \nthe Sun’s mass\nSupermassive: hundreds of thousands \nto billions of times the Sun’s mass\n† Results subject to possible changes based on future research.\nPrimordial (Hypothetical†)\nOrigins: These theoretical black holes were born in the ﬁ rst second after \nthe big bang, 13.8 billion years ago. Because they’re not produced by \nsupernovae, some could potentially be less massive than our Sun. They",
+            "collected_at": "2026-10-21",
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+            "source_kind": "pdf",
+            "index_signature": "54cce2f5a14290ae7e7cdf3c8f6e9141bf6ee5cc71914923fcdf0d4a2a7e1b3d",
+            "search_query": "등록된 영화 배경 PDF",
+            "related_movie": "인터스텔라",
+            "movie_id": "157336",
+            "title": "A Field Guide to Black Holes · 2쪽",
+            "source_type": "외부 문서",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "page_id": "pdf:nasa-black-hole-field-guide:p2",
+            "file_id": "nasa-black-hole-field-guide",
+            "page": 2,
+            "source": "NASA Goddard Space Flight Center",
+            "chunk_index": 0,
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=2"
+          }
+        ],
+        "answer": "관측된 블랙홀은 문서에서 “두 가지 큰 범주”로 구분되며, 각각의 대략적 질량 범위는 다음과 같습니다.\n\n1) **항성질량 블랙홀 (Stellar-mass)**: **“five to dozens of times the Sun’s mass”** → 문서 원문 기준으로 **태양질량의 5배부터 수십 배(dozens)** 범위 [근거 6]\n\n2) **초대질량 블랙홀 (Supermassive)**: **“hundreds of thousands to billions of times the Sun’s mass”** → 문서 원문 기준으로 **태양질량의 수십만 배(hundreds of thousands)부터 수십억 배(billions)** 범위 [근거 6]",
+        "collection": {
+          "keywords": [
+            "인터스텔라 2014 영화",
+            "관측된 블랙홀 질량 범주",
+            "항성 질량 블랙홀 질량 범위",
+            "중간 질량 블랙홀 질량 범위"
+          ],
+          "queries": [
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [
+                "인터스텔라"
+              ],
+              "mode": "bundle",
+              "query": "인터스텔라 2014 영화",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "95098",
+                "174881"
+              ],
+              "accepted": [
+                "블랙홀",
+                "초대질량 블랙홀"
+              ],
+              "rejected": [
+                "웜홀",
+                "일반 상대성이론",
+                "존 아치볼드 휠러"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "관측된 블랙홀 질량 범주",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "95098"
+              ],
+              "accepted": [
+                "블랙홀"
+              ],
+              "rejected": [
+                "중력",
+                "초대질량 블랙홀",
+                "일반 상대성이론",
+                "웜홀"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "항성 질량 블랙홀 질량 범위",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "174881"
+              ],
+              "accepted": [
+                "초대질량 블랙홀"
+              ],
+              "rejected": [
+                "블랙홀",
+                "일반 상대성이론",
+                "중력",
+                "웜홀"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "중간 질량 블랙홀 질량 범위",
+              "cached": true
+            }
+          ],
+          "warnings": [],
+          "keyword_cache": true,
+          "pdf": {
+            "pages": 3,
+            "updated_chunks": 0,
+            "warnings": []
+          }
+        },
+        "timings": {
+          "preparation": 0.0205,
+          "rag": 1.6654,
+          "total": 1.6859
+        },
+        "metrics": {
+          "at": "2026-10-21T04:52:54.579700+00:00",
+          "item_id": "157336",
+          "question_hash": "e281f8e7dc8982634c4cd4a9bfc92fafb7af8cb275a8e682ea3d9b4dcf15b484",
+          "timings": {
+            "preparation": 0.0205,
+            "rag": 1.6654,
+            "total": 1.6859
+          },
+          "collection_cached": true,
+          "budget_seconds": 30.0,
+          "within_budget": true,
+          "measurement_mode": "live",
+          "method": "similarity"
+        }
+      }
+    },
+    "repeat_unknown-prop-number": {
+      "ok": true,
+      "result": {
+        "item_id": "157336",
+        "question": "쿠퍼가 착용한 우주복 소품의 제조 일련번호 전체를 알려줘.",
+        "history": [],
+        "sources": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+            "source_type": "항목 메타데이터",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "movie_id": "157336",
+            "title": "인터스텔라",
+            "source": "TMDB 제공 데이터",
+            "source_kind": "metadata"
+          },
+          {
+            "id": "157336:986156:1",
+            "text": "줄거리\n21세기 중반, 인류는 잦은 황사와 병충해로 식량 작물이 죽어가면서 멸종 위기에 처한다. 전직 NASA 파일럿이자 사별 후 홀로 지내는 조셉 쿠퍼는 장인 도널드, 아들 톰, 딸 머피와 함께 농부로 일하며 살아간다. 쿠퍼는 머피에게 아폴로 계획이 조작된 것이 아니라고 말했다가 학교 선생님에게 질책을 받는다. 어느 날 먼지 폭풍이 불고 난 뒤, 두 사람은 머피의 방에 쌓인 먼지 패턴이 처음에는 유령 때문이라 생각했지만, 실제로는 중력 이상 현상으로 생긴 것임을 발견하고 이를 지리 좌표로 해독한다. 좌표를 따라 도착한 곳은 존 브랜드 교수가 이끄는 비밀 NASA 시설이었다. 브랜드 교수는 48년 전 토성 근처에 웜홀이 나타났으며, 이를 통해 '가르강튀아'라는 블랙홀 근처에 있는 12개의 거주 가능 행성이 위치한 다른 은하계로 갈 수 있다고 설명한다. 앞서 '나사로 프로젝트'의 지원자들이 웜홀을 통해 행성들을 탐사했고, 그중 밀러, 에드먼즈, 만 세 사람이 긍정적인 신호를 보내왔다는 것이다.\n쿠퍼는 인류의 생존을 위해 5,000개의 동결 배아를 싣고 웜홀을 통과해 거주 가능한 행성을 식민지화하는 임무를 맡아 인듀어런스호의 조종사로 발탁된다. 한편, 브랜드 교수는 지구를 떠날 우주선 건조를 가능하게 할 중력 방정식을 푸는 연구를 계속하기로 한다. 쿠퍼는 머피의 반대에도 불구하고 임무를 수락하고 돌아오겠다는 약속을 한다. 머피가 작별 인사를 거부하자, 쿠퍼는 자신이 돌아왔을 때의 상대성 시간을 비교할 수 있도록 손목시계를 남겨두고 떠난다.\n쿠퍼, 로봇 타스(TARS)와 케이스(CASE), 과학자 아멜리아 브랜드(브랜드 교수의 딸), 로밀리, 도일로 구성된 승무원들은 2년의 항해 끝에 토성에 도착해 웜홀을 통과한다. 쿠퍼, 도일, 브랜드는 탐사선을 타고 시간이 극심하게 지연되는 밀러 행성으로 향한다. 무릎 높이의 물로 덮인 행성에 착륙하여 밀러 탐사대의 잔해만 발견한 직후, 거대한 해일이 덮쳐 도일이 사망하고 탐사선 엔진이 침수된다.",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "source": "한국어 위키백과",
+            "source_kind": "wiki",
+            "related_movie": "인터스텔라",
+            "license": "CC BY-SA 4.0",
+            "file_id": "",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "movie_id": "157336",
+            "source_type": "외부 문서",
+            "title": "인터스텔라",
+            "search_query": "인터스텔라 2014 영화",
+            "collected_at": "2026-09-09",
+            "chunk_index": 1,
+            "page_id": "986156",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "page": 0
+          },
+          {
+            "id": "157336:986156:3",
+            "text": "임무를 다한 테서랙트는 붕괴되고 쿠퍼와 타스는 우주로 방출된다. 쿠퍼는 토성 궤도를 도는 우주 정거장에서 깨어난다. 그는 임종을 앞둔 노인 머피와 재회하고, 머피는 그에게 브랜드를 찾아가라고 말한다. 쿠퍼와 타스는 우주선을 타고, 에드먼즈 행성에서 인류 식민지를 건설하고 있는 브랜드와 케이스에게 합류하기 위해 떠난다.",
+            "url": "https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC",
+            "page": 0,
+            "collected_at": "2026-09-09",
+            "source": "한국어 위키백과",
+            "source_type": "외부 문서",
+            "related_movie": "인터스텔라",
+            "chunk_index": 3,
+            "file_id": "",
+            "movie_id": "157336",
+            "search_query": "인터스텔라 2014 영화",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source_kind": "wiki",
+            "title": "인터스텔라",
+            "page_id": "986156",
+            "index_signature": "1b4e09bc6ff1c9d757f63655ec1c6a0847c761bcec6ae16b02c8c14cc4905398",
+            "license": "CC BY-SA 4.0"
+          },
+          {
+            "id": "157336:174881:12",
+            "text": "퀘이사 및 은하핵 내의 현대의 극초대질량 블랙홀(UMBH)은 강착원반을 통하고 또한 현재 우주의 나이를 고려할 때, 약 (5-27)×1010M☉이상으로 성장할 수 없지만, 우주의 이러한 괴물 블랙홀들 중 일부는 우주의 극히 먼 미래에 은하의 초은하단이 붕괴되는 동안에는 아마도 1014M☉의 엄청나게 커다란 질량까지 계속 성장할 것으로 예측된다.",
+            "file_id": "",
+            "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+            "page": 0,
+            "related_movie": "인터스텔라",
+            "source_type": "외부 문서",
+            "chunk_index": 12,
+            "source": "한국어 위키백과",
+            "page_id": "174881",
+            "license": "CC BY-SA 4.0",
+            "search_query": "블랙홀 사건의 지평선",
+            "source_kind": "wiki",
+            "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "collected_at": "2026-09-11",
+            "title": "초대질량 블랙홀",
+            "movie_id": "157336"
+          },
+          {
+            "id": "157336:174881:7",
+            "text": "형성\n\n초대질량 블랙홀의 기원은 여전히 활발한 연구 분야이다. 천체물리학자들은 블랙홀이 물질의 강착과 다른 블랙홀과의 병합을 통해 성장할 수 있다는 데 동의한다. 초대질량 블랙홀의 조상들, 즉 \"씨앗들\"의 형성 메커니즘과 초기 질량에 대한 몇 가지 가설들이 있다. 블랙홀 씨앗의 특정 형성 채널과는 별개로, 근처에 충분한 질량이 주어지면, 그것은 축적되어 중간 질량 블랙홀이 될 수 있으며, 축적 속도가 지속되면 또한 SMBH가 될 수도 있다.\nQSO J0313–1806 및 ULAS J1342+0928과 같은 원거리의 초기 초대질량 블랙홀들은 대폭발(빅뱅) 직후라서 설명하기 어렵다. 어떤 사람들은 그것들이 자기 상호작용을 가진 암흑 물질의 직접 붕괴에서 비롯된 것이라고 가정한다. 소수의 출처들은 이러한 초대질량 블랙홀이 대폭발 이전에 형성되어, 우주가 대폭발 대신에, 빅 바운스의 결과라는 증거 일 수 있다고 주장한다.\n\n\n첫 번째 별\n\n초기의 조상 항성의 씨앗들은 대질량의 별들의 폭발로 남겨진 수십 또는 수백 M☉의 블랙홀들일 수 있으며, 물질의 강착에 의해 성장한다. 또 다른 모형은 시스템의 음의 열용량이 중심부 내에서 속도 분산을 상대론적 속도로 유도하여 중심부 붕괴를 겪는 한 조밀한 성단을 포함한다.\n최초의 별 이전에, 큰 가스 구름은 \"쿼시 별\"로 붕괴되어 약 20M☉의 블랙홀로 붕괴될 수 있다. 이 별들은 또한 중력에 의해 엄청난 양의 가스를 끌어 당기는 암흑 물질 헤일로에 의해 형성되었을 수 있으며, 이는 수만 M☉의 초대질량 별들을 생성할 것이다. \"쿼시 별\"은 핵에서 전자-양전자 쌍생성으로 인해 방사형 섭동에 불안정해지고 어떤 초신성 폭발 없이 블랙홀로 직접 붕괴할 수 있다 (대부분의 질량을 방출하여, 블랙홀이 빠르게 성장하는 것을 방지한다).\n보다 최근의 이론에 따르면 SMBH 씨앗은 각각 질량이 약 100,000M☉인 초대질량 별의 붕괴로 인해 초기 우주에서 형성되었다고 한다.",
+            "file_id": "",
+            "license": "CC BY-SA 4.0",
+            "source_kind": "wiki",
+            "page_id": "174881",
+            "search_query": "블랙홀 사건의 지평선",
+            "title": "초대질량 블랙홀",
+            "collected_at": "2026-09-11",
+            "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+            "source_type": "외부 문서",
+            "page": 0,
+            "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+            "chunk_index": 7,
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "한국어 위키백과",
+            "movie_id": "157336",
+            "related_movie": "인터스텔라"
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p4:2",
+            "text": "Find using: Accretion disks, jets, \ngravitational lensing, effects on nearby \nobjects\nExample: M87* (“*” is pronounced “star”) \nat the center of galaxy Messier 87, around \n55 million light-years away\n9\n8",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "page": 4,
+            "source_kind": "pdf",
+            "related_movie": "인터스텔라",
+            "source": "NASA Goddard Space Flight Center",
+            "index_signature": "19110ddf5d41fdc0fb51329b8d93e7847fa1430e23479b32683fc98e3c8a0d99",
+            "search_query": "등록된 영화 배경 PDF",
+            "title": "A Field Guide to Black Holes · 4쪽",
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=4",
+            "movie_id": "157336",
+            "file_id": "nasa-black-hole-field-guide",
+            "page_id": "pdf:nasa-black-hole-field-guide:p4",
+            "source_type": "외부 문서",
+            "collected_at": "2026-10-21",
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+            "chunk_index": 2
+          }
+        ],
+        "answer": "요청하신 **“쿠퍼가 착용한 우주복 소품의 제조 일련번호 전체”**는, 제공된 문서(인터스텔라 줄거리/배경 설명 등)에서는 **해당 일련번호(제조 번호)가 언급되거나 확인되지 않습니다.** [근거 1][근거 2][근거 3]  \n\n따라서 **문서에서 확인되지 않습니다.**",
+        "collection": {
+          "keywords": [
+            "인터스텔라 2014 영화",
+            "인터스텔라",
+            "쿠퍼 우주복 제조 일련번호",
+            "interstellar 쿠퍼 spacesuit serial number"
+          ],
+          "queries": [
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [
+                "인터스텔라"
+              ],
+              "mode": "bundle",
+              "query": "인터스텔라 2014 영화",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [
+                "크리스토퍼 놀란"
+              ],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "인터스텔라",
+              "cached": true
+            },
+            {
+              "page_ids": [],
+              "accepted": [],
+              "rejected": [],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "쿠퍼 우주복 제조 일련번호",
+              "cached": true
+            },
+            {
+              "page_ids": [
+                "986156"
+              ],
+              "accepted": [
+                "인터스텔라"
+              ],
+              "rejected": [],
+              "mandatory": [],
+              "mode": "bundle",
+              "query": "interstellar 쿠퍼 spacesuit serial number",
+              "cached": true
+            }
+          ],
+          "warnings": [],
+          "keyword_cache": true,
+          "pdf": {
+            "pages": 3,
+            "updated_chunks": 0,
+            "warnings": []
+          }
+        },
+        "timings": {
+          "preparation": 0.018,
+          "rag": 1.2031,
+          "total": 1.2212
+        },
+        "metrics": {
+          "at": "2026-10-21T04:52:55.808350+00:00",
+          "item_id": "157336",
+          "question_hash": "5e285d11ae2c32a422fb5988de1e27e13d136034263da3cc5b64b9ed79478975",
+          "timings": {
+            "preparation": 0.018,
+            "rag": 1.2031,
+            "total": 1.2212
+          },
+          "collection_cached": true,
+          "budget_seconds": 30.0,
+          "within_budget": true,
+          "measurement_mode": "live",
+          "method": "similarity"
+        }
+      }
+    },
+    "search_comparison": {
+      "ok": true,
+      "result": {
+        "similarity": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "source": "TMDB 제공 데이터",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+            "title": "인터스텔라",
+            "movie_id": "157336",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "source_type": "항목 메타데이터",
+            "source_kind": "metadata"
+          },
+          {
+            "id": "157336:95098:14",
+            "text": "블랙홀의 가장 결정적인 특징은 사건의 지평선의 존재이다. 사건의 지평선은 물질과 빛이 블랙홀의 질량을 향해 안으로 들어갈 수만 있고 밖으로 나올 수는 없는 시공간상의 경계이다. 그 무엇도, 심지어 빛마저, 사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 없다. 사건의 지평선이라는 이름은 그 경계에서 ‘사건(event)’이 벌어지며 그 사건에 대한 정보는 외부의 관찰자에게 도달할 수 없어 그 사건이 벌어졌는지 여부조차 알 수 없다는 의미를 갖고 있다.\n일반상대론에 의해 예측되는 바에 따르면, 질량의 존재는 시공간을 왜곡시켜 입자의 경로를 그 질량 방향으로 구부러지게 만든다. 블랙홀의 사건의 지평선에서는 이 왜곡이 매우 심해져서 블랙홀 바깥으로 향하는 경로가 존재할 수 없게 된다.\n멀리 떨어진 외부 관찰자가 보기에, 블랙홀 근처의 시계는 블랙홀에서 멀리 떨어진 시계보다 더 느리게 가는 것처럼 보인다(중력적 시간지연). 이 효과에 의해 블랙홀로 낙하하는 물체는 사건의 지평선에 가까워질수록 점점 느려지는 것처럼 보이고, 사건의 지평선에 닿기까지 걸리는 시간은 무한대가 된다. 즉 사건의 지평선에 닿는 것이 외부에서는 관찰될 수 없다. 외부의 고정된 관찰자가 보기에 이 물체의 모든 과정은 느려지는 것처럼 보이기에, 물체에서 방출되는 빛도 점점 파장이 길어지고 어두워진다(중력적 적색편이). 최종적으로 낙하하는 물체는 너무 어두워져서 보이지 않게 된다.\n한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.",
+            "chunk_index": 14,
+            "page_id": "95098",
+            "title": "블랙홀",
+            "source": "한국어 위키백과",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "file_id": "",
+            "collected_at": "2026-09-09",
+            "source_type": "외부 문서",
+            "search_query": "블랙홀 사건의 지평선",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "license": "CC BY-SA 4.0",
+            "related_movie": "인터스텔라",
+            "source_kind": "wiki",
+            "page": 0,
+            "movie_id": "157336"
+          },
+          {
+            "id": "157336:95098:0",
+            "text": "블랙홀(영어: black hole)은 중성자별이 되지 못한 항성이 진화의 최종 단계에서 폭발 후 수축되어 생성된 것으로 추측되는, 강력한 밀도와 중력으로 전자기 복사, 빛을 포함한 그 무엇도 빠져나올 수 없는 시공간 영역이다. 일반 상대성이론은 충분히 밀집된 질량이 시공을 뒤틀어 블랙홀을 형성할 수 있음을 예측한다. 블랙홀로부터의 탈출이 불가능해지는 경계를 사건의 지평선(event horizon)이라고 한다. 어떤 물체가 사건의 지평선을 넘어갈 경우, 그 물체에게는 파멸적 영향이 가해지겠지만, 바깥 관찰자에게는 속도가 점점 느려져 그 경계에 영원히 닿지 않는 것처럼 보인다. 블랙홀은 빛을 반사하지 않기에 이상적 흑체처럼 행동한다. 또한 휘어진 시공간의 양자장론에 따르면 사건의 지평선은 블랙홀의 질량에 반비례하는 온도를 가진 흑체 같은 스펙트럼의 열복사를 방출하며, 이를 호킹 복사라고 한다. 항성질량 블랙홀의 경우 이 온도가 수 십억 분의 1 켈빈 수준이기에 그 열 복사를 관측하는 것은 본질적으로 불가능하다.\n중력장이 너무 강해서 빛이 탈출할 수 없는 천체의 개념은 18세기에 존 미첼과 피에르시몽 드 라플라스 후작이 처음 생각해냈으며, 블랙홀로 특징지어지는 일반상대론의 최초의 근대적 해는 1916년 카를 슈바르츠실트가 발견했다. 다만 아무것도 탈출할 수 없는 공간상의 영역이라는 해석은 1958년 데이비드 핀켈스타인의 논문에서 처음 등장했다. 블랙홀은 오랫동안 수학적 관심의 대상이 되었다. 1960년대에는 블랙홀이 일반상대론에서 유도됨을 증명하는 이론적 연구들이 행해졌다. 중성자별의 발견은 중력붕괴한 밀집성이 천체물리학적 실체로서 존재할 가능성에 대한 관심을 촉발시켰다.",
+            "source": "한국어 위키백과",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "chunk_index": 0,
+            "page": 0,
+            "title": "블랙홀",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "related_movie": "인터스텔라",
+            "source_kind": "wiki",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "page_id": "95098",
+            "source_type": "외부 문서",
+            "collected_at": "2026-09-09",
+            "file_id": "",
+            "license": "CC BY-SA 4.0",
+            "search_query": "블랙홀 사건의 지평선",
+            "movie_id": "157336"
+          },
+          {
+            "id": "157336:95098:15",
+            "text": "한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.\n블랙홀의 사건의 지평선의 모양은 언제나 대략적 구형이다. 회전하지 않는 블랙홀의 경우 사건의 지평선은 정확한 구형을 이루고, 회전하는 블랙홀은 사건의 지평선이 약간 짜부라진 회전타원체가 된다.",
+            "license": "CC BY-SA 4.0",
+            "chunk_index": 15,
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "movie_id": "157336",
+            "title": "블랙홀",
+            "collected_at": "2026-09-09",
+            "page": 0,
+            "source_kind": "wiki",
+            "page_id": "95098",
+            "search_query": "블랙홀 사건의 지평선",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source": "한국어 위키백과",
+            "source_type": "외부 문서",
+            "related_movie": "인터스텔라",
+            "file_id": ""
+          },
+          {
+            "id": "157336:95098:41",
+            "text": "1971년, 호킹은 일반적 상황에서 고전적 블랙홀의 사건의 지평선의 총 면적은 어떠한 경우에도 감소하지 않으며, 심지어 충돌하거나 융합할 때도 그러하다는 것을 보였다. 이것을 오늘날 블랙홀역학 제2법칙이라고 부르는데, 이는 계의 총 엔트로피가 절대 감소하지 않는다는 열역학 제2법칙과 놀랄 만큼 유사하다. 그전까지 절대영도의 온도를 가진 고전적 천체로서 블랙홀은 0의 엔트로피를 가진다고 생각되었다. 그러나 만일 그렇다면 엔트로피를 가진 물질이 블랙홀로 들어갈 때 우주의 총 엔트로피가 감소함으로써 열역학 제2법칙이 위반되게 된다. 하여 베켄슈타인은 블랙홀도 엔트로피를 가져야 하며, 그 크기는 사건의 지평선의 면적에 비례한다고 주장했다.\n호킹이 양자장론에 따르면 블랙홀은 일정 온도의 흑체복사를 방출한다는 것을 예측함으로써 블랙홀과 열역학 법칙 사이의 관계는 더욱 강화되었다. 이 복사로 인하여 블랙홀의 에너지가 바깥으로 빠져나가 블랙홀이 줄어들기 때문에 이는 언뜻 보기에 블랙홀역학 제2법칙을 위반하는 것처럼 보인다. 하지만 에너지 뿐 아니라 엔트로피도 복사를 통해 빠져나가며, 일반적 가정 하에서 블랙홀 주위의 물질과 사건의 지평선의 4분의 1의 엔트로피의 총합은 플랑크 단위계에서 언제나 증가함을 증명할 수 있다. 이로써 열역학 제1법칙에 대응하는 블랙홀역학 제1법칙이 성립한다. 질량은 에너지, 표면중력은 온도, 면적은 엔트로피에 대응한다.\n한 가지 혼란스러울 수 있는 점은 보통의 엔트로피는 계의 부피와 선형의 관계를 갖는 크기 성질인 데 반해 블랙홀의 엔트로피는 그 부피가 아닌 면적에 비례한다는 사실이다. 이 특이함을 설명하기 위해 헤라르뒤스 엇호프트와 레너드 서스킨드는 시공간상의 어떤 부피 안에서 일어나는 일은 그 부피의 경계의 데이터로 설명될 수 있다는 홀로그래피 원리를 제안했다.",
+            "related_movie": "인터스텔라",
+            "movie_id": "157336",
+            "license": "CC BY-SA 4.0",
+            "source": "한국어 위키백과",
+            "source_kind": "wiki",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "search_query": "블랙홀 사건의 지평선",
+            "file_id": "",
+            "collected_at": "2026-09-09",
+            "source_type": "외부 문서",
+            "page": 0,
+            "title": "블랙홀",
+            "chunk_index": 41,
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "page_id": "95098"
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p3:2",
+            "text": "Black Hole Features and Behaviors\nAccretion disks. The combination of \ngravity, magnetic fi elds, and motion \nheats the orbiting material, which glows \nat multiple wavelengths.\nVisualization\nGravitational lensing. Massive objects \nlike black holes can bend and distort light \nfrom more distant objects.\nSimulation\nJets. High-speed particle jets give off \ndifferent wavelengths of light and produce \nneutrinos that speed across space.\nIllustration\nGravitational waves. Massive orbiting \nobjects create space-time ripples.\nSimulation\n1 3\n2 4",
+            "file_id": "nasa-black-hole-field-guide",
+            "source_type": "외부 문서",
+            "related_movie": "인터스텔라",
+            "movie_id": "157336",
+            "search_query": "등록된 영화 배경 PDF",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "page": 3,
+            "chunk_index": 2,
+            "index_signature": "cdd09207a6a03ef359c84bdbb62b1d52f09830da441c6da1908f25d4a43d1b76",
+            "source_kind": "pdf",
+            "source": "NASA Goddard Space Flight Center",
+            "title": "A Field Guide to Black Holes · 3쪽",
+            "collected_at": "2026-10-21",
+            "page_id": "pdf:nasa-black-hole-field-guide:p3",
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=3",
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용."
+          }
+        ],
+        "mmr": [
+          {
+            "id": "157336",
+            "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+            "title": "인터스텔라",
+            "source": "TMDB 제공 데이터",
+            "url": "https://www.themoviedb.org/movie/157336",
+            "source_type": "항목 메타데이터",
+            "source_kind": "metadata",
+            "movie_id": "157336",
+            "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d"
+          },
+          {
+            "id": "157336:95098:14",
+            "text": "블랙홀의 가장 결정적인 특징은 사건의 지평선의 존재이다. 사건의 지평선은 물질과 빛이 블랙홀의 질량을 향해 안으로 들어갈 수만 있고 밖으로 나올 수는 없는 시공간상의 경계이다. 그 무엇도, 심지어 빛마저, 사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 없다. 사건의 지평선이라는 이름은 그 경계에서 ‘사건(event)’이 벌어지며 그 사건에 대한 정보는 외부의 관찰자에게 도달할 수 없어 그 사건이 벌어졌는지 여부조차 알 수 없다는 의미를 갖고 있다.\n일반상대론에 의해 예측되는 바에 따르면, 질량의 존재는 시공간을 왜곡시켜 입자의 경로를 그 질량 방향으로 구부러지게 만든다. 블랙홀의 사건의 지평선에서는 이 왜곡이 매우 심해져서 블랙홀 바깥으로 향하는 경로가 존재할 수 없게 된다.\n멀리 떨어진 외부 관찰자가 보기에, 블랙홀 근처의 시계는 블랙홀에서 멀리 떨어진 시계보다 더 느리게 가는 것처럼 보인다(중력적 시간지연). 이 효과에 의해 블랙홀로 낙하하는 물체는 사건의 지평선에 가까워질수록 점점 느려지는 것처럼 보이고, 사건의 지평선에 닿기까지 걸리는 시간은 무한대가 된다. 즉 사건의 지평선에 닿는 것이 외부에서는 관찰될 수 없다. 외부의 고정된 관찰자가 보기에 이 물체의 모든 과정은 느려지는 것처럼 보이기에, 물체에서 방출되는 빛도 점점 파장이 길어지고 어두워진다(중력적 적색편이). 최종적으로 낙하하는 물체는 너무 어두워져서 보이지 않게 된다.\n한편, 블랙홀로 낙하하는 파괴될 수 없는 관찰자는 이러한 효과를 경험하지 못한다. 블랙홀로 낙하중인 관찰자가 보기에 자신의 시계는 멀쩡하게 작동하는 것처럼 보이며, 유한한 시간이 지난 후에 사건의 지평선을 넘어도 아무런 특이한 현상을 느끼지 못한다. 즉 사건의 지평선 가까이에서 관찰했을 때 사건의 지평선의 위치를 알아내는 것은 불가능하다.",
+            "collected_at": "2026-09-09",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "source_type": "외부 문서",
+            "page_id": "95098",
+            "source": "한국어 위키백과",
+            "related_movie": "인터스텔라",
+            "source_kind": "wiki",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "title": "블랙홀",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "search_query": "블랙홀 사건의 지평선",
+            "file_id": "",
+            "page": 0,
+            "license": "CC BY-SA 4.0",
+            "movie_id": "157336",
+            "chunk_index": 14
+          },
+          {
+            "id": "157336:174881:6",
+            "text": "2019년 4월 10일에, 사건 지평선 망원경{Event Horizon Telescope} 협업은 메시에 87은하 중심에 있는 블랙홀의 첫 번째 수평선 축척 이미지를 공개했다. 2020년 3월에, 천문학자들은 첫 번째 블랙홀 이미지에서 이러한 신호를 더 잘 감지할 수 있는 방법을 제안하면서 추가의 서브링들이 광자링을 형성해야 한다고 시사했다.",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "page": 0,
+            "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+            "chunk_index": 6,
+            "file_id": "",
+            "source_type": "외부 문서",
+            "search_query": "블랙홀 사건의 지평선",
+            "license": "CC BY-SA 4.0",
+            "source_kind": "wiki",
+            "movie_id": "157336",
+            "source": "한국어 위키백과",
+            "page_id": "174881",
+            "collected_at": "2026-09-11",
+            "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+            "title": "초대질량 블랙홀",
+            "related_movie": "인터스텔라"
+          },
+          {
+            "id": "157336:174881:15",
+            "text": "증거\n\n\n도플러 측정\n\n블랙홀의 존재에 대한 가장 좋은 증거 중 일부는 근처 궤도를 도는 물질의 빛이 후퇴할 때는 적색편이, 전진할 때는 청색편이가 되는 도플러 효과에 의해 제공된다. 블랙홀에 매우 가까운 물질의 경우 공전 속도가 빛의 속도와 비슷해야 하므로 후퇴하는 물질은 전진하는 물질에 비해 매우 희미하게 나타나며, 이는 본질적으로 대칭적인 원반과 고리를 가진 시스템은 매우 비대칭적인 시각적 외관을 갖게 된다는 것을 의미한다. 이 효과는 은하수 중심에 있는 궁수자리 A*의 초대질량 블랙홀에 대한 그럴듯한 모형을 기반으로 여기에 제시된 예와 같은 최신 컴퓨터 생성 이미지에서 허용되었다. 그러나 현재 사용가능한 망원경 기술이 제공하는 해상도는 이러한 예측을 직접 확인하기에는 아직 충분하지 않다.\n이미 많은 시스템에서 직접 관측된 것은 블랙홀로 추정되는 것에서 더 멀리 떨어진 궤도를 도는 물질의 낮은 비상대론적 속도이다. 인근 은하의 핵들을 둘러싸고 있는 물(H2O) 메이저를 직접 도플러로 측정한 결과, 중심부에 물질이 고도로 집중되어 있을 때만 가능한 매우 빠른 케플러 운동이 밝혀졌다. 현재 이렇게 작은 공간에 충분한 물질을 채울 수 있는 유일한 천체는 블랙홀 또는 천체물리학적으로 짧은 시간 내에 블랙홀로 진화할 천체뿐이다. 더 멀리 떨어진 활동 은하의 경우, 넓은 스펙트럼 선의 폭을 사용하여 사건 지평선 근처를 공전하는 가스를 조사할 수 있다. 반향 매핑{Reverberation mapping} 기술은 이러한 선의 변동성을 이용해 활동 은하를 움직이는 블랙홀의 질량과 스핀을 측정한다.\n\n\n우리 은하에서\n\n증거에 따르면 우리 은하의 중심에는 태양계에서 26,000광년 떨어진 궁수자리 A*라는 영역에 초대질량 블랙홀이 있으니 왜냐하면:",
+            "source_kind": "wiki",
+            "collected_at": "2026-09-11",
+            "source": "한국어 위키백과",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "page_id": "174881",
+            "license": "CC BY-SA 4.0",
+            "chunk_index": 15,
+            "file_id": "",
+            "title": "초대질량 블랙홀",
+            "source_type": "외부 문서",
+            "url": "https://ko.wikipedia.org/wiki/%EC%B4%88%EB%8C%80%EC%A7%88%EB%9F%89_%EB%B8%94%EB%9E%99%ED%99%80",
+            "index_signature": "e69ff2e958a1bb91c207f422ce4b5094f13a4531a517fcb70568b05246f19376",
+            "related_movie": "인터스텔라",
+            "page": 0,
+            "movie_id": "157336",
+            "search_query": "블랙홀 사건의 지평선"
+          },
+          {
+            "id": "157336:95098:0",
+            "text": "블랙홀(영어: black hole)은 중성자별이 되지 못한 항성이 진화의 최종 단계에서 폭발 후 수축되어 생성된 것으로 추측되는, 강력한 밀도와 중력으로 전자기 복사, 빛을 포함한 그 무엇도 빠져나올 수 없는 시공간 영역이다. 일반 상대성이론은 충분히 밀집된 질량이 시공을 뒤틀어 블랙홀을 형성할 수 있음을 예측한다. 블랙홀로부터의 탈출이 불가능해지는 경계를 사건의 지평선(event horizon)이라고 한다. 어떤 물체가 사건의 지평선을 넘어갈 경우, 그 물체에게는 파멸적 영향이 가해지겠지만, 바깥 관찰자에게는 속도가 점점 느려져 그 경계에 영원히 닿지 않는 것처럼 보인다. 블랙홀은 빛을 반사하지 않기에 이상적 흑체처럼 행동한다. 또한 휘어진 시공간의 양자장론에 따르면 사건의 지평선은 블랙홀의 질량에 반비례하는 온도를 가진 흑체 같은 스펙트럼의 열복사를 방출하며, 이를 호킹 복사라고 한다. 항성질량 블랙홀의 경우 이 온도가 수 십억 분의 1 켈빈 수준이기에 그 열 복사를 관측하는 것은 본질적으로 불가능하다.\n중력장이 너무 강해서 빛이 탈출할 수 없는 천체의 개념은 18세기에 존 미첼과 피에르시몽 드 라플라스 후작이 처음 생각해냈으며, 블랙홀로 특징지어지는 일반상대론의 최초의 근대적 해는 1916년 카를 슈바르츠실트가 발견했다. 다만 아무것도 탈출할 수 없는 공간상의 영역이라는 해석은 1958년 데이비드 핀켈스타인의 논문에서 처음 등장했다. 블랙홀은 오랫동안 수학적 관심의 대상이 되었다. 1960년대에는 블랙홀이 일반상대론에서 유도됨을 증명하는 이론적 연구들이 행해졌다. 중성자별의 발견은 중력붕괴한 밀집성이 천체물리학적 실체로서 존재할 가능성에 대한 관심을 촉발시켰다.",
+            "file_id": "",
+            "index_signature": "3a0cb2771565d49fe222e34ad643a0795304b4bb4bf2ad6c764eb0eb90bee624",
+            "source_type": "외부 문서",
+            "page_id": "95098",
+            "title": "블랙홀",
+            "source": "한국어 위키백과",
+            "license": "CC BY-SA 4.0",
+            "collected_at": "2026-09-09",
+            "url": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%9E%99%ED%99%80",
+            "related_movie": "인터스텔라",
+            "movie_id": "157336",
+            "search_query": "블랙홀 사건의 지평선",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "source_kind": "wiki",
+            "chunk_index": 0,
+            "page": 0
+          },
+          {
+            "id": "157336:pdf:nasa-black-hole-field-guide:p3:2",
+            "text": "Black Hole Features and Behaviors\nAccretion disks. The combination of \ngravity, magnetic fi elds, and motion \nheats the orbiting material, which glows \nat multiple wavelengths.\nVisualization\nGravitational lensing. Massive objects \nlike black holes can bend and distort light \nfrom more distant objects.\nSimulation\nJets. High-speed particle jets give off \ndifferent wavelengths of light and produce \nneutrinos that speed across space.\nIllustration\nGravitational waves. Massive orbiting \nobjects create space-time ripples.\nSimulation\n1 3\n2 4",
+            "collected_at": "2026-10-21",
+            "source_type": "외부 문서",
+            "source": "NASA Goddard Space Flight Center",
+            "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+            "page": 3,
+            "chunk_index": 2,
+            "movie_id": "157336",
+            "file_id": "nasa-black-hole-field-guide",
+            "search_query": "등록된 영화 배경 PDF",
+            "title": "A Field Guide to Black Holes · 3쪽",
+            "source_kind": "pdf",
+            "related_movie": "인터스텔라",
+            "page_id": "pdf:nasa-black-hole-field-guide:p3",
+            "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+            "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf#page=3",
+            "index_signature": "cdd09207a6a03ef359c84bdbb62b1d52f09830da441c6da1908f25d4a43d1b76"
+          }
+        ],
+        "same_ids": false,
+        "shared_ids": [
+          "157336",
+          "157336:95098:0",
+          "157336:95098:14",
+          "157336:pdf:nasa-black-hole-field-guide:p3:2"
+        ],
+        "fetch_k": 30,
+        "lambda": 0.5,
+        "note": "후보가 적거나 비슷하면 두 결과가 같을 수 있습니다. 차이를 임의로 만들지 않습니다."
+      }
+    },
+    "explore": {
+      "ok": true,
+      "result": {
+        "filters": {
+          "min_year": 2010,
+          "max_year": null,
+          "min_runtime": null,
+          "max_runtime": 120,
+          "min_rating": null,
+          "max_rating": null,
+          "language": "ko",
+          "genres": [
+            "스릴러"
+          ],
+          "directors": [],
+          "cast": [],
+          "countries": [],
+          "semantic": "",
+          "unsupported": ""
+        },
+        "results": [
+          {
+            "item": {
+              "movie_id": "1269208",
+              "title": "84제곱미터",
+              "original_title": "84제곱미터",
+              "release_date": "2025-07-17",
+              "year": 2025,
+              "genres": [
+                "스릴러",
+                "드라마"
+              ],
+              "director": [
+                "김태준"
+              ],
+              "cast": [
+                "강하늘",
+                "염혜란",
+                "서현우",
+                "김현정",
+                "전진오"
+              ],
+              "overview": "영혼까지 끌어모아 84제곱미터 아파트를 장만한 남자. 하지만 밤마다 들려오는 정체불명의 층간 소음이 그를 괴롭힌다. 날이 갈수록 격화되는 이웃과의 갈등 속에서 소음의 근원을 캐낼 수 있을까.",
+              "runtime": 118,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.164,
+              "vote_count": 277,
+              "tmdb_url": "https://www.themoviedb.org/movie/1269208"
+            },
+            "reason": "2010년 이후(2025) 개봉, 장르 스릴러, 상영시간 118분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "61062",
+              "title": "부당거래",
+              "original_title": "부당거래",
+              "release_date": "2010-10-28",
+              "year": 2010,
+              "genres": [
+                "범죄",
+                "스릴러"
+              ],
+              "director": [
+                "류승완"
+              ],
+              "cast": [
+                "황정민",
+                "류승범",
+                "유해진",
+                "천호진",
+                "마동석"
+              ],
+              "overview": "온 국민을 충격으로 몰아넣은 연쇄 살인 사건. 계속된 검거 실패로 대통령이 직접 사건에 개입하고, 수사 중 용의자가 사망하는 사고가 발생하자 경찰청은 마지막 카드를 꺼내든다. 가짜 범인을 만들어 사건을 종결 짓는 것. 사건의 담당인 광역수사대 최철기는 승진을 보장해주겠다는 상부의 조건을 받아들이고 사건에 뛰어들게 된다. 그는 스폰서인 해동 장석구를 이용해 배우를 세우고 대국민을 상대로 한 이벤트를 완벽하게 마무리 짓는다. 한편 부동산 업계의 큰 손 태경 김회장으로부터 스폰을 받는 검사 주양은 최철기가 입찰 비리건으로 김회장을 구속시켰다는 사실에 분개해 그의 뒤를 캐기 시작하는데...",
+              "runtime": 119,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.6,
+              "vote_count": 120,
+              "tmdb_url": "https://www.themoviedb.org/movie/61062"
+            },
+            "reason": "2010년 개봉, 장르 범죄/스릴러, 상영시간 119분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "619803",
+              "title": "범죄도시 2",
+              "original_title": "범죄도시 2",
+              "release_date": "2022-05-18",
+              "year": 2022,
+              "genres": [
+                "액션",
+                "범죄",
+                "스릴러",
+                "모험"
+              ],
+              "director": [
+                "이상용"
+              ],
+              "cast": [
+                "마동석",
+                "손석구",
+                "최귀화",
+                "박지환",
+                "허동원"
+              ],
+              "overview": "가리봉동 소탕작전으로부터 4년이 지난 2008년, 금천경찰서 강력반은 베트남으로 도주한 용의자를 인도받아 오라는 미션을 받는다. 그렇게 현지를 물색하던 마석도와 전일만은 용의자에게 미심쩍음을 느껴 추궁한 끝에, 악랄한 강해상의 존재를 알게 된다. 두 형사는 수사권이 없는 상황에도 한국과 베트남을 오가며 역대급 범죄를 저지르는 그를 잡겠다는 일념 하나로 호찌민 이곳저곳을 거침없이 누빈다.",
+              "runtime": 106,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 7.336,
+              "vote_count": 453,
+              "tmdb_url": "https://www.themoviedb.org/movie/619803"
+            },
+            "reason": "2022년 개봉, 장르에 스릴러 포함, 상영시간 106분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "389868",
+              "title": "서울역",
+              "original_title": "서울역",
+              "release_date": "2016-08-17",
+              "year": 2016,
+              "genres": [
+                "애니메이션",
+                "공포",
+                "SF",
+                "액션",
+                "스릴러"
+              ],
+              "director": [
+                "연상호"
+              ],
+              "cast": [
+                "류승룡",
+                "심은경",
+                "이준",
+                "김재록",
+                "장혁진"
+              ],
+              "overview": "대한민국의 사회, 역사, 시대를 관통하는 서울역. 어느 날, 치유가 불가능한 상태의 노숙자가 비틀거리는 가운데  집을 나온 소녀와 남자친구, 그리고 딸을 찾는 아버지가 이 곳에 함께 한다. 이윽고 서울역을 시작으로 이상 바이러스가 퍼지기 시작하고, 서울은 삽시간에 통제 불능 상태가 되는데…",
+              "runtime": 93,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.534,
+              "vote_count": 500,
+              "tmdb_url": "https://www.themoviedb.org/movie/389868"
+            },
+            "reason": "2016년 개봉, 장르에 스릴러 포함, 상영시간 93분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "766369",
+              "title": "브로큰",
+              "original_title": "브로큰",
+              "release_date": "2025-02-05",
+              "year": 2025,
+              "genres": [
+                "미스터리",
+                "스릴러"
+              ],
+              "director": [
+                "Kim Jin-hwang"
+              ],
+              "cast": [
+                "하정우",
+                "김남길",
+                "유다인",
+                "정만식",
+                "임성재"
+              ],
+              "overview": "어느 날 하나뿐인 동생 석태가 시체로 돌아왔다. 그리고 동생의 아내 문영은 자취를 감췄다. 동생이 죽고 진실이 잠든 밤, 분노가 깨어났다. 사건의 실마리를 찾던 민태는, 자신과 같은 흔적을 쫓는 소설가 호령을 만나고 그의 베스트셀러 야행에서 동생의 죽음이 예견되었다는 사실을 알게 된다. 얽혀버린 진실 사이에서 혼란스러운 가운데, 형제가 몸담았던 조직과 경찰까지 개입하며 서로가 서로를 쫓고 민태는 동생이 죽은 그날 밤의 진실을 밝히기 위해 분노의 추적을 시작한다.",
+              "runtime": 100,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.3,
+              "vote_count": 39,
+              "tmdb_url": "https://www.themoviedb.org/movie/766369"
+            },
+            "reason": "2025년 개봉, 장르 미스터리/스릴러, 상영시간 100분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "269494",
+              "title": "끝까지 간다",
+              "original_title": "끝까지 간다",
+              "release_date": "2014-05-29",
+              "year": 2014,
+              "genres": [
+                "범죄",
+                "스릴러",
+                "미스터리",
+                "액션"
+              ],
+              "director": [
+                "김성훈"
+              ],
+              "cast": [
+                "이선균",
+                "조진웅",
+                "정만식",
+                "신정근",
+                "신동미"
+              ],
+              "overview": "어머니의 장례식 날, 급한 연락을 받고 경찰서로 향하던 형사 고건수.  아내의 이혼 통보, 갑작스런 내사 소식까지,  스트레스 폭발 직전의 건수는 실수로 사람을 치는 사고를 일으키고 만다.  되돌릴 수 없는 상황! 어떻게든 모면해야 하는 건수는  누구도 찾을 수 없는 곳, 바로 어머니의 관 속에 시체를 숨기는데...",
+              "runtime": 111,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 7.081,
+              "vote_count": 521,
+              "tmdb_url": "https://www.themoviedb.org/movie/269494"
+            },
+            "reason": "2014년 개봉, 장르 범죄/스릴러/미스터리, 상영시간 111분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "1461254",
+              "title": "살목지",
+              "original_title": "살목지",
+              "release_date": "2026-04-08",
+              "year": 2026,
+              "genres": [
+                "공포",
+                "스릴러"
+              ],
+              "director": [
+                "이상민"
+              ],
+              "cast": [
+                "김혜윤",
+                "이종원",
+                "김준한",
+                "김영성",
+                "오동민"
+              ],
+              "overview": "기이한 소문이 끊이지 않는 저수지 살목지의 로드뷰 화면에 촬영한 적 없는 정체불명의 형체가 포착된다. 오늘 안에 반드시 재촬영을 끝내야 하는 상황 속에 살목지로 향한 PD 수인과 촬영팀. 촬영이 시작되자 행방이 묘연했던 선배 교식이 등장하고, 설명되지 않는 일들이 연달아 벌어지며 촬영팀은 점점 아비규환에 빠진다. 휘몰아치는 공포 속 기태는 수인을 향해 내달리지만 빠져나오려 할수록 이들은 점점 더 깊은 곳으로 끌려 들어가게 되는데…",
+              "runtime": 96,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.0,
+              "vote_count": 22,
+              "tmdb_url": "https://www.themoviedb.org/movie/1461254"
+            },
+            "reason": "2026년 개봉, 장르 공포/스릴러, 상영시간 96분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "575604",
+              "title": "콜",
+              "original_title": "콜",
+              "release_date": "2020-11-23",
+              "year": 2020,
+              "genres": [
+                "스릴러",
+                "미스터리",
+                "SF"
+              ],
+              "director": [
+                "이충현"
+              ],
+              "cast": [
+                "박신혜",
+                "전종서",
+                "김성령",
+                "이엘",
+                "박호산"
+              ],
+              "overview": "오랜만에 집으로 돌아온 서연. 집에 있던 낡은 전화기를 연결했다가 영숙이란 이름의 낯선 여자와 전화를 하게 된다. 서연은 영숙이 20년 전, 같은 집에 살았던 사람이란 사실을 깨닫고 그때부터 두 사람은 우정을 쌓아간다. 그러던 어느 날, 서연과 영숙은 각자의 현재에서 서로의 인생을 바꿀 사소한 선택을 하게 된다. 영숙은 20년 전 죽은 서연의 아빠를 살려주고, 서연은 그 대가로 영숙의 20년 후 미래를 알려준 것. 그러나 자신의 끔찍한 미래를 알게 된 영숙이 예상치 못한 폭주를 하면서 서연을 위협하기 시작하는데…",
+              "runtime": 114,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 7.47,
+              "vote_count": 1016,
+              "tmdb_url": "https://www.themoviedb.org/movie/575604"
+            },
+            "reason": "2020년 개봉, 장르 스릴러 포함, 상영시간 114분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "360551",
+              "title": "검은 사제들",
+              "original_title": "검은 사제들",
+              "release_date": "2015-11-05",
+              "year": 2015,
+              "genres": [
+                "미스터리",
+                "스릴러",
+                "공포"
+              ],
+              "director": [
+                "장재현"
+              ],
+              "cast": [
+                "김윤석",
+                "강동원",
+                "박소담",
+                "김의성",
+                "손종학"
+              ],
+              "overview": "2015년 서울, 뺑소니 교통사고 이후 의문의 증상에 시달리는 한 소녀. 잦은 돌출 행동으로 교단의 눈 밖에 난 김신부는 모두의 반대와 의심 속, 소녀를 구하기 위한 자신만의 계획을 준비한다. 이를 위해선 모든 자격에 부합하는 또 한 명의 사제가 필요한 상황, 모두가 기피하는 가운데 신학생인 최부제가 선택되고, 그는 김신부를 돕는 동시에 감시하라는 미션을 받게 된다. 그리고 마침내 소녀를 구할 수 있는 단 하루의 기회, 김신부와 최부제는 모두의 목숨을 잃을 수도 있는 위험한 예식을 시작하는데…",
+              "runtime": 108,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.9,
+              "vote_count": 140,
+              "tmdb_url": "https://www.themoviedb.org/movie/360551"
+            },
+            "reason": "2015년 개봉, 장르 미스터리/스릴러, 상영시간 108분으로 120분 이하"
+          },
+          {
+            "item": {
+              "movie_id": "50090",
+              "title": "의형제",
+              "original_title": "의형제",
+              "release_date": "2010-02-04",
+              "year": 2010,
+              "genres": [
+                "스릴러",
+                "액션",
+                "드라마"
+              ],
+              "director": [
+                "장훈"
+              ],
+              "cast": [
+                "송강호",
+                "강동원",
+                "전국환",
+                "박혁권",
+                "윤희석"
+              ],
+              "overview": "작전 실패의 책임을 지고 한규는 국정원에서 파면당하고, 남파 공작원 지원은 배신자로 낙인 찍혀 북에서 버림받는다.  6년 후, 우연히 마주친 두 사람은 서로의 신분을 속이고 각자의 목적을 위해 함께 하게 된다. 그러나 시간이 지날수록 친구로서 남자로서 서로를 이해하기 시작한다. 그러던 어느 날, 지원에게 6년 전 그날처럼 북으로부터 지령이 내려오게 되고  한규와 지원은 인생을 건 마지막 선택을 하게 된다.",
+              "runtime": 116,
+              "original_language": "ko",
+              "production_countries": [
+                "South Korea"
+              ],
+              "vote_average": 6.436,
+              "vote_count": 149,
+              "tmdb_url": "https://www.themoviedb.org/movie/50090"
+            },
+            "reason": "2010년 개봉, 장르 스릴러 포함, 상영시간 116분으로 120분 이하"
+          }
+        ],
+        "notice": "전체 목록 중 조건을 먼저 검증한 뒤 의미 검색 상위 후보를 선별합니다. 모든 일치 항목을 나열하는 결과는 아닙니다."
+      }
+    }
+  },
+  "repeats": [
+    {
+      "case_id": "interstellar-runtime",
+      "metrics": {
+        "at": "2026-10-21T04:52:50.010747+00:00",
+        "item_id": "157336",
+        "question_hash": "9d535952c3fd57be5001d97a2b974c04ebdcd286518465860e96c7b3cfad308c",
+        "timings": {
+          "preparation": 0.0143,
+          "rag": 0.9485,
+          "total": 0.9628
+        },
+        "collection_cached": true,
+        "budget_seconds": 30.0,
+        "within_budget": true,
+        "measurement_mode": "live",
+        "method": "similarity"
+      },
+      "answer": "인터스텔라의 **상영시간은 169분**이며 [근거 1], **감독은 크리스토퍼 놀란**입니다. [근거 1]"
+    },
+    {
+      "case_id": "interstellar-countries",
+      "metrics": {
+        "at": "2026-10-21T04:52:51.001949+00:00",
+        "item_id": "157336",
+        "question_hash": "58cd9ec7aeb5e2279aa016cce51f9214ad43d70aa562975aa2d495c4ab48c680",
+        "timings": {
+          "preparation": 0.0156,
+          "rag": 0.9706,
+          "total": 0.9862
+        },
+        "collection_cached": true,
+        "budget_seconds": 30.0,
+        "within_budget": true,
+        "measurement_mode": "live",
+        "method": "similarity"
+      },
+      "answer": "인터스텔라의 **제작 국가**는 **United Kingdom, United States of America**입니다. [근거 1]  \n**개봉 연도**는 **2014**입니다. [근거 1]"
+    },
+    {
+      "case_id": "blackhole-horizon",
+      "metrics": {
+        "at": "2026-10-21T04:52:52.885479+00:00",
+        "item_id": "157336",
+        "question_hash": "6c222b0ccdc1a732d86998cc4cd595561ec497395cc37d6f5106867e82d415d3",
+        "timings": {
+          "preparation": 0.023,
+          "rag": 1.8524,
+          "total": 1.8754
+        },
+        "collection_cached": true,
+        "budget_seconds": 30.0,
+        "within_budget": true,
+        "measurement_mode": "live",
+        "method": "similarity"
+      },
+      "answer": "블랙홀의 **사건의 지평선(event horizon)** 은 **물질과 빛이 블랙홀의 질량(방향)을 향해 “안으로 들어갈 수는 있지만”, 바깥으로는 나올 수 없는 시공간상의 경계**입니다. [근거 2]  \n즉 **사건의 지평선 안쪽에서 바깥쪽으로 탈출할 수 있는 것은 그 무엇도(심지어 빛도) 없습니다.** [근거 2]\n\n따라서 질문 “빛이 빠져나올 수 있는가?”에 대한 답은 **불가능**입니다. [근거 2]  \n(바깥 관찰자 관점에서는 사건의 지평선에 가까워질수록 시간이 무한히 느려지고, 방출되는 빛도 점점 어두워져 관측이 어려워진다고 설명됩니다. [근거 2])"
+    },
+    {
+      "case_id": "blackhole-types",
+      "metrics": {
+        "at": "2026-10-21T04:52:54.579700+00:00",
+        "item_id": "157336",
+        "question_hash": "e281f8e7dc8982634c4cd4a9bfc92fafb7af8cb275a8e682ea3d9b4dcf15b484",
+        "timings": {
+          "preparation": 0.0205,
+          "rag": 1.6654,
+          "total": 1.6859
+        },
+        "collection_cached": true,
+        "budget_seconds": 30.0,
+        "within_budget": true,
+        "measurement_mode": "live",
+        "method": "similarity"
+      },
+      "answer": "관측된 블랙홀은 문서에서 “두 가지 큰 범주”로 구분되며, 각각의 대략적 질량 범위는 다음과 같습니다.\n\n1) **항성질량 블랙홀 (Stellar-mass)**: **“five to dozens of times the Sun’s mass”** → 문서 원문 기준으로 **태양질량의 5배부터 수십 배(dozens)** 범위 [근거 6]\n\n2) **초대질량 블랙홀 (Supermassive)**: **“hundreds of thousands to billions of times the Sun’s mass”** → 문서 원문 기준으로 **태양질량의 수십만 배(hundreds of thousands)부터 수십억 배(billions)** 범위 [근거 6]"
+    },
+    {
+      "case_id": "unknown-prop-number",
+      "metrics": {
+        "at": "2026-10-21T04:52:55.808350+00:00",
+        "item_id": "157336",
+        "question_hash": "5e285d11ae2c32a422fb5988de1e27e13d136034263da3cc5b64b9ed79478975",
+        "timings": {
+          "preparation": 0.018,
+          "rag": 1.2031,
+          "total": 1.2212
+        },
+        "collection_cached": true,
+        "budget_seconds": 30.0,
+        "within_budget": true,
+        "measurement_mode": "live",
+        "method": "similarity"
+      },
+      "answer": "요청하신 **“쿠퍼가 착용한 우주복 소품의 제조 일련번호 전체”**는, 제공된 문서(인터스텔라 줄거리/배경 설명 등)에서는 **해당 일련번호(제조 번호)가 언급되거나 확인되지 않습니다.** [근거 1][근거 2][근거 3]  \n\n따라서 **문서에서 확인되지 않습니다.**"
+    }
+  ],
+  "counts": {
+    "metadata": 964,
+    "external": 89
+  }
+}

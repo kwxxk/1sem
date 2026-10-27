@@ -1,0 +1,80 @@
+<!-- AI 생성 초안: 검수 전 -->
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ThRead - 로그인</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #ffffff;
+    }
+    .btn-login {
+      background-color: #1faa2d;
+      border-color: #1faa2d;
+      color: #fff;
+      font-weight: 600;
+      height: 48px;
+      border-radius: 6px;
+    }
+    .btn-login:hover {
+      background-color: #19a326;
+      border-color: #19a326;
+    }
+    .login-card {
+      width: 100%;
+      max-width: 520px;
+    }
+    .card {
+      border-radius: 8px;
+    }
+    .form-label {
+      font-weight: 600;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">ThRead</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="메뉴 토글">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">쓰레드</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">도서 검색</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">마이 페이지</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">로그아웃</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="d-flex align-items-center justify-content-center" style="min-height: calc(100vh - 56px);">
+    <div class="card login-card shadow-sm border" style="width: 100%;">
+      <div class="card-body p-4">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">이메일</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" value="name@example.com" aria-label="이메일" />
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">비밀번호</label>
+            <input type="password" class="form-control" id="password" placeholder="비밀번호를 입력하세요" aria-label="비밀번호" />
+          </div>
+        </form>
+      </div>
+      <div class="border-top p-3">
+        <button type="button" class="btn btn-login w-100">로그인</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

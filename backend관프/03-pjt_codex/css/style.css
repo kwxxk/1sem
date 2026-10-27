@@ -1,0 +1,88 @@
+@font-face{font-family:Gmarket;src:url('../assets/fonts/GmarketSansTTFMedium.ttf') format('truetype');font-display:swap}
+@font-face{font-family:Aggro;src:url('../assets/fonts/SBAggroOTF_L.ttf') format('truetype');font-display:swap}
+:root{--accent:#fe4a51;--ink:#252627}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Arial,'Malgun Gothic',sans-serif;background:#fff}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.section-title{font-family:Gmarket,sans-serif;font-size:1.4rem;line-height:1.5;margin:0 0 24px}.section-width{width:80%;margin-inline:auto}.section-space{padding-block:64px}section[id]{scroll-margin-top:24px}.brand{font-family:Gmarket,sans-serif;white-space:nowrap}.th{color:#fff}.read{color:var(--accent)}
+/* F301: 576px부터 펼쳐지는 투명 Navbar */
+.site-nav{position:absolute;inset:0 0 auto;z-index:1050;padding-block:24px;background:transparent}.site-nav .navbar-brand{font-size:1.65rem}.site-nav .nav-link{font-family:Aggro,sans-serif;color:#fff;padding:.75rem!important}.site-nav .nav-link:hover,.site-nav .nav-link:focus{color:var(--accent)}.site-nav .navbar-toggler{border-color:#ffffff80}.site-nav .container-fluid{width:90%}
+/* F302: Hero 위에 Navbar가 겹쳐 표시됨 */
+.hero-section{min-height:80vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:130px 5% 90px}.hero-img,.hero-overlay{position:absolute;inset:0;width:100%;height:100%}.hero-img{object-fit:cover}.hero-overlay{background:rgba(0,0,0,.55)}.hero-content{position:relative;z-index:1}.hero-title{font-family:Gmarket,sans-serif;font-size:clamp(1.25rem,2.7vw,2.5rem);line-height:1.7;padding:8px 18px;background:#3339;border-radius:4px}.hero-subtitle{font-size:2rem;margin-top:28px}.mobile-break{display:none}
+/* F303: 한 슬라이드에 정확히 4권, Next만 제공 */
+.bestseller-container{width:80%;margin:auto;display:flex;gap:40px;align-items:center}.bestseller-container>.section-title{flex:0 0 150px;margin:0}.book-carousel{min-width:0;flex:1;padding-right:42px}.books-row{display:flex;justify-content:center;gap:24px}.book{width:150px;flex:0 0 150px;text-align:center;margin:0}.book img{width:150px;height:220px;object-fit:cover;box-shadow:0 6px 12px #0002}.book figcaption{font-size:.85rem;line-height:1.5;margin-top:14px;overflow-wrap:anywhere}.book-carousel .carousel-control-next{width:32px;right:0;opacity:1}.next-icon{display:grid;place-items:center;width:32px;height:42px;border-radius:6px;background:#252627;color:#fff;font-size:28px}
+/* F304: Bootstrap 7:5 / 수직 중앙 정렬 */
+.ai-section{background:#f8f7f5}.ai-books{display:flex;justify-content:center;align-items:center;gap:18px}.ai-books img{width:25%;max-width:120px;height:180px;object-fit:cover;box-shadow:0 8px 16px #0002}.ai-books img:nth-child(2){width:30%;max-width:140px;height:210px}.ai-copy p{color:#626262;line-height:1.9}.ai-copy .highlight{font-family:Aggro,sans-serif;color:var(--accent);font-size:1.3rem}
+/* F305: Flexbox 4열, 모바일 1열 */
+.genre-grid{display:flex;flex-wrap:wrap;gap:20px}.genre-item{position:relative;flex:0 0 calc((100% - 60px)/4);height:180px;overflow:hidden;border-radius:4px;margin:0}.genre-item img{width:100%;height:100%;object-fit:cover}.genre-item::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 35%,#000a)}.genre-item figcaption{position:absolute;bottom:16px;left:16px;z-index:1;color:white;font-family:Aggro,sans-serif;font-size:1.1rem}
+/* F306: 카드 하단을 고정하고 Bootstrap pagination보다 명시도 높임 */
+.thread{background:#f7f7f7}.section-subtitle{font-size:.95rem;color:#777;margin:0 0 32px}.thread-card{border:1px solid #e5e5e5;border-radius:5px;overflow:hidden}.thread-card .card-img-top{height:200px;object-fit:cover}.thread-card .card-body{padding:24px;display:flex;flex-direction:column}.thread-card .card-title{font-family:Gmarket,sans-serif;font-size:1.05rem;line-height:1.6}.thread-card .card-text{font-size:.9rem;color:#666;line-height:1.8}.thread-card .card-footer{margin-top:auto;background:#fff;border-top:0;padding:0 24px 24px;font-size:.8rem;color:#777}.thread-card .book-name{color:var(--accent);display:block;margin-top:6px}.thread .pagination .page-link{border:0;background:transparent;color:#555;border-radius:4px;margin:0 4px;box-shadow:none}.thread .pagination .active>.page-link{color:var(--accent);font-weight:700}.thread .pagination .page-link:hover{background:#ececec}.thread-page[hidden]{display:none!important}.site-footer{padding:28px;text-align:center;color:#888;font-size:.8rem;border-top:1px solid #eee}
+
+@media(min-width:576px) and (max-width:899.98px){.genre-grid{gap:12px}.genre-item{flex-basis:calc((100% - 36px)/4);height:150px}}
+@media(max-width:575.98px){.site-nav{padding-block:14px}.site-nav .navbar-collapse{background:#20252bf5;border-radius:8px;margin-top:12px;padding:10px}.hero-section{min-height:70vh}.hero-title{font-size:1.25rem}.mobile-break{display:block}.section-space{padding-block:42px}.section-title{font-size:1.2rem}.books-row{display:grid;grid-template-columns:150px 150px;gap:24px 12px}.book-carousel{padding-right:0;padding-bottom:44px;overflow:hidden}.book-carousel .carousel-control-next{top:auto;bottom:0;height:32px}.bestseller-container{width:94%;flex-direction:column;align-items:stretch;gap:24px}.bestseller-container>.section-title{flex:auto}.ai-copy{text-align:center}.ai-books{gap:10px}.genre-item{flex-basis:100%;height:200px}.thread-card .card-img-top{height:200px}}
+@media(max-width:339.98px){.books-row{grid-template-columns:150px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.carousel-item{transition:none}}
+
+/* 메뉴의 링크와 버튼을 같은 모양으로 표시합니다. */
+.site-nav .nav-link{font-size:1rem;text-decoration:none;line-height:1.5;cursor:pointer;border-radius:0}
+.site-nav .nav-link:focus:not(:focus-visible){outline:0;box-shadow:none}
+/* 4권의 고정 크기를 보존하면서 태블릿 가로 넘침을 방지합니다. */
+@media(min-width:576px) and (max-width:1255.98px){
+ .bestseller-container{flex-direction:row;align-items:center;gap:24px}
+ .bestseller-container>.section-title{flex:0 0 120px}
+ .book-carousel{overflow:visible}
+ .books-row{display:grid;grid-template-columns:repeat(2,150px);min-width:0;justify-content:center;gap:24px 16px}
+}
+@media(min-width:576px) and (max-width:699.98px){
+ .bestseller-container{width:94%;gap:12px}
+ .bestseller-container>.section-title{flex-basis:100px;font-size:1.1rem}
+ .book-carousel{padding-right:32px}
+ .books-row{gap:20px 10px}
+}
+
+/* API 검색 결과 */
+.book-query{display:block;width:150px;border:0;background:transparent;color:inherit;padding:0;cursor:pointer}
+.book-query-title{display:block;font-size:.85rem;line-height:1.5;margin-top:14px;overflow-wrap:anywhere}
+.book-query:hover .book-query-title{color:var(--accent)}
+.api-book-card{border-color:#e5e5e5;overflow:hidden}.api-book-cover{width:100%;height:200px;object-fit:contain;background:#f5f3f0;padding:16px}
+.api-book-card .card-title{line-height:1.7;overflow-wrap:anywhere}#detailFields dd{overflow-wrap:anywhere}
+
+/* F309: 높이가 바뀌어도 베스트셀러 절반이 Hero 위에 겹칩니다. */
+:root{--bestseller-overlap:200px}
+.main-page .hero-section{padding-bottom:calc(80px + var(--bestseller-overlap))}
+.main-page .bestseller{position:relative;z-index:2;width:90%;margin-inline:auto;margin-top:calc(-1 * var(--bestseller-overlap));padding-block:32px;background:#fff;border-radius:12px;box-shadow:0 12px 40px #0002}
+.main-page .bestseller-container{width:90%}
+.main-page .ai-section{margin-top:32px}
+a.book-query{text-decoration:none}
+/* F310: 서로 다른 크기의 장르 격자, 모바일에서는 1열 */
+.genre-advanced .genre-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:140px;grid-auto-flow:dense;gap:16px}
+.genre-advanced .genre-item{height:auto;min-width:0;margin:0}
+.genre-advanced .genre-item:nth-child(1){grid-column:span 2;grid-row:span 2}
+.genre-advanced .genre-item:nth-child(2){grid-column:span 2}
+.genre-advanced .genre-item:nth-child(3){grid-row:span 2}
+.genre-advanced .genre-item:nth-child(7){grid-column:span 2}
+/* F311: 도서 상세 Hero, 좌측 검정 → 우측 투명 오버레이 */
+.detail-hero{position:relative;min-height:100vh;background:#102331 url('../assets/book_detail/book_cover.jpg') center/cover no-repeat;color:#fff;padding:140px 0 64px}
+.detail-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.96),rgba(0,0,0,.72) 48%,rgba(0,0,0,.12))}
+.detail-layout{position:relative;width:90%;max-width:1320px;margin:0 auto}
+.detail-intro h1{font-family:Gmarket,sans-serif;font-size:clamp(2rem,4vw,3.4rem);line-height:1.5}
+.detail-back{color:#fff;font-size:.9rem;text-underline-offset:4px}
+.detail-description{line-height:1.95;max-width:440px;margin-top:28px;margin-bottom:28px}
+.detail-panel{padding:28px;background:rgba(255,255,255,.97);color:var(--ink);border-radius:12px}
+.detail-panel .nav-link{color:#666}.detail-panel .nav-link.active{color:var(--accent)}
+.library-map{display:block;width:100%;height:340px;border:0;border-radius:4px;background:#eee}
+.related-list .list-group-item{padding:16px}.related-list p{white-space:pre-wrap;overflow-wrap:anywhere}
+@media(max-width:575.98px){
+ .main-page .bestseller{width:96%}.main-page .bestseller-container{width:96%}
+ .genre-advanced .genre-grid{grid-template-columns:minmax(0,1fr);grid-auto-rows:200px}
+ .genre-advanced .genre-grid .genre-item{grid-column:auto;grid-row:auto}
+ .detail-hero{padding-top:110px}.detail-layout{width:94%;--bs-gutter-x:1rem}
+ .detail-panel{padding:20px 14px}.detail-panel .nav-link{padding:.65rem .7rem;font-size:.85rem}.library-map{height:280px}
+}
+
+[hidden]{display:none!important}
+.search-empty{padding:32px 16px;text-align:center;color:#777;background:#f8f7f5;border-radius:6px}
+.thread-open{padding:0;border:0;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer;overflow-wrap:anywhere}.thread-open:hover{color:var(--accent)}
+.thread-excerpt{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.thread-full-body{white-space:pre-wrap;overflow-wrap:anywhere}
+
+.thread-sort{width:auto;max-width:220px}.detail-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.mobile-shortcuts{display:none}
+@media(max-width:575.98px){.mobile-shortcuts{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:1030;background:white;box-shadow:0 -2px 14px #0002;gap:12px;padding:12px;justify-content:space-around}.mobile-shortcuts a{color:#333;text-decoration:none;font-size:.9rem;padding:4px 12px}body{padding-bottom:64px}.main-page .hero-section{min-height:52vh;padding-top:100px;padding-bottom:calc(55px + var(--bestseller-overlap))}.main-page .hero-title{font-size:1.05rem}.detail-layout{--bs-gutter-y:1.75rem!important}}
+
+.mobile-shortcuts button{border:0;background:transparent;color:#333;font-size:.9rem;padding:4px 12px}

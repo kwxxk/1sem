@@ -1,0 +1,306 @@
+{
+  "ui_dialogue_isolation": true,
+  "no_citation_notice": true,
+  "runtime_error_details_hidden": true,
+  "wiki_policy_mock": {
+    "request_count": 2,
+    "request_start_times": [
+      1.0,
+      3.0
+    ],
+    "retry_after_honored": true,
+    "contact_header": true
+  },
+  "tests": {
+    "run": 18,
+    "failures": 0,
+    "errors": 0
+  },
+  "data": {
+    "movies": 964,
+    "korean": 168,
+    "wiki_files": 3725,
+    "unique_page_ids": 2661,
+    "bundle_own_document_unconfirmed": [
+      {
+        "movie_id": "61791",
+        "title": "혹성탈출: 진화의 시작",
+        "year": 2011,
+        "available_titles": [
+          "알츠하이머병",
+          "제인 구달",
+          "침팬지"
+        ]
+      },
+      {
+        "movie_id": "119450",
+        "title": "혹성탈출: 반격의 서막",
+        "year": 2014,
+        "available_titles": [
+          "맷 리브스",
+          "제인 구달",
+          "침팬지"
+        ]
+      },
+      {
+        "movie_id": "787",
+        "title": "미스터 & 미세스 스미스",
+        "year": 2005,
+        "available_titles": [
+          "보고타",
+          "암살",
+          "정보기관"
+        ]
+      },
+      {
+        "movie_id": "3933",
+        "title": "유령 신부",
+        "year": 2005,
+        "available_titles": [
+          "빅토리아 시대",
+          "팀 버튼"
+        ]
+      },
+      {
+        "movie_id": "87",
+        "title": "인디아나 존스: 마궁의 사원",
+        "year": 1984,
+        "available_titles": [
+          "스티븐 스필버그",
+          "인디아나 존스",
+          "인디아나 존스 (영화)",
+          "조지 루카스"
+        ]
+      },
+      {
+        "movie_id": "256591",
+        "title": "포커스",
+        "year": 2015,
+        "available_titles": [
+          "도박",
+          "병적 도박",
+          "부에노스아이레스",
+          "카지노"
+        ]
+      },
+      {
+        "movie_id": "214756",
+        "title": "19곰 테드 2",
+        "year": 2015,
+        "available_titles": [
+          "동물권",
+          "법",
+          "인격권"
+        ]
+      },
+      {
+        "movie_id": "300669",
+        "title": "맨 인 더 다크",
+        "year": 2016,
+        "available_titles": [
+          "강도",
+          "불법 감금",
+          "주거침입죄·퇴거불응죄"
+        ]
+      },
+      {
+        "movie_id": "460465",
+        "title": "모탈 컴뱃",
+        "year": 2021,
+        "available_titles": [
+          "모탈 컴뱃 (1995년 영화)"
+        ]
+      },
+      {
+        "movie_id": "740996",
+        "title": "블랙핑크: 세상을 밝혀라",
+        "year": 2020,
+        "available_titles": [
+          "BLACKPINK",
+          "FNC 엔터테인먼트",
+          "K-pop",
+          "YG 엔터테인먼트"
+        ]
+      },
+      {
+        "movie_id": "760497",
+        "title": "승부",
+        "year": 2025,
+        "available_titles": [
+          "맞수",
+          "바둑",
+          "조훈현"
+        ]
+      },
+      {
+        "movie_id": "623135",
+        "title": "싱크홀",
+        "year": 2021,
+        "available_titles": [
+          "땅꺼짐",
+          "비상 관리",
+          "지반"
+        ]
+      },
+      {
+        "movie_id": "497370",
+        "title": "마약왕",
+        "year": 2018,
+        "available_titles": [
+          "10월 유신",
+          "우민호"
+        ]
+      }
+    ]
+  },
+  "package_versions": {
+    "langchain": {
+      "expected": "1.3.14",
+      "installed": "1.3.14",
+      "match": true
+    },
+    "langgraph": {
+      "expected": "1.2.10",
+      "installed": "1.2.10",
+      "match": true
+    },
+    "langsmith": {
+      "expected": "0.10.17",
+      "installed": "0.10.17",
+      "match": true
+    },
+    "langchain-core": {
+      "expected": "1.6.0",
+      "installed": "1.6.0",
+      "match": true
+    },
+    "langchain-openai": {
+      "expected": "1.4.3",
+      "installed": "1.4.3",
+      "match": true
+    },
+    "langchain-community": {
+      "expected": "0.4.2",
+      "installed": "0.4.2",
+      "match": true
+    },
+    "langchain-chroma": {
+      "expected": "1.1.0",
+      "installed": "1.1.0",
+      "match": true
+    },
+    "langchain-text-splitters": {
+      "expected": "1.1.2",
+      "installed": "1.1.2",
+      "match": true
+    },
+    "chromadb": {
+      "expected": "1.5.9",
+      "installed": "1.5.9",
+      "match": true
+    },
+    "openai": {
+      "expected": "2.54.0",
+      "installed": "2.54.0",
+      "match": true
+    },
+    "streamlit": {
+      "expected": "1.62.0",
+      "installed": "1.62.0",
+      "match": true
+    },
+    "requests": {
+      "expected": "2.34.2",
+      "installed": "2.34.2",
+      "match": true
+    },
+    "python-dotenv": {
+      "expected": "1.2.3",
+      "installed": "1.2.3",
+      "match": true
+    },
+    "typing-extensions": {
+      "expected": "4.16.0",
+      "installed": "4.16.0",
+      "match": true
+    }
+  },
+  "source_secret_pattern_hits": [],
+  "screenshots_present": [],
+  "completed_self_and_peer_checklists_present": false,
+  "git_ignore": {
+    ".env": true,
+    ".env.production": true,
+    ".venv/Scripts/python.exe": true,
+    "venv/test.txt": true,
+    ".local/test.json": true,
+    ".env.example": false
+  },
+  "bundle_probe": [
+    {
+      "title": "혹성탈출: 진화의 시작",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "혹성탈출: 반격의 서막",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "미스터 & 미세스 스미스",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "유령 신부",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "인디아나 존스: 마궁의 사원",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "포커스",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "19곰 테드 2",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "맨 인 더 다크",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "모탈 컴뱃",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "블랙핑크: 세상을 밝혀라",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "승부",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "싱크홀",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    },
+    {
+      "title": "마약왕",
+      "blocked": true,
+      "notice": "선택한 영화 자체의 문서를 찾지 못했습니다. 위키 모드·검색 결과를 확인하세요."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "keyless_screen": true,
+  "empty_index_screen": true,
+  "empty_index_counts": {
+    "metadata": 0,
+    "external": 0
+  },
+  "metadata_graph": true,
+  "gms_calls": 0
+}

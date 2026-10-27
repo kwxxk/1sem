@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% comment %} DTL 1번 filter {% endcomment %}
+  {% comment %} picked는 context의 picked key값으로 접근해서 value를 가져옴 {% endcomment %}
+  <p>{{picked}} 메뉴는 {{picked|length}} 글자 입니다.</p>
+
+  {% comment %} DTL 2번 for문 {% endcomment %}
+  <h2>메뉴판</h2>
+  <ul>
+    {% for food in foods %}
+      <li>{{food}}</li>
+    {% endfor %}
+  </ul>
+
+  {% comment %} DTL 3번 if 문 {% endcomment %}
+  {% if foods|length == 0 %}
+      <p>메뉴가 소진되었습니다.</p>
+  {% else %}
+      <p>아직 메뉴가 있습니다.</p>
+  {% endif %}
+{% endblock content %}

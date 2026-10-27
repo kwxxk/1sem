@@ -1,0 +1,16 @@
+[
+  {
+    "id": "nasa-black-hole-field-guide",
+    "path": ".local/source_pdfs/nasa_black_holes.pdf",
+    "title": "A Field Guide to Black Holes",
+    "url": "https://science.nasa.gov/wp-content/uploads/2023/09/black_hole_field_guide_booklet.pdf",
+    "source": "NASA Goddard Space Flight Center",
+    "license": "NASA Media Usage Guidelines 준수. 원문 내 제3자 이미지 크레딧 보존; 이미지 재배포 없이 교육용 본문 검색에 사용.",
+    "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "landing_url": "https://science.nasa.gov/resource/a-field-guide-to-black-holes-booklet/",
+    "movie_ids": ["157336"],
+    "pages": [2, 3, 4],
+    "retrieved_at": "2026-10-21",
+    "sha256": "e2ca1e01b1ec8426e8e9dd99d1a56db1edb7e526aa148230d3911f761c0988f4"
+  }
+]

@@ -1,0 +1,35 @@
+test_actual_chroma_similarity_mmr_difference (test_advanced.AdvancedTests.test_actual_chroma_similarity_mmr_difference) ... ok
+test_api_job_error_hides_private_details_and_origin (test_advanced.AdvancedTests.test_api_job_error_hides_private_details_and_origin) ... ok
+test_api_jobs_sources_history_and_session_isolation (test_advanced.AdvancedTests.test_api_jobs_sources_history_and_session_isolation) ... ok
+test_api_keyless_static_and_validation (test_advanced.AdvancedTests.test_api_keyless_static_and_validation) ... ok
+test_embedding_query_cache_reuses_request (test_advanced.AdvancedTests.test_embedding_query_cache_reuses_request) ... ok
+test_evaluation_five_real_pipeline_pairs_and_reviews (test_advanced.AdvancedTests.test_evaluation_five_real_pipeline_pairs_and_reviews) ... ok
+test_job_queue_limit_and_cross_owner (test_advanced.AdvancedTests.test_job_queue_limit_and_cross_owner) ... ok
+test_metrics_record_no_question_or_secret (test_advanced.AdvancedTests.test_metrics_record_no_question_or_secret) ... ok
+test_mixed_source_retrieval_keeps_pdf_and_item_scope (test_advanced.AdvancedTests.test_mixed_source_retrieval_keeps_pdf_and_item_scope) ... ok
+test_mmr_prefers_nonredundant_candidate (test_advanced.AdvancedTests.test_mmr_prefers_nonredundant_candidate) ... ok
+test_pdf_page_provenance_and_mixed_index (test_advanced.AdvancedTests.test_pdf_page_provenance_and_mixed_index) ... ok
+test_pdf_rejects_project_escape (test_advanced.AdvancedTests.test_pdf_rejects_project_escape) ... ok
+test_wiki_retry_interval_and_redaction (test_advanced.AdvancedTests.test_wiki_retry_interval_and_redaction) ... ok
+test_collection_mandatory_and_cache (test_project.ProjectTests.test_collection_mandatory_and_cache) ... ok
+test_explore_strict_filters_and_selection (test_project.ProjectTests.test_explore_strict_filters_and_selection) ... ok
+test_invalid_and_absent_citations_fail_closed (test_project.ProjectTests.test_invalid_and_absent_citations_fail_closed) ... ok
+test_item_document_identity (test_project.ProjectTests.test_item_document_identity) ... ok
+test_metadata_idempotent (test_project.ProjectTests.test_metadata_idempotent) ... ok
+test_pipeline_real_graph_and_citations (test_project.ProjectTests.test_pipeline_real_graph_and_citations) ... ok
+test_rechunk_removes_old_trailing_chunks (test_project.ProjectTests.test_rechunk_removes_old_trailing_chunks) ... ok
+test_retrieve_always_meta_and_movie_filter (test_project.ProjectTests.test_retrieve_always_meta_and_movie_filter) ... ok
+test_service_guide_uses_domain_question_and_prompt (test_project.ProjectTests.test_service_guide_uses_domain_question_and_prompt) ... ok
+test_shared_page_does_not_overwrite_other_movie (test_project.ProjectTests.test_shared_page_does_not_overwrite_other_movie) ... ok
+test_store_and_graph_accept_non_movie_domain (test_project.ProjectTests.test_store_and_graph_accept_non_movie_domain) ... ok
+test_ui_full_question_guide_and_explore_without_network (test_project.ProjectTests.test_ui_full_question_guide_and_explore_without_network) ... 2026-10-23 09:26:44.185 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ui_without_index (test_project.ProjectTests.test_ui_without_index) ... 2026-10-23 09:26:44.985 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ui_without_key_and_movie_history (test_project.ProjectTests.test_ui_without_key_and_movie_history) ... 2026-10-23 09:26:45.203 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 6.876s
+
+OK

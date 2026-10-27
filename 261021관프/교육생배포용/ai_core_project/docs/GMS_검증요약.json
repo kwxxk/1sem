@@ -1,0 +1,27 @@
+{
+  "measurement_mode": "live",
+  "evaluation_id": "21ac4bf8-c054-4895-bca5-c24400934257",
+  "metadata": 964,
+  "external": 89,
+  "security": {
+    "key_configured": true,
+    "git_ignore_verified": [
+      ".env",
+      ".env.local",
+      ".venv/Scripts/python.exe",
+      "venv/Scripts/python.exe",
+      ".local/evaluations/test.json"
+    ],
+    "env_example_trackable": true,
+    "files_checked": 70,
+    "key_matches_outside_env": []
+  },
+  "tests_passed": 27,
+  "ui": {
+    "execution_mode": "live",
+    "history_preserved": true,
+    "comparison_visible": true,
+    "env_http_status": 404,
+    "page_errors": []
+  }
+}

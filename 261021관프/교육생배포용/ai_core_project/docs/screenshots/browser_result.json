@@ -1,0 +1,16 @@
+{
+  "mode": "test",
+  "gms_calls": 0,
+  "page_errors": [],
+  "mobile_overflow": false,
+  "checks": [
+    "chat",
+    "safe_text",
+    "movie_history",
+    "mmr_comparison",
+    "five_pairs",
+    "review_save",
+    "pdf_index",
+    "mobile"
+  ]
+}

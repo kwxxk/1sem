@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Movie Lab · 근거로 읽는 영화</title><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/styles.css"><script type="module" src="/assets/app.js"></script></head>
+<body><div class="shell">
+<aside class="sidebar"><a class="brand" href="/" aria-label="Movie Lab 처음"><span class="logo">M</span><span>Movie Lab<small>근거로 읽는 영화</small></span></a>
+<div class="sidebar-section"><label for="movie-filter">영화 찾기</label><input id="movie-filter" type="search" placeholder="제목 검색"><label for="movie-picker">질문할 영화</label><select id="movie-picker"></select></div>
+<div class="sidebar-section"><div class="section-label">나의 연구 도구</div><nav aria-label="화면 선택">
+<button class="nav active" data-tab="chat">01 <span>영화 질문 · 관람 가이드</span></button>
+<button class="nav" data-tab="explore">02 <span>조건으로 영화 찾기</span></button>
+<button class="nav" data-tab="lab">03 <span>검색 · 답변 비교</span></button>
+<button class="nav" data-tab="sources">04 <span>문서와 출처</span></button></nav></div>
+<div class="sidebar-section settings"><div class="section-label">근거 검색 설정</div>
+<label for="method">검색 방식</label><select id="method"><option value="similarity">유사도 검색</option><option value="mmr">MMR · 근거 다양성</option></select>
+<label for="top-k">최대 근거 수</label><input id="top-k" type="number" min="2" max="20" value="6">
+<details><summary>문서 분할 설정</summary><label for="chunk-size">청크 크기 (자)</label><input id="chunk-size" type="number" min="100" max="8000" value="1000"><label for="chunk-overlap">중복 길이 (자)</label><input id="chunk-overlap" type="number" min="0" max="7999" value="200"></details>
+<p class="muted small">근거 수는 영화 정보 1건을 포함합니다.</p></div>
+<div class="sidebar-bottom"><p id="index-count" class="small">색인 상태 확인 중</p><button id="index-button" class="secondary" data-needs-key>영화 데이터 색인 / 갱신</button><p class="muted small">영화 데이터 · 위키백과 · PDF</p></div></aside>
+<main><header class="topbar"><span class="eyebrow">FILM RESEARCH NOTEBOOK</span><span id="connection" class="pill">연결 확인 중</span></header>
+<div id="notice" class="notice" role="status" aria-live="polite"></div>
+<section class="movie-heading"><div><p class="eyebrow">오늘의 영화</p><h1 id="movie-title">영화 목록을 불러옵니다</h1><p id="movie-meta" class="muted"></p></div><span class="edition">MOVIE<br>LAB / 02</span></section>
+<section id="job-panel" class="job-panel" hidden aria-live="polite"><div class="progress-line"></div><strong id="job-label">작업을 준비합니다</strong><ol id="job-progress"></ol></section>
+<section id="panel-chat" class="panel"><div class="chat-grid"><div class="chat-area"><div class="panel-header"><h2>영화의 안과 밖을 묻다</h2><button id="clear-history" class="text-button">대화 지우기</button></div>
+<div id="messages" aria-live="polite"></div><form id="chat-form" class="composer"><label class="sr-only" for="question">영화에 대한 질문</label><textarea id="question" rows="2" maxlength="3000" placeholder="작품 정보나 영화 속 배경 지식을 질문해 보세요."></textarea><div class="composer-bottom"><span class="muted small">답변에 사용한 원문을 함께 확인하세요.</span><button type="submit" data-needs-index>질문하기 ↗</button></div></form></div>
+<aside class="reading-card"><span class="eyebrow">VIEWING NOTES</span><h2>보기 전에,<br>알아두면 좋은 것들.</h2><p id="movie-overview"></p><button id="guide-button" class="secondary" data-needs-index>근거 기반 관람 가이드</button><hr><h3>답변을 읽는 방법</h3><p class="muted small">본문의 [근거 N]과 아래 원문을 대조하세요. 자료에서 확인할 수 없는 사실은 확인되지 않는다고 답합니다.</p></aside></div></section>
+<section id="panel-explore" class="panel" hidden><div class="panel-header"><h2>원하는 조건으로 다음 영화를</h2><span class="pill">조건 탐색</span></div><form id="explore-form" class="wide-form"><label for="condition">영화 조건</label><input id="condition" maxlength="1000" placeholder="2010년 이후 한국 영화 중 120분 이하 스릴러"><button data-needs-index>조건 검색</button></form><p class="muted small">확인할 수 있는 조건을 먼저 검사하고 의미가 맞는 후보를 선별합니다. OR·부정·OTT 제공 여부 등 지원하지 않는 조건은 안내합니다.</p><div id="explore-results" class="card-grid"></div></section>
+<section id="panel-lab" class="panel" hidden><div class="panel-header"><h2>같은 질문, 다른 근거와 답변</h2><span class="pill">연구 도구</span></div>
+<article class="lab-card"><span class="eyebrow">01 / RETRIEVAL</span><h3>유사도 검색과 MMR 비교</h3><form id="compare-form" class="wide-form"><label for="compare-question">두 방식에 공통으로 사용할 질문</label><input id="compare-question" maxlength="3000" placeholder="블랙홀의 특징과 종류를 설명해줘"><button data-needs-index>근거 목록 비교</button></form><div id="search-comparison"></div></article>
+<article class="lab-card"><span class="eyebrow">02 / ANSWER QUALITY</span><h3>RAG 사용 전후, 대표 질문 5개</h3><p class="muted">같은 모델에 문서 없이 / 문서를 붙여 답하게 합니다. 실제 API를 사용하며, 정확성은 원문을 읽고 직접 평가합니다.</p><div id="evaluation-cases" class="small"></div><button id="evaluate-button" data-needs-index>5개 질문의 실제 답변 비교 실행</button><div id="evaluation-results"></div></article>
+<article class="lab-card"><span class="eyebrow">03 / PERFORMANCE</span><h3>첫 요청과 반복 요청 시간</h3><p class="muted">대표 질문 5개를 두 번씩 실행합니다. 실제 API 호출 10회와 문서 수집 비용이 발생합니다. 기존 캐시 여부를 함께 기록합니다.</p><button id="benchmark-button" class="secondary" data-needs-index>실제 처리 시간 측정</button><div id="benchmark-results"></div></article></section>
+<section id="panel-sources" class="panel" hidden><div class="panel-header"><h2>문서의 출처를 따라가다</h2><span class="pill">위키백과 + PDF</span></div><p class="muted">영화 정보와 외부 문서를 구분합니다. PDF는 등록된 영화에 연결하고 쪽 번호를 보존합니다.</p><div id="source-list" class="card-grid"></div><button id="pdf-index-button" class="secondary" data-needs-index>선택 영화에 연결된 PDF 색인</button><div id="pdf-result" class="muted small"></div></section>
+<footer>Movie Lab · 질문에서 근거로, 근거에서 이해로.</footer></main></div></body></html>

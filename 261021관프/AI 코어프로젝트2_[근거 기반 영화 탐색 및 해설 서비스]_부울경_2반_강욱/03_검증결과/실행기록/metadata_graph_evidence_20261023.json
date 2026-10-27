@@ -1,0 +1,19 @@
+{
+  "measurement_mode": "live",
+  "metadata_count": 964,
+  "external_count": 190,
+  "sample": {
+    "id": "157336",
+    "text": "제목: 인터스텔라\n원제: Interstellar\n개봉연도: 2014\n개봉일: 2014-11-05\n장르: 모험, 드라마, SF\n감독: 크리스토퍼 놀란\n출연: 매튜 매커너히, 앤 해서웨이, 마이클 케인, 제시카 차스테인, 케이시 애플렉\n상영시간(분): 169\n언어: en\n제작국가: United Kingdom, United States of America\n평점: 8.485\n평가수: 40867\n줄거리: 세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 나사 소속 우주비행사였던 쿠퍼는 지구에 몰아친 식량난으로 옥수수나 키우며 살고 있다. 거센 황사가 몰아친 어느 날 알 수 없는 힘에 이끌려 딸과 함께 도착한 곳은 인류가 이주할 행성을 찾는 나사의 비밀본부. 이 때 시공간에 불가사의한 틈이 열리고, 이 곳을 탐험해 인류를 구해야 하는 임무를 위해 쿠퍼는 만류하는 딸을 뒤로한 채 우주선에 탑승하는데...",
+    "metadata": {
+      "content_hash": "d42baf372cd6c394b5002ef63f2cc7e9ae1fcab5266e65196efa58ed24bbc69d",
+      "title": "인터스텔라",
+      "source_kind": "metadata",
+      "source": "TMDB 제공 데이터",
+      "movie_id": "157336",
+      "source_type": "항목 메타데이터",
+      "url": "https://www.themoviedb.org/movie/157336"
+    }
+  },
+  "graph": "---\nconfig:\n  flowchart:\n    curve: linear\n---\ngraph TD;\n\t__start__([<p>__start__</p>]):::first\n\tretrieve(retrieve)\n\tgenerate(generate)\n\t__end__([<p>__end__</p>]):::last\n\t__start__ --> retrieve;\n\tretrieve --> generate;\n\tgenerate --> __end__;\n\tclassDef default fill:#f2f0ff,line-height:1.2\n\tclassDef first fill-opacity:0\n\tclassDef last fill:#bfb6fc\n"
+}

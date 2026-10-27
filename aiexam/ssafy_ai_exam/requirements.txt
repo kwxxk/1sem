@@ -1,0 +1,16 @@
+# Python 3.12 / CPU 실행 환경
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+scipy==1.17.0
+torch==2.11.0+cpu
+torchvision==0.26.0+cpu
+torchaudio==2.11.0+cpu
+transformers==4.56.2
+tokenizers==0.22.1
+safetensors==0.8.0
+huggingface-hub==0.36.2
+jupyterlab==4.6.4
+ipykernel==6.30.1
+ipywidgets==8.1.9

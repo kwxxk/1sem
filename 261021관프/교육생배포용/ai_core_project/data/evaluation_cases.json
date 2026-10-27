@@ -1,0 +1,7 @@
+[
+  {"id":"interstellar-runtime","movie_id":"157336","question":"제공된 영화 데이터에서 인터스텔라의 상영 시간은 몇 분이며 감독은 누구인가?","expected":"배포 데이터의 runtime과 director 대조","kind":"metadata"},
+  {"id":"interstellar-countries","movie_id":"157336","question":"인터스텔라의 제작 국가와 개봉 연도는 무엇인가? 제공된 데이터 기준으로 답해줘.","expected":"배포 데이터의 production_countries와 year 대조","kind":"metadata"},
+  {"id":"blackhole-horizon","movie_id":"157336","question":"블랙홀의 사건의 지평선은 무엇이며 빛이 빠져나올 수 있는가?","expected":"NASA PDF 2쪽 및 위키 근거와 일치하는지 확인","kind":"external"},
+  {"id":"blackhole-types","movie_id":"157336","question":"관측된 블랙홀의 주요 두 질량 범주와 각각의 대략적 질량 범위는?","expected":"NASA PDF 2쪽의 두 범주 및 질량 범위를 원문과 대조","kind":"external"},
+  {"id":"unknown-prop-number","movie_id":"157336","question":"쿠퍼가 착용한 우주복 소품의 제조 일련번호 전체를 알려줘.","expected":"색인 문서에서 확인되지 않으면 확인 불가로 응답","kind":"unknown"}
+]

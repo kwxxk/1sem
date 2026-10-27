@@ -1,0 +1,10 @@
+{
+  "package_data_paths_portable": true,
+  "movies": 964,
+  "wiki_files": 3725,
+  "homepage_http": 200,
+  "javascript_mime_ok": true,
+  "key_configured": false,
+  "env_http": 404,
+  "api_calls_to_gms": 0
+}

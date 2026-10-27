@@ -1,0 +1,23 @@
+test_audit_actual_ui_switch_question_and_restore (__main__.AuditCases.test_audit_actual_ui_switch_question_and_restore) ... ok
+test_audit_no_citation_notice (__main__.AuditCases.test_audit_no_citation_notice) ... ok
+test_audit_runtime_error_hides_private_details (__main__.AuditCases.test_audit_runtime_error_hides_private_details) ... ok
+test_audit_wikipedia_retry_interval_and_contact (__main__.AuditCases.test_audit_wikipedia_retry_interval_and_contact) ... ok
+test_collection_mandatory_and_cache (__main__.AuditCases.test_collection_mandatory_and_cache) ... ok
+test_explore_strict_filters_and_selection (__main__.AuditCases.test_explore_strict_filters_and_selection) ... ok
+test_invalid_and_absent_citations_fail_closed (__main__.AuditCases.test_invalid_and_absent_citations_fail_closed) ... ok
+test_item_document_identity (__main__.AuditCases.test_item_document_identity) ... ok
+test_metadata_idempotent (__main__.AuditCases.test_metadata_idempotent) ... ok
+test_pipeline_real_graph_and_citations (__main__.AuditCases.test_pipeline_real_graph_and_citations) ... ok
+test_rechunk_removes_old_trailing_chunks (__main__.AuditCases.test_rechunk_removes_old_trailing_chunks) ... ok
+test_retrieve_always_meta_and_movie_filter (__main__.AuditCases.test_retrieve_always_meta_and_movie_filter) ... ok
+test_service_guide_uses_domain_question_and_prompt (__main__.AuditCases.test_service_guide_uses_domain_question_and_prompt) ... ok
+test_shared_page_does_not_overwrite_other_movie (__main__.AuditCases.test_shared_page_does_not_overwrite_other_movie) ... ok
+test_store_and_graph_accept_non_movie_domain (__main__.AuditCases.test_store_and_graph_accept_non_movie_domain) ... ok
+test_ui_full_question_guide_and_explore_without_network (__main__.AuditCases.test_ui_full_question_guide_and_explore_without_network) ... ok
+test_ui_without_index (__main__.AuditCases.test_ui_without_index) ... ok
+test_ui_without_key_and_movie_history (__main__.AuditCases.test_ui_without_key_and_movie_history) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 4.364s
+
+OK
